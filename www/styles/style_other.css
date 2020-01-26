@@ -1,0 +1,84 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.navigationField{
+    position: absolute;
+    width: 170px;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+}
+.navigationButton{
+    width: 170px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inStartLayout, .inEndLayout, .prevNumber, .nextNumber, .NOW_Number{
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    display: flex;
+
+}
+.prevNumber .spanNumber, .nextNumber .spanNumber, .NOW_Number .spanNumber {
+    margin: 10px 3px;
+    width: 60px;
+    height: 21px;
+}
+.prevNumber .spanNumberMini, .nextNumber .spanNumberMini, .NOW_Number .spanNumberMini {
+    width: 28px;
+    height: 21px;
+}
+
+/* ********************
+** * *  MOBILE  * * *** 
+**********************/
+.navigationField_mob{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+.navigationButton_mob{
+    width: 320px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inStartLayout_mob, .inEndLayout_mob{
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+}
+.inStartLayout_mob, .inEndLayout_mob, .prevNumber_mob, .nextNumber_mob, .NOW_Number_mob{
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 11px;
+    color: white;
+    display: flex;
+}
+/* .prevNumber_mob .spanNumber, .nextNumber_mob .spanNumber, .NOW_Number_mob .spanNumber {
+    margin: 10px 3px;
+    width: 60px;
+    height: 21px;
+}
+.prevNumber_mob .spanNumberMini, .nextNumber_mob .spanNumberMini, .NOW_Number_mob .spanNumberMini {
+    width: 28px;
+    height: 21px;
+} */
