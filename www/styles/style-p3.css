@@ -4,7 +4,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .background-p3{
-    box-sizing: border-box;
     height: 100vh;
     width: 100vw;
     background: url(../img/background-p3.png);
@@ -12,26 +11,35 @@ body {
     background-position: center;
     overflow: hidden;
     display: flex;
+    box-sizing: border-box;
 }
-@media (max-width:1440px) {
-    .background-p3 {
-       background-size: cover; 
-    }
+@media (min-width:1920px) {
+    .background-p3 { 
+        background-size: cover;
+    } 
+}
+.box-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 }
 .left-block {
-    width:33.33%;
-    height: 100%; 
+    display: flex;
+    width: 33.33%;
+    flex-direction: column; 
+    justify-content: center;
 }
-.title{
-    width: 100%;
-    height: 35%;
-    padding-top: 25%;
-    padding-left: 30%;
+.title-left-block{
+    position: absolute;
     margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 0;
+    top: 15vh;
 }
 .h1 {
-    font-size: 45px;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
@@ -41,26 +49,10 @@ body {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
-.bottle-p3 {
-    width: 33.33%;
-    height: 100%;
-    display: flex;
-}
-.bottle-p3 img {
-    display: flex;
-    margin: 0 auto;
-    height: 100%;
-    margin-top:25%;
-    z-index: 100;
-}
 .balance {
-    width: 100%;
-    height: 75%;
-    padding-left: 30%;
-    padding-top: 10%;
+    padding-right: 30px;
 }
 .h4 {
-    font-size: 22px;
     color: white;
 }
 .balance-title {
@@ -69,29 +61,448 @@ body {
 }
 .minerals p {
     margin-bottom: 15px;
-    max-width: 370px;
 }
 .minerals p:last-child {
     margin-bottom: 0;
+}
+.bottle-p3 {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bottle-p3 img {
+    display: block;
+    margin: 0 auto;
+    z-index: 100;
 }
 .right-block {
     height: 100%;
     width: 33.3%;
     display: flex;
     flex-direction: column;
-    margin-top: 40vh;
+    margin-left: 30px;
+    justify-content: center;
 }
 .h3 {
-    font-size: 28px;
     color: white;
-    
 }
 .right-block .ph-title {
     text-transform: uppercase;
     margin-bottom: 20px;
-    max-width: 260px;
 }
 .right-block .ph {
     margin-bottom: 0;
     max-width: 260px;
+} 
+.right-block img {
+    margin-top: 80px;
+    display: flex;
+}
+
+/* Mobile and Laptop */
+@media (max-width:992px) {
+    .background-p3 {
+        background-size: auto 100%;
+    } 
+}
+.box-container-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 30px;
+    justify-content: center;
+}
+.box-minerals_m {
+    display: flex;
+    align-items: center;
+}
+.title-left-block_m {
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+@media (min-width: 320px) and (max-height: 620px) {
+    .h1 {
+        font-size: 18px;
+    }
+    .h3 {
+        font-size: 12px;
+    }
+    .h4 {
+        font-size: 12px;
+    }
+    .title-left-block_m {
+        top:5vh;
+        max-width: 180px;
+    }
+    .ph-title_m {
+        margin-top: 15px;
+    }
+    .ph_m {
+        margin-bottom: 16px;
+    }
+    .right-block_m {
+        margin: 0;
+    }
+    .box-container-mobile_m img {
+        display: flex;
+        width: 105px;
+    }
+    .balance_m {
+        padding-right: 0px;
+        margin-bottom: 25px;
+    }
+    .balance-title_m {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        max-width: 180px;
+    }
+    .minerals_m p {
+        margin-bottom: 0px;
+        max-width: 200px;
+    }
+    .box-minerals_m {
+        margin-bottom: 8px;
+    }
+    .box-minerals_m:last-child {
+        margin-bottom: 0px;
+    }
+    .box-minerals_m img {
+        width: 30px;
+        margin-right: 20px;
+    }
+    .box-container-mobile > img {
+        width: 80px;
+    }
+}
+@media (min-width: 568px) and (max-height: 500px) {
+    .title-left-block_m {
+        top:7vh;
+        max-width: 180px;
+    }
+    .ph-title_m {
+        margin-top: 55px;
+    }
+    .ph_m {
+        margin-bottom: 16px;
+        max-width: 180px;
+    }
+    .right-block_m {
+        margin: 0;
+    }
+    .balance_m {
+        margin-top: -160px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+        margin-left: 250px;
+    }
+    .box-container-mobile > img {
+        width: 80px;
+        position: absolute;
+        bottom: 30vh;
+        left:30px; 
+    }
+}
+@media (min-width: 320px) and (min-height: 620px) {
+    .h1 {
+        font-size: 20px;
+    }
+    .h3 {
+        font-size: 16px;
+    }
+    .h4 {
+        font-size: 14px;
+    }
+    .title-left-block_m {
+        top:12vw;
+        max-width: 180px;
+    }
+    .ph-title_m {
+        margin-top: 40px;
+    }
+    .ph_m {
+        margin-bottom: 16px;
+    }
+    .box-container-mobile img {
+        display: flex;
+        width: 105px;
+    }
+    .balance-title_m {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        max-width: 180px;
+    }
+    .balance_m {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    .minerals_m p {
+        margin-bottom: 0px;
+        max-width: 250px;
+    }
+    .box-minerals_m {
+        margin-bottom: 10px;
+    }
+    .box-minerals_m img {
+        width: 30px;
+        margin-right: 20px;
+    }
+    .box-container-mobile > img {
+        width: 100px;
+    }
+}
+@media (min-width: 320px) and (min-height: 700px) {
+    .h1 {
+        font-size: 22px;
+    }
+    .title-left-block_m {
+        top:10vh;
+        max-width: 250px;
+    }
+    .ph_m {
+        margin-bottom: 35px;
+    }
+    .balance_m {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 700px) and (min-height: 400px)  {
+    .h1 {
+        font-size: 20px;
+    }
+    .title-left-block_m {
+        top:15vh;
+        max-width: 180px;
+    }
+    .ph-title_m {
+        margin-top: 65px;
+    }
+    .ph_m {
+        margin-bottom: 16px;
+        max-width: 180px;
+    }
+    .right-block_m {
+        margin: 0;
+    }
+    .balance_m {
+        margin-top: -175px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+        margin-left: 250px;
+    }
+    .box-container-mobile > img {
+        width: 80px;
+        position: absolute;
+        bottom: 30vh;
+        left:30px; 
+    }
+}
+@media (min-width: 768px) and (min-height: 320px)  {
+    .title-left-block_m {
+        top:15vh;
+        max-width: 180px;
+    }
+    .ph-title_m {
+        margin-top: 110px;
+    }
+    .balance_m {
+        margin-top: -195px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+        margin-left: 250px;
+    }
+    .box-container-mobile > img {
+        width: 80px;
+        position: inherit;
+        margin-left: 250px; 
+    }
+}
+/* Desctop */
+@media (min-width: 992px){
+    .h1 {
+        font-size: 25px;
+    }
+    .h3{
+        font-size: 18px;
+    }
+    .h4{
+        font-size: 14px;
+    }
+    .title-left-block{
+        padding-left: 50px;
+        max-width: 300px;
+    }
+    .balance {
+        padding-left: 50px;
+        margin-top: 205px;
+    }
+    .balance-title {
+        max-width: 267px;
+    }
+    .bottle-p3 img {
+        margin-top: 300px;
+        width: 350px;
+    }
+    .minerals p {
+        margin-bottom: 15px;
+        max-width: 267px;
+    }
+    .right-block {
+        margin-left: 40px;
+    }
+    .right-block .ph-title {
+        margin-top: 180px;
+    }
+    .right-block img {
+    margin-top: 80px;
+    width: 130px;
+    display: flex;
+    }
+} 
+@media (min-width:992px) and (min-height:600px) {
+    .title-left-block{
+        top: 22vh;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+}
+@media (min-width:1200px){
+    .h1 {
+        font-size: 25px;
+    }
+    .h3{
+        font-size: 20px;
+    }
+    .h4{
+        font-size: 16px;
+    }
+    .title-left-block{
+        padding-left: 80px;
+        top: 8vh;
+    }
+    .balance {
+        padding-left: 80px;
+        margin-top: 170px;
+    }
+    .balance-title {
+        max-width: 267px;
+    }
+    .bottle-p3 img {
+        margin-top: 290px;
+        width: 400px;
+    }
+    .minerals p {
+        margin-bottom: 15px;
+        max-width: 267px;
+    }
+    .right-block .ph-title {
+        margin-top: 150px;
+    }
+}
+@media (min-width:1200px) and (min-height:550px) {
+    .title-left-block{
+        top: 15vh;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+}
+@media (min-width:1200px) and (min-height:768px) {
+    .title-left-block{
+        top: 20vh;
+    }
+}
+@media (min-width:1200px) and (min-height:900px) {
+    .title-left-block{
+        top: 25vh;
+    }
+}
+@media (min-width:1440px){
+    .h1 {
+        font-size: 38px;
+    }
+    .h3{
+        font-size: 22px;
+    }
+    .h4{
+        font-size: 18px;
+    }
+    .title-left-block{
+        padding-left: 130px;
+        top:17vh;
+        max-width: 500px;
+    }
+    .balance {
+        padding-left: 130px;
+        margin-top: 235px;
+    }
+    .balance-title {
+        max-width: 350px;
+    }
+    .bottle-p3 img {
+        margin-top: 350px;
+        width: 466px;
+    }
+    .minerals p {
+        margin-bottom: 15px;
+        max-width: 350px;
+    }
+    .right-block .ph-title {
+        margin-top: 150px;
+    }
+}
+@media (min-width:1440px) and (max-height:768px){
+    .title-left-block{
+        top:17vh;
+        max-width: 400px;
+    }
+    .h1 {
+        font-size: 30px;
+    }
+}
+@media (min-width:1680px){
+    .h1 {
+        font-size: 45px;
+    }
+    .h3{
+        font-size: 28px;
+    }
+    .h4{
+        font-size: 22px;
+    }
+    .title-left-block{
+        padding-left: 130px;
+        max-width: 700px;
+        top:15vh;
+    }
+    .balance {
+        padding-left: 130px;
+        margin-top: 270px;
+    }
+    .balance-title {
+        max-width: 370px;
+    }
+    .bottle-p3 img {
+        margin-top: 420px;
+        width: 530px;
+    }
+    .minerals p {
+        margin-bottom: 15px;
+        max-width: 370px;
+    }
+    .right-block .ph-title {
+        max-width: 260px;
+        margin-top:160px;
+    }
+    .right-block img {
+        width: 155px;
+    }
+}
+@media (min-width:1680px) and (min-height:1080px) {
+    .title-left-block{
+        top: 20vh;
+    }
 }
