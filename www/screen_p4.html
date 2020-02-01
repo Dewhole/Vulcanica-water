@@ -13,16 +13,57 @@
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/style_p2.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-p4.css">
     <link rel="stylesheet" type="text/css" href="styles/style_other.css">
     <title>Vulcanica</title>
 </head>
 <body>
-    <div class="layouts">
-        <div class="layout_2-1"></div>
-        <div class="layout_2-2"></div>
-        <div class="layout_2-3"></div>
+    <div class="container-fluid background-p3">
+        <div class="row h-100 grad-backgroudn">
+            <div class="container-spec">
+                <!-- Специльное поле, делает отступ на мобильной версии-->
+                <div class="row d-md-none marginTop-responsice"></div> 
+                <div class="row h-100">
+                    <div class="col-1 col-lg-1 p-0 m-0"></div>
+                    <div class="col-11 col-lg-5 left-flex-block d-flex flex-column justify-content-md-around justify-content-start">
+                        <div class="blockSmesh">
+                            <h1 class="title-left-block grad-blue-green">Сокровище<br /> Сибирских гор</h1>
+                            <p class="text-left-block-mobil color-white mb-md-2 m-0 d-md-none">Разливаем воду в Сибирской тайге в окружении Саянских гор вдали от цивилизации</p>
+                        </div>
+                        <p class="text-left-block color-white mb-md-2 m-0 d-none d-md-flex">Разливаем воду в Сибирской тайге в окружении Саянских гор вдали от цивилизации</p>
+                        <!-- Блок с картой показывает на мобильнйо версии -->
+                        <div class="map-left-block d-md-none">
+                            <img class="img-fluid" src="./img/image-map.png"  alt="">
+                        </div>
+                        <div class="spec-text-block">
+                            <span class="h-spec-block color-white">450 км</span>
+                            <p class="t-spec-block color-white">
+                                До ближайшего<br />большого<br />города
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-none d-lg-flex">
+                        <!-- <div class="map-right-block">
+                            <img class="img-fluid" src="./img/image-map_desktop.png"  alt="">
+                        </div>                         -->
+                    </div>
+                    <div class="map-right-block d-none d-md-flex">
+                        <div class="mapIMGblock">
+                            <img class="img-fluid" src="./img/image-map_desktop.png"  alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
+
+    <!-- NAVIGATION -->
     <div class="navigationField d-none d-md-flex">
         <div class="navigationButton">
             <span id="inStartLayout" class="inStartLayout mb-3 cursor-pointer">в начало</span>
@@ -66,7 +107,7 @@
             <span id="inEndLayout" class="inEndLayout mt-3 cursor-pointer">в конец</span>
         </div>
     </div>
-
+    
     <div class="navigationField_mob d-md-none d-flex mb-2">
         <div class="navigationButton_mob">
             <span id="inStartLayout_mob" class="inStartLayout_mob mr-3">в начало</span>
@@ -89,5 +130,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/ScrollScript.js"></script>
+    <!-- <script>
+        var clickNext = document.getElementById("clickNext");
+        clickNext.addEventListener('click', function(){
+            console.log('clickToNext')
+        })
+    </script> -->
 </body>
 </html>

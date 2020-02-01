@@ -13,81 +13,42 @@
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/style-p3.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_p2.css">
     <link rel="stylesheet" type="text/css" href="styles/style_other.css">
     <title>Vulcanica</title>
 </head>
 <body>
-    <div class="background-p3">
-        <div class="box-container d-none d-lg-flex">
-            <h1 class="title-left-block h1">
-                вода высшей категории. 
-                <span class="blu_green"><br>элексир<br></span>
-                <span class="blu_green">здоровья</span>
-            </h1>
-            <div class="left-block">
-                <h4 class="balance h4">
-                    <p class="balance-title">Здоровый баланс микроэлементов</p>
-                    <div class="minerals">
-                        <p>Кремний - нормализует обмен веществ, укрепляет иммунитет </br>
-                            и стенки кровеносных сосудов</p> 
-                        <p>Магний - участвует в формировании костной ткани</p> 
-                        <p>Кальций - работа <br>сердечно-сосудистой системы, уменьшение отеков</p> 
-                        <p>Фтор - укрепляет кости <br>и зубную эмаль</p> 
-                    </div> 
-                </h4>
-            </div>
-            <div class="bottle-p3">
-                <img src="../img/bottle-p3.png" alt="Живые цветы в стакане с водой">
-            </div>
-            <div class="right-block">
-                <h3 class="ph-title h3">
-                    Оптимальный<br>pH-баланс  
-                </h3>
-                <h4 class="ph h4">
-                    создает здоровую<br>среду организма
-                </h4>
-                <img src="../img/EAC.png" alt="EAC РСТ">
-            </div>
+    <!-- LAYOUTS FOR TWO SCREEN -->
+    <div class="layouts d-none d-md-flex">
+        <div id="layout_2_desktop" class="layout_2-1"></div>
+        <div class="layout_2-2"></div>
+        <div class="layout_2-3"></div>
+    </div>
+    <div class="layouts layouts d-md-none d-flex">
+        <div id="layout_2" class="layout_2-1 layout_2-1_paralax"></div>
+        <div class="layout_2-2"></div>
+        <div class="layout_2-3"></div>
+    </div>
+
+    <div id="layoutsAbsolute" class="layoutsAbsolute">
+        <!-- Header Text two screen-->
+        <div class="headerTwoScreen">
+            <h2 class="text-uppercase">Вода из подземного моря</h2>
+            <h2 class="text-uppercase color-spec-orange">С историей<br /> 350 миллионов лет</h2>
         </div>
-        <div class="box-container-mobile d-lg-none d-flex">
-            <h1 class="title-left-block_m h1">
-                вода высшей категории. 
-                <span class="blu_green"><br>элексир<br></span>
-                <span class="blu_green">здоровья</span>
-            </h1>
-            <h3 class="ph-title_m h3 mb-1">
-                Оптимальный pH-баланс  
-            </h3>
-            <h4 class="ph_m h4">
-                создает здоровую среду организма
-            </h4>
-            <h4 class="balance_m h4">
-                <p class="balance-title_m">Здоровый баланс микроэлементов</p>
-                <div class="minerals_m">
-                    <div class="box-minerals_m">
-                        <img src="../img/p3-mobil/Si.svg" alt="Si">
-                        <p>Кремний - нормализует обмен веществ, укрепляет иммунитет </br>
-                        и стенки кровеносных сосудов</p>
-                    </div>
-                    <div class="box-minerals_m">
-                        <img src="../img/p3-mobil/Mg.svg" alt="Mg">
-                        <p>Магний - участвует в формировании костной ткани</p>
-                    </div>
-                    <div class="box-minerals_m">
-                        <img src="../img/p3-mobil/Ca.svg" alt="Ca">
-                        <p>Кальций - работа <br>сердечно-сосудистой системы, уменьшение отеков</p>
-                    </div> 
-                    <div class="box-minerals_m">
-                        <img src="../img/p3-mobil/F.svg" alt="F">
-                        <p>Фтор - укрепляет кости <br>и зубную эмаль</p>
-                    </div>
-                </div> 
-            </h4>
-            <img src="../img/EAC.png" alt="EAC РСТ">
+
+        <!-- SubText two screen -->
+        <div class="subTextTwoScreen color-white">
+            <p>Сибирь. Предгорье саян. Минусинская котловина</p>
+        </div>
+
+            <!-- navigation for two screen -->
+        <div class="navigationTwoScreen">
+            <div id="buttonNext" class="buttonNext buttonNextNotActive"></div>
         </div>
     </div>
 
+    <!-- NAVIGATION FOR DESKTOP -->
     <div class="navigationField d-none d-md-flex">
         <div class="navigationButton">
             <span id="inStartLayout" class="inStartLayout mb-3 cursor-pointer">в начало</span>
@@ -131,7 +92,7 @@
             <span id="inEndLayout" class="inEndLayout mt-3 cursor-pointer">в конец</span>
         </div>
     </div>
-    
+    <!-- NAVIGATION FOR MOBILE -->
     <div class="navigationField_mob d-md-none d-flex mb-2">
         <div class="navigationButton_mob">
             <span id="inStartLayout_mob" class="inStartLayout_mob mr-3">в начало</span>
@@ -151,14 +112,26 @@
             <span id="inEndLayout_mob" class="inEndLayout_mob ml-3">в конец</span>
         </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/ScrollScript.js"></script>
-    <!-- <script>
-        var clickNext = document.getElementById("clickNext");
-        clickNext.addEventListener('click', function(){
-            console.log('clickToNext')
-        })
-    </script> -->
+    <script>
+        var buttonNext = document.getElementById('buttonNext');
+        buttonNext.addEventListener('touchend', ()=>{
+            buttonNext.classList.add('buttonNextActive');
+            buttonNext.classList.remove('buttonNextNotActive');
+            setTimeout(()=>{
+                buttonNext.classList.remove('buttonNextActive');
+                buttonNext.classList.add('buttonNextNotActive');
+            }, 500);
+        });
+    </script>
+    <script>
+        // var layout_2 = document.getElementById('layout_2');
+        // $(document).ready(function(){
+        //     setTimeout(()=>{
+        //         layout_2.classList.remove('layout_2-1_paralax');
+        //     }, 500);
+        // });
+    </script>
 </body>
 </html>

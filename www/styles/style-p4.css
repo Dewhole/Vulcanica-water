@@ -1,0 +1,133 @@
+body {
+    background-color: #0F0F0F;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {font-size: 1rem; line-height: 1.5rem;}
+.color-white { color: white; }
+.container-spec {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.background-p3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/background_page4.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.grad-backgroudn {
+    background:
+        linear-gradient(360deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 10%),
+        linear-gradient(270deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%);
+}
+.grad-blue-green {
+    background: linear-gradient(90deg, #45C2EA, #4FF44B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title-left-block{
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-left-block {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.text-left-block-mobil { max-width: 360px; }
+.marginTop-responsice { height: 20px;}
+.map-left-block{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 180px;
+}
+.spec-text-block .h-spec-block{ 
+    font-size: 1rem; 
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.spec-text-block .t-spec-block{ 
+    font-size: .75rem; 
+    line-height: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.map-right-block{
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.mapIMGblock{ margin-right: 6rem; margin-bottom: 2.5rem; }
+.mapIMGblock img{ width: 400px;}
+/* Mobile and Laptop */
+/* Малые девайсы («ландшафтные телефоны», >= 576px)     sm  */
+@media (min-width: 576px) { 
+    h1 {font-size: 2.5rem; line-height: 3rem;}
+    .text-left-block {  font-size: 1.25rem; line-height: 1.75rem;  width: 330px}
+}
+/* Средние девайсы («таблетки», >= 768px)               md  */
+@media (min-width: 768px) {
+    .mapIMGblock img{ width: 450px;}
+}
+/* Большие девайсы (десктопы, >= 992px)                 lg  */
+@media (min-width: 992px) { 
+    .spec-text-block .h-spec-block{ font-size: 2rem; line-height: 2.5rem;}
+    .spec-text-block .t-spec-block{ font-size: 1rem; line-height: 1.5rem;}
+    .grad-backgroudn { background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 70%);}
+    .map-right-block{ align-items: center; }
+    .mapIMGblock img{ width: 600px;}
+}
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px)  xl  */
+@media (min-width: 1200px) {
+    h1 {font-size: 2.5rem; line-height: 3rem;}
+    .spec-text-block .h-spec-block{ font-size: 2.5rem; line-height: 3rem;}
+    .spec-text-block .t-spec-block{ font-size: 1.5rem; line-height: 2rem;}
+    .mapIMGblock{ margin-right: 10rem; margin-bottom: 2.5rem; }
+}
+/*  TV девайсы (большие десктопы, >= 1400px)            --  */
+@media (min-width: 1400px) {
+    h1 {font-size: 3rem; line-height: 3.5rem;}
+    .spec-text-block .h-spec-block{ font-size: 3rem; line-height: 3.5rem;}
+    .spec-text-block .t-spec-block{ font-size: 2rem; line-height: 2.5rem;}
+    .container-spec { max-width: 1340px;}
+    .text-left-block {font-size: 1.5rem; line-height: 2rem;}
+}
+/* MOBIL HEIGHT RESPONSIVE */
+/* Специальные условия, под мобилки, респонсив по высоте */
+/* >= 560px */
+@media (min-height: 570px) {
+    .marginTop-responsice { height: 40px;}
+    .map-left-block{ max-width: 200px; }
+}
+/* >= 675px */
+@media (min-height: 675px) {
+    .marginTop-responsice { height: 60px; }
+    .map-left-block{ max-width: 250px; }
+}
+/* >= 750px */
+@media (min-height: 750px) {
+    .marginTop-responsice { height: 100px; }
+    .map-left-block{ max-width: 250px; }
+}
+/* >= 840px */
+@media (min-height: 800px) {
+    .marginTop-responsice { height: 160px; }
+    .map-left-block{ max-width: 250px; }
+}

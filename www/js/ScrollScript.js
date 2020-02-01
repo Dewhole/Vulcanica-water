@@ -2,12 +2,12 @@
 $(document).ready(function() {
   var scrolling = false
 
-    function navigateUp() {
-        console.log("UP")
+    function navigateNextSlide() {
+        console.log("NextSlide")
     }
 
-    function navigateDown() {
-        console.log("DOWN")
+    function navigatePrevSlide() {
+        console.log("PrevSlide")
     }
 
     function navigateLeft() {
@@ -21,17 +21,13 @@ $(document).ready(function() {
     //mousewheel
     $(document).on("mousewheel DOMMouseScroll", function(event) {
         if (!scrolling) {
-        if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
-            if ( Math.abs(event.originalEvent.wheelDelta) > this.scrollDelta*2 ) {
-                navigateUp();
+            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                console.log("-", event.originalEvent.detail)
+                navigateNextSlide();
+            } else {
+                console.log("+", event.originalEvent.detail)
+                navigatePrevSlide();
             }
-            this.scrollDelta = Math.abs(event.originalEvent.wheelDelta);
-        } else {
-            if ( Math.abs(event.originalEvent.wheelDelta) > this.scrollDelta*2 ) {
-                navigateDown();
-            }
-            this.scrollDelta = Math.abs(event.originalEvent.wheelDelta);
-        }
         }
     });
 

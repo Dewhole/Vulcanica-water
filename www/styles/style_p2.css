@@ -2,30 +2,76 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-.color-white {
-    color: white;
-}
-.color-grey {
-    color: grey;
-}
+.color-white { color: white; }
+.color-grey { color: grey; }
 /*page_2*/
+.layoutsAbsolute{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0) 70%);
+        /* linear-gradient(90deg, rgba(182, 182, 182, 0) 0, rgba(0, 0, 0, 0.85) 100%); */
+}
 .layouts{
     position: relative;
     width: 100vw;
     height: 100vh;
 }
 .layout_2-1 {
+    display: flex;
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(360deg, #000000 4.38%, rgba(0, 0, 0, 0) 39.61%), 
-                        linear-gradient(90deg, rgba(182, 182, 182, 0) 46.19%, rgba(0, 0, 0, 0.9) 101.32%), 
-                            url(/img/IMG_desktop2_1.png);
-    background-position: top left;
+    background-image: url(/img/IMG_desktop2_1.png);
+    background-position: top 40% left 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-    
+    transition: 1s;
+}
+.layout_2-1_paralax {
+    margin-bottom: -50px;
+    margin-left: -50px;
+    transition: 1s;
+}
+.headerTwoScreen {
+    margin-left: 10%;
+    margin-top: 50%;
+    width: 290px;
+    height: 120px;
+}
+.headerTwoScreen h2 { font-size: 20px; font-weight: bold; }
+.color-spec-orange { color: #ED4902; }
+.subTextTwoScreen {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 290px;
+    height: 120px;
+}
+.subTextTwoScreen p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+.navigationTwoScreen>.buttonNext{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 165px;
+    height:50px
+}
+.navigationTwoScreen>.buttonNextNotActive{
+    background-image: url(/img/nextButton.png);
+    transition: .2s;
+}
+.navigationTwoScreen>.buttonNextActive{
+    background-image: url(/img/nextButtonHover.png);
+    transition: .2s;
 }
 @media (min-width: 576px) { 
 
