@@ -12,11 +12,7 @@ body {
     overflow: hidden;
     display: flex;
     box-sizing: border-box;
-}
-@media (min-width:1920px) {
-    .background-p3 { 
-        background-size: cover;
-    } 
+    background-size: cover;
 }
 .box-container {
     width: 100%;
@@ -103,7 +99,7 @@ body {
 /* Mobile and Laptop */
 @media (max-width:992px) {
     .background-p3 {
-        background-size: auto 150%;
+        background-size: auto 130%;
     } 
 }
 .box-container-mobile {
