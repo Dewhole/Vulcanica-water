@@ -12,8 +12,7 @@ body {
     overflow: hidden;
     display: flex;
     box-sizing: border-box;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 .gradient {
     background:
