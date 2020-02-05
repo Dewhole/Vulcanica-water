@@ -4,15 +4,16 @@
 
 .navigationField{
     position: absolute;
-    width: 170px;
+    width: 120px;
     height: 100vh;
     top: 0;
     bottom: 0;
     right: 0;
     align-items: center;
+    overflow: hidden;
 }
 .navigationButton{
-    width: 170px;
+    width: 120px;
     height: 340px;
     display: flex;
     flex-direction: column;
@@ -45,16 +46,17 @@
 .navigationField_mob{
     position: absolute;
     width: 100vw;
-    height: 100px;
+    height: 60px;
     left: 0;
     bottom: 0;
     right: 0;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .navigationButton_mob{
     width: 320px;
-    height: 100px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,12 +75,7 @@
     color: white;
     display: flex;
 }
-/* .prevNumber_mob .spanNumber, .nextNumber_mob .spanNumber, .NOW_Number_mob .spanNumber {
-    margin: 10px 3px;
-    width: 60px;
-    height: 21px;
+@media (orientation: landscape) {
+    .navigationField{ }
+    .navigationField_mob{}
 }
-.prevNumber_mob .spanNumberMini, .nextNumber_mob .spanNumberMini, .NOW_Number_mob .spanNumberMini {
-    width: 28px;
-    height: 21px;
-} */
