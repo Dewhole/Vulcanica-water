@@ -18,52 +18,56 @@
     <title>Vulcanica</title>
 </head>
 <body>
-    <div class="container-fluid background-p3">
-        <div class="row h-100 grad-backgroudn">
-            <div class="container-spec">
-                <!-- Специльное поле, делает отступ на мобильной версии-->
-                <div class="row d-md-none marginTop-responsice"></div> 
-                <div class="row h-100">
-                    <div class="offset-1 col-11 col-lg-5 left-flex-block d-flex flex-column justify-content-md-around justify-content-start">
-                        <div class="blockSmesh">
-                            <h1 class="title-left-block grad-blue-green">Сокровище<br /> Сибирских гор</h1>
-                            <p class="text-left-block-mobil color-white mb-md-2 m-0 d-md-none">Разливаем воду в Сибирской тайге в окружении Саянских гор вдали от цивилизации</p>
-                        </div>
-                        <p class="text-left-block color-white mb-md-2 m-0 d-none d-md-flex">Разливаем воду в Сибирской тайге в окружении Саянских гор вдали от цивилизации</p>
-                        <!-- Блок с картой показывает на мобильнйо версии -->
-                        <div class="map-left-block d-md-none">
-                            <img class="img-fluid" src="./img/image-map.png"  alt="">
-                        </div>
-                        <div class="spec-text-block">
-                            <span class="h-spec-block color-white">450 км</span>
-                            <p class="t-spec-block color-white">
-                                До ближайшего<br />большого<br />города
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 d-none d-lg-flex">
-                        <!-- <div class="map-right-block">
-                            <img class="img-fluid" src="./img/image-map_desktop.png"  alt="">
-                        </div>                         -->
-                    </div>
-                    <div class="map-right-block d-none d-md-flex">
-                        <div class="mapIMGblock">
-                            <img class="img-fluid" src="./img/image-map_desktop.png"  alt="">
-                        </div>
-                    </div>
+    <div class="background-p4">
+        <div class="gradient"></div>
+        <div class="container-fluid box-container d-none d-lg-flex">
+            <h1 class="title_p4 h1 d-flex">
+                <span class="blu_green">Сокровище <br>сибирских гор</span>
+            </h1>
+            <h2 class="subtitle_p4 h2 d-flex">
+                <span> Разливаем воду в Сибирской <br>
+                    тайге в окружении Саянских гор<br> 
+                    вдали от цивилизации</span>  
+            </h2>
+            <div class="row box_map">
+                <div class="col-4 distance">
+                    <p class="distance_title my-0">
+                        <b>450 км</b>
+                    </p>
+                    <p class="h2 distance_subtitle my-0">
+                        До ближайшего<br> большого<br> города
+                    </p>
+                </div>
+                <div class="col-8 map">
+                    <img src="../img/map_p4.svg" alt="Карта источника">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid box-container-mobile d-lg-none d-flex">
+            <div class="gradient_m"></div>
+            <h1 class="title_p4_m h1 d-flex">
+                <span class="blu_green">Сокровище <br>сибирских гор</span>
+            </h1>
+            <h2 class="subtitle_p4_m h2 d-flex">
+                Разливаем воду в Сибирской <br>тайге в окружении Саянских гор<br> вдали от цивилизации  
+            </h2>
+            <div class="row box_map_m">
+                <div class="col-8 order-last order-sm-first col-sm-4 col-md-4 distance_m">
+                    <p class="distance_title_m my-0">
+                        <b>450 км</b>
+                    </p>
+                    <p class="h2 distance_subtitle_m my-0">
+                        До ближайшего<br> большого<br> города
+                    </p>
+                </div>
+                <div class="col-6 order-first order-sm-last col-sm-8 col-md-8 map_m">
+                    <img src="../img/map_p4.svg" alt="Карта источника">
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-    <!-- NAVIGATION -->
-    <div class="navigationField d-none d-md-flex">
+    <div class="navigationField d-none d-md-flex" style="z-index: 10;">
         <div class="navigationButton">
             <span id="inStartLayout" class="inStartLayout mb-3 cursor-pointer">в начало</span>
             <span id="prevLayout" class="prevLayout mb-3 cursor-pointer">
@@ -107,7 +111,7 @@
         </div>
     </div>
     
-    <div class="navigationField_mob d-md-none d-flex mb-2">
+    <div class="navigationField_mob d-md-none d-flex mb-2" style="z-index: 10;">
         <div class="navigationButton_mob">
             <span id="inStartLayout_mob" class="inStartLayout_mob mr-3">в начало</span>
             <span id="prevLayout_mob" class="prevLayout_mob mr-3">
