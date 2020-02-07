@@ -19,6 +19,7 @@ body {
     display: flex;
     box-sizing: border-box;
     background-size: cover; 
+    background-color: black;
 }
 .gradient {
     background:
@@ -27,7 +28,6 @@ body {
     linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
 }
 .box-container_p7 {
-    overflow: scroll;
     width: 100%;
     height: calc(100vh - 70px);
     padding-right: 15px;
@@ -209,6 +209,9 @@ form.p7-offer {
     flex-direction: column;
 }
 @media (min-width: 992px) {
+    .box-container_p7{
+        overflow: hidden;
+    }
     .p7-h1{
         min-width: 400px;
         font-size: 24px;

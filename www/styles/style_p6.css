@@ -68,7 +68,7 @@ p.p6-textWater-scientist{font-size: 0.7rem; vertical-align: middle; margin-botto
 }
 .p6-block1{ grid-area: p6-block1; display: flex; align-items: flex-end;}
 .p6-block2{ grid-area: p6-block2; display: flex;}
-.p6-block3{ grid-area: p6-block3; overflow-y: scroll;}
+.p6-block3{ grid-area: p6-block3;}
 .p6-text-other-block {
     display: flex;
     flex-direction: column;

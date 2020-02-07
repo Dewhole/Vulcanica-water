@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
     background-size: cover;
 }
-.box-container {
+.p3-box-container {
     width: 100%;
     height: 100%;
     max-width: 1920px;
@@ -23,42 +23,42 @@ body {
     flex-direction: row;
     overflow: hidden;
 }
-.left-block {
+.p3-left-block {
     display: flex;
     width: 33.33%;
     flex-direction: column; 
     justify-content: center;
 }
-.title-left-block{
+.p3-title-left-block{
     position: absolute;
     margin-bottom: 0;
     margin-top: 0;
     top: 15vh;
 }
-.h1 {
+.p3-h1 {
     text-transform: uppercase;
     color: white;
     font-weight: 700;
 }
-.blu_green {
+.p3-blu_green {
     background: linear-gradient(90deg, #45C2EA, #4FF44B);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
-.balance {
+.p3-balance {
     padding-right: 30px;
 }
-.h4 {
+.p3-h4 {
     color: white;
 }
-.balance-title {
+.p3-balance-title {
     text-transform: uppercase;
     margin-bottom: 23px;
 }
-.minerals p {
+.p3-minerals p {
     margin-bottom: 15px;
 }
-.minerals p:last-child {
+.p3-minerals p:last-child {
     margin-bottom: 0;
 }
 .bottle-p3 {
@@ -72,7 +72,7 @@ body {
     margin: 0 auto;
     z-index: 100;
 }
-.right-block {
+.p3-right-block {
     height: 100%;
     width: 33.3%;
     display: flex;
@@ -80,18 +80,18 @@ body {
     margin-left: 30px;
     justify-content: center;
 }
-.h3 {
+.p3-h3 {
     color: white;
 }
-.right-block .ph-title {
+.p3-right-block .p3-ph-title {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.right-block .ph {
+.p3-right-block .p3-ph {
     margin-bottom: 0;
     max-width: 260px;
 } 
-.right-block img {
+.p3-right-block img {
     margin-top: 80px;
     display: flex;
 }
@@ -102,7 +102,7 @@ body {
         background-size: auto 130%;
     } 
 }
-.box-container-mobile {
+.p3-box-container-mobile {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -110,94 +110,94 @@ body {
     padding: 0 30px;
     justify-content: center;
 }
-.box-minerals_m {
+.p3-box-minerals_m {
     display: flex;
     align-items: center;
 }
-.title-left-block_m {
+.p3-title-left-block_m {
     position: absolute;
     margin-bottom: 0;
     margin-top: 0;
 }
 @media (min-width: 320px) and (max-height: 620px) {
-    .h1 {
+    .p3-h1 {
         font-size: 18px;
     }
-    .h3 {
+    .p3-h3 {
         font-size: 12px;
     }
-    .h4 {
+    .p3-h4 {
         font-size: 12px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:5vh;
         max-width: 180px;
     }
-    .ph-title_m {
+    .p3-ph-title_m {
         margin-top: 15px;
     }
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 16px;
     }
-    .right-block_m {
+    .p3-right-block_m {
         margin: 0;
     }
-    .box-container-mobile_m img {
+    .p3-box-container-mobile_m img {
         display: flex;
         width: 105px;
     }
-    .balance_m {
+    .p3-balance_m {
         padding-right: 0px;
         margin-bottom: 25px;
     }
-    .balance-title_m {
+    .p3-balance-title_m {
         text-transform: uppercase;
         margin-bottom: 10px;
         max-width: 180px;
     }
-    .minerals_m p {
+    .p3-minerals_m p {
         margin-bottom: 0px;
         max-width: 200px;
     }
-    .box-minerals_m {
+    .p3-box-minerals_m {
         margin-bottom: 8px;
     }
-    .box-minerals_m:last-child {
+    .p3-box-minerals_m:last-child {
         margin-bottom: 0px;
     }
-    .box-minerals_m img {
+    .p3-box-minerals_m img {
         width: 30px;
         margin-right: 20px;
     }
-    .box-container-mobile > img {
+    .p3-box-container-mobile > img {
         width: 80px;
     }
 }
 @media (min-width: 568px) and (max-height: 500px) {
-    .h1 {
+    .p3-h1 {
         font-size: 14px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:10vh;
         max-width: 180px;
     }
     .ph-title_m {
         margin-top: 55px;
     }
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 16px;
         max-width: 180px;
     }
-    .right-block_m {
+    .p3-right-block_m {
         margin: 0;
     }
-    .balance_m {
+    .p3-balance_m {
         margin-top: -160px;
         padding-right: 0px;
         margin-bottom: 25px;
         margin-left: 250px;
     }
-    .box-container-mobile > img {
+    .p3-box-container-mobile > img {
         width: 80px;
         position: absolute;
         bottom: 30vh;
@@ -205,98 +205,98 @@ body {
     }
 }
 @media (min-width: 320px) and (min-height: 620px) {
-    .h1 {
+    .p3-h1 {
         font-size: 18px;
     }
-    .h3 {
+    .p3-h3 {
         font-size: 16px;
     }
-    .h4 {
+    .p3-h4 {
         font-size: 14px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:12vw;
         max-width: 180px;
     }
-    .ph-title_m {
+    .p3-ph-title_m {
         margin-top: 40px;
     }
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 24px;
     }
-    .box-container-mobile img {
+    .p3-box-container-mobile img {
         display: flex;
         width: 105px;
     }
-    .balance-title_m {
+    .p3-balance-title_m {
         text-transform: uppercase;
         margin-bottom: 10px;
         max-width: 180px;
     }
-    .balance_m {
+    .p3-balance_m {
         padding-right: 0px;
         margin-bottom: 30px;
     }
-    .minerals_m p {
+    .p3-minerals_m p {
         margin-bottom: 0px;
         max-width: 250px;
     }
-    .box-minerals_m {
+    .p3-box-minerals_m {
         margin-bottom: 10px;
     }
-    .box-minerals_m img {
+    .p3-box-minerals_m img {
         width: 30px;
         margin-right: 20px;
     }
-    .box-container-mobile > img {
+    .p3-box-container-mobile > img {
         width: 100px;
     }
 }
 @media (min-width: 320px) and (min-height: 700px) {
-    .h1 {
+    .p3-h1 {
         font-size: 20px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:8vh;
         max-width: 250px;
     }
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 10px;
     }
-    .balance_m {
+    .p3-balance_m {
         margin-bottom: 20px;
     }
 }
 @media (min-width: 340px) {
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 30px;
     }  
 }
 @media (min-width: 700px) and (min-height: 400px)  {
-    .h1 {
+    .p3-h1 {
         font-size: 18px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:15vh;
         max-width: 180px;
     }
-    .ph-title_m {
+    .p3-ph-title_m {
         margin-top: 65px;
     }
-    .ph_m {
+    .p3-ph_m {
         margin-bottom: 16px;
         max-width: 180px;
     }
-    .right-block_m {
+    .p3-right-block_m {
         margin: 0;
     }
-    .balance_m {
+    .p3-balance_m {
         margin-top: -175px;
         padding-right: 0px;
         margin-bottom: 25px;
         margin-left: 250px;
     }
-    .box-container-mobile > img {
+    .p3-box-container-mobile > img {
         width: 80px;
         position: absolute;
         bottom: 30vh;
@@ -304,37 +304,37 @@ body {
     }
 }
 @media (min-width: 768px) and (min-height: 320px)  {
-    .title-left-block_m {
+    .p3-title-left-block_m {
         top:15vh;
         max-width: 180px;
     }
-    .ph-title_m {
+    .p3-ph-title_m {
         margin-top: 110px;
     }
-    .balance_m {
+    .p3-balance_m {
         margin-top: -175px;
         padding-right: 0px;
         margin-bottom: 25px;
         margin-left: 250px;
     }
-    .box-container-mobile > img {
+    .p3-box-container-mobile > img {
         width: 80px;
         position: inherit;
         margin-left: 250px; 
     }
 }
 @media (min-width: 768px) and (min-height: 568px)  {
-    .h1 {
+    .p3-h1 {
         font-size: 33px;
     }
-    .h2 {
+    .p3-h2 {
         font-size: 20px;
     }
-    .title-left-block_m {
+    .p3-title-left-block_m {
         max-width: 350px;
         top:15vh;
     }
-    .tourists-title_m {
+    .p3-tourists-title_m {
         max-width: 350px;
         margin-top: 110px;
     }
@@ -342,188 +342,188 @@ body {
 
 /* Desctop */
 @media (min-width: 992px){
-    .h1 {
+    .p3-h1 {
         font-size: 25px;
     }
-    .h3{
+    .p3-h3{
         font-size: 18px;
     }
-    .h4{
+    .p3-h4{
         font-size: 14px;
     }
-    .title-left-block{
+    .p3-title-left-block{
         padding-left: 50px;
         max-width: 300px;
     }
-    .balance {
+    .p3-balance {
         padding-left: 50px;
         margin-top: 205px;
     }
-    .balance-title {
+    .p3-balance-title {
         max-width: 267px;
     }
-    .bottle-p3 img {
+    .p3-bottle-p3 img {
         margin-top: 300px;
         width: 350px;
     }
-    .minerals p {
+    .p3-minerals p {
         margin-bottom: 15px;
         max-width: 267px;
     }
-    .right-block {
+    .p3-right-block {
         margin-left: 40px;
     }
-    .right-block .ph-title {
+    .p3-right-block .p3-ph-title {
         margin-top: 180px;
     }
-    .right-block img {
+    .p3-right-block img {
     margin-top: 80px;
     width: 130px;
     display: flex;
     }
 } 
 @media (min-width:992px) and (min-height:600px) {
-    .title-left-block{
+    .p3-title-left-block{
         top: 22vh;
     }
-    .h1 {
+    .p3-h1 {
         font-size: 25px;
     }
 }
 @media (min-width:1200px){
-    .h1 {
+    .p3-h1 {
         font-size: 25px;
     }
-    .h3{
+    .p3-h3{
         font-size: 20px;
     }
-    .h4{
+    .p3-h4{
         font-size: 16px;
     }
-    .title-left-block{
+    .p3-title-left-block{
         padding-left: 80px;
         top: 8vh;
     }
-    .balance {
+    .p3-balance {
         padding-left: 80px;
         margin-top: 170px;
     }
-    .balance-title {
+    .p3-balance-title {
         max-width: 267px;
     }
-    .bottle-p3 img {
+    .p3-bottle-p3 img {
         margin-top: 290px;
         width: 400px;
     }
-    .minerals p {
+    .p3-minerals p {
         margin-bottom: 15px;
         max-width: 267px;
     }
-    .right-block .ph-title {
+    .p3-right-block .p3-ph-title {
         margin-top: 150px;
     }
 }
 @media (min-width:1200px) and (min-height:550px) {
-    .title-left-block{
+    .p3-itle-left-block{
         top: 15vh;
     }
-    .h1 {
+    .p3-h1 {
         font-size: 25px;
     }
 }
 @media (min-width:1200px) and (min-height:768px) {
-    .title-left-block{
+    .p3-title-left-block{
         top: 20vh;
     }
 }
 @media (min-width:1200px) and (min-height:900px) {
-    .title-left-block{
+    .p3-title-left-block{
         top: 25vh;
     }
 }
 @media (min-width:1440px){
-    .h1 {
+    .p3-h1 {
         font-size: 30px;
     }
-    .h3{
+    .p3-h3{
         font-size: 22px;
     }
-    .h4{
+    .p3-h4{
         font-size: 18px;
     }
-    .title-left-block{
+    .p3-title-left-block{
         padding-left: 130px;
         top:17vh;
         max-width: 500px;
     }
-    .balance {
+    .p3-balance {
         padding-left: 130px;
         margin-top: 235px;
     }
-    .balance-title {
+    .p3-balance-title {
         max-width: 350px;
     }
-    .bottle-p3 img {
+    .p3-bottle-p3 img {
         margin-top: 350px;
         width: 466px;
     }
-    .minerals p {
+    .p3-minerals p {
         margin-bottom: 15px;
         max-width: 350px;
     }
-    .right-block .ph-title {
+    .p3-right-block .p3-ph-title {
         margin-top: 150px;
     }
 }
 @media (min-width:1440px) and (max-height:768px){
-    .title-left-block{
+    .p3-title-left-block{
         top:17vh;
         max-width: 400px;
     }
-    .h1 {
+    .p3-h1 {
         font-size: 30px;
     }
 }
 @media (min-width:1680px){
-    .h1 {
+    .p3-h1 {
         font-size: 45px;
     }
-    .h3{
+    .p3-h3{
         font-size: 28px;
     }
-    .h4{
+    .p3-h4{
         font-size: 22px;
     }
-    .title-left-block{
+    .p3-title-left-block{
         padding-left: 130px;
         max-width: 700px;
         top:15vh;
     }
-    .balance {
+    .p3-balance {
         padding-left: 130px;
         margin-top: 270px;
     }
-    .balance-title {
+    .p3-balance-title {
         max-width: 370px;
     }
-    .bottle-p3 img {
+    .p3-bottle-p3 img {
         margin-top: 420px;
         width: 530px;
     }
-    .minerals p {
+    .p3-minerals p {
         margin-bottom: 15px;
         max-width: 370px;
     }
-    .right-block .ph-title {
+    .p3-right-block .p3-ph-title {
         max-width: 260px;
         margin-top:160px;
     }
-    .right-block img {
+    .p3-right-block img {
         width: 155px;
     }
 }
 @media (min-width:1680px) and (min-height:1080px) {
-    .title-left-block{
+    .p3-title-left-block{
         top: 20vh;
     }
 }
