@@ -30,6 +30,7 @@
         <div class="layout_2-3"></div>
     </div>
 
+
     <div id="layoutsAbsolute" class="layoutsAbsolute">
         <!-- Header Text two screen-->
         <div class="headerTwoScreen">
@@ -47,7 +48,6 @@
             <div id="buttonNext" class="buttonNext buttonNextNotActive"></div>
         </div>
     </div>
-
     <!-- NAVIGATION FOR DESKTOP -->
     <div class="navigationField d-none d-md-flex">
         <div class="navigationButton">
@@ -114,24 +114,5 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/ScrollScript.js"></script>
-    <script>
-        var buttonNext = document.getElementById('buttonNext');
-        buttonNext.addEventListener('touchend', ()=>{
-            buttonNext.classList.add('buttonNextActive');
-            buttonNext.classList.remove('buttonNextNotActive');
-            setTimeout(()=>{
-                buttonNext.classList.remove('buttonNextActive');
-                buttonNext.classList.add('buttonNextNotActive');
-            }, 500);
-        });
-    </script>
-    <script>
-        // var layout_2 = document.getElementById('layout_2');
-        // $(document).ready(function(){
-        //     setTimeout(()=>{
-        //         layout_2.classList.remove('layout_2-1_paralax');
-        //     }, 500);
-        // });
-    </script>
 </body>
 </html>

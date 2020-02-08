@@ -12,9 +12,9 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style_p1.css">
-    <!-- <link rel="stylesheet" type="text/css" href="styles/style_p2.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/style_p2.css">
     <link rel="stylesheet" type="text/css" href="styles/style_p3.css">
     <link rel="stylesheet" type="text/css" href="styles/style_p4.css">
     <link rel="stylesheet" type="text/css" href="styles/style_p5.css">
@@ -25,6 +25,7 @@
     <title>Vulcanica</title>
 </head>
 <body>
+    <!-- <input id="changeSlide" style="position: fixed; z-index: 10000;" value="1"> -->
     <div id="backgroudnFullPage" class="backgroudnFullPage">
         <div id="screenID1" class="sectionFull activeSlide">
             <div class="layout_1">
@@ -62,7 +63,124 @@
                 </div>
             </div>
         </div>
-        <div id="screenID2" class="sectionFull next-activeSlide bgr-grey">Some section</div>
+
+
+        <!-- ---------------------------------------------------------- -->
+        <div id="screenID2" class="sectionFull next-activeSlide">
+            <!-- LAYOUTS FOR TWO SCREEN -->
+            <div class="layouts d-none d-xl-flex">
+                <div id="sectorHoverID3" class="sectorHover">
+                    <div class="hrLine">
+                        <div class="textUnderBTNTablet">
+                            <div class=""><p class="itemTextUnderBTNTablet text-uppercase">сегодня</p></div>
+                        </div>
+                        <svg class="" style="margin-bottom: -1px" width="52" height="46" viewBox="0 0 52 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.0003 0.477539L51.9811 45.4775H0.0195312L26.0003 0.477539Z" fill="white"/>
+                        </svg>
+                        <div class="blockTextSectionHR">
+                            <div class="hr-textUnderBTNTablet">
+                                <div id="" class=""><p class="hr-itemTextUnderBTNTablet text-uppercase">подземное море стало источником чистейшей природной воды</p></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sectorHoverID2" class="sectorHover">
+                    <div class="hrLine">
+                        <div class="textUnderBTNTablet">
+                            <div class=""><p class="itemTextUnderBTNTablet text-uppercase">320 млн. лет назад</p></div>
+                        </div>
+                        <svg class="" style="margin-bottom: -1px" width="52" height="46" viewBox="0 0 52 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.0003 0.477539L51.9811 45.4775H0.0195312L26.0003 0.477539Z" fill="white"/>
+                        </svg>
+                        <div class="blockTextSectionHR">
+                            <div class="hr-textUnderBTNTablet">
+                                <div id="" class=""><p class="hr-itemTextUnderBTNTablet text-uppercase">море ушло под землю из-за смещения плит</p></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sectorHoverID1" class="sectorHover">
+                    <div class="hrLine">
+                        <div class="textUnderBTNTablet">
+                            <div class=""><p class="itemTextUnderBTNTablet text-uppercase">350 млн. лет назад</p></div>
+                        </div>
+                        <svg class="" style="margin-bottom: -1px" width="52" height="46" viewBox="0 0 52 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.0003 0.477539L51.9811 45.4775H0.0195312L26.0003 0.477539Z" fill="white"/>
+                        </svg>
+                        <div class="blockTextSectionHR">
+                            <div class="hr-textUnderBTNTablet">
+                                <div id="" class=""><p class="hr-itemTextUnderBTNTablet text-uppercase">пресное море</p></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="desktop_layoutID1" class="desktop-layout_2 desktop-layout_2-1"></div>
+                <div id="desktop_layoutID2" class="desktop-layout_2 desktop-layout_2-2"></div>
+                <div id="desktop_layoutID3" class="desktop-layout_2 desktop-layout_2-3"></div>
+            </div>
+
+
+            <div class="layouts d-xl-none d-flex">
+                <div id="layoutID1" class="layoutID activeLayout2"><div id="layout_21" class="layout_2-1 layout_2-1_paralax"></div></div>
+                <div id="layoutID2" class="layoutID next-activeLayout2"><div id="layout_22" class="layout_2-2 layout_2-1_paralax"></div></div>
+                <div id="layoutID3" class="layoutID next-activeLayout2"><div id="layout_23" class="layout_2-3 layout_2-1_paralax"></div></div>
+            </div>
+
+
+            <div id="layoutsAbsolute" class="layoutsAbsolute">
+                <div class="posRelativ">
+                    <!-- Header Text two screen-->
+                    <div class="headerTwoScreen">
+                        <h2 class="text-uppercase color-white d-xl-none">Вода из подземного моря</h2>
+                        <h2 class="text-uppercase d-none d-xl-block">Вода из<br /> подземного моря</h2>
+                        <h2 class="text-uppercase color-spec-orange">С историей<br /> 350 миллионов лет</h2>
+                    </div>
+
+                    <!-- SubText two screen -->
+                    <div class="subTextTwoScreen color-white">
+                        <p>Сибирь. Предгорье саян. Минусинская котловина</p>
+                    </div>
+                </div>
+                    <!-- navigation for two screen -->
+                <div class="bottomTabletBlock">
+                    <div class="navigationTwoScreen">
+                        <div id="buttonNext" class="buttonNext buttonNextNotActive"></div>
+                    </div>
+                    <div class="textUnderBTNTablet d-xl-none">
+                        <div id="itemtextID1" class="textLayoutID_nonActive textLayoutID_Active"><p class="itemTextUnderBTNTablet text-uppercase">350 млн. лет назад</p></div>
+                        <div id="itemtextID2" class="textLayoutID_nonActive"><p class="itemTextUnderBTNTablet text-uppercase">320 млн. лет назад</p></div>
+                        <div id="itemtextID2" class="textLayoutID_nonActive"><p class="itemTextUnderBTNTablet text-uppercase">сегодня</p></div>
+                    </div>
+                    <div class="hrLine">
+                        <svg class="d-xl-none" style="margin-bottom: -1px" width="52" height="46" viewBox="0 0 52 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.0003 0.477539L51.9811 45.4775H0.0195312L26.0003 0.477539Z" fill="white"/>
+                        </svg>
+                        <div class="blockTextSectionHR">
+                            <div class="hr-textUnderBTNTablet d-xl-none">
+                                <div id="hr-itemtextID1" class="textLayoutID_nonActive textLayoutID_Active"><p class="hr-itemTextUnderBTNTablet text-uppercase">пресное море</p></div>
+                                <div id="hr-itemtextID2" class="textLayoutID_nonActive"><p class="hr-itemTextUnderBTNTablet text-uppercase">море ушло под землю из-за смещения плит</p></div>
+                                <div id="hr-itemtextID2" class="textLayoutID_nonActive"><p class="hr-itemTextUnderBTNTablet text-uppercase">подземное море стало источником чистейшей природной воды</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="textUnderButton_p2" class="textUnderButton_p2 height100">
+                    <div class="treg">
+                        <svg width="30" height="36" viewBox="0 0 30 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 17.7011L-1.51421e-06 35.0216L0 0.380614L30 17.7011Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div id="textLayoutID1" class="textFields textLayoutID_nonActive textLayoutID_Active"> <p class="textUderBtnHead">350 млн. лет назад</p> <p class="textUderBtntext">пресное море</p></div>
+                    <div id="textLayoutID2" class="textFields textLayoutID_nonActive"> <p class="textUderBtnHead">320 млн. лет назад</p> <p class="textUderBtntext">море ушло под землю из-за смещения плит</p></div>
+                    <div id="textLayoutID3" class="textFields textLayoutID_nonActive"> <p class="textUderBtnHead">сегодня</p> <p class="textUderBtntext">подземное море стало источником чистейшей природной воды</p></div>
+                </div>
+
+                
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------- -->
+
+
         <div id="screenID3" class="sectionFull next-activeSlide">
             <div class="background-p3">
                 <div class="p3-box-container d-none d-lg-flex">
@@ -408,7 +526,8 @@
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/ScrollScript.js"></script>
+    <!-- <script src="js/OtherScript.js"></script> -->
 </body>
 </html>
