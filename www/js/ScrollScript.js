@@ -221,10 +221,10 @@ $(document).ready(function() {
         if (!scrolling) {
             if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
                 // console.log("-", event.originalEvent.detail)
-                navigateNextSlide();
+                navigatePrevSlide();
             } else {
                 // console.log("+", event.originalEvent.detail)
-                navigatePrevSlide();
+                navigateNextSlide();
             }
         }
     });

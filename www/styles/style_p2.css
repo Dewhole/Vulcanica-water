@@ -360,23 +360,24 @@ body {
     #sectorHoverID1{ left: 0 !important;}
     #sectorHoverID2{ left: 33.33% !important;}
     #sectorHoverID3{ right: 0 !important;}
-    #sectorHoverID1:not(:hover) ~ .desktop-layout_2-1{ opacity: 1; transition: 1.5s;}
-    #sectorHoverID1:hover ~ .desktop-layout_2-1{ opacity: 1 !important; transition: 1.5s;}
+    
+    #sectorHoverID1:not(:hover) ~ .desktop-layout_2-1{ opacity: 1; transition: 1s;}
+    #sectorHoverID1:hover ~ .desktop-layout_2-1{ opacity: 1 !important; transition: s;}
     #sectorHoverID1:not(:hover){ opacity: 1; transition: 0.5s;}
-    #sectorHoverID1:hover{ opacity: 1 !important; transition: 0.5s;}
+    #sectorHoverID1:hover { opacity: 1 !important; transition: 0.5s;}
 
 
-    #sectorHoverID2:not(:hover) ~ .desktop-layout_2-2{ opacity: 0 !important; transition: 1.5s;}
-    #sectorHoverID2:hover ~ .desktop-layout_2-2{ opacity: 1 !important; transition: 1.5s;}
-    #sectorHoverID2:hover ~ .desktop-layout_2-1{ opacity: 0 !important; transition: 1.5s;}
+    #sectorHoverID2:not(:hover) ~ .desktop-layout_2-2 { opacity: 0 !important; transition: 1s;}
+    #sectorHoverID2:hover ~ .desktop-layout_2-2{ opacity: 1 !important; transition: 1s;}
+    #sectorHoverID2:hover ~ .desktop-layout_2-1{ opacity: 0 !important; transition: 1s;}
     #sectorHoverID2:not(:hover) {opacity: 0.25 !important; transition: 0.5s;}
     #sectorHoverID2:hover{ opacity: 1 !important; transition: 0.5s;}
     #sectorHoverID2:hover ~ #sectorHoverID1{ opacity: 0.25 !important; transition: 0.5s;}
 
 
-    #sectorHoverID3:not(:hover) ~ .desktop-layout_2-3{ opacity: 0 !important; transition: 1.5s;}
-    #sectorHoverID3:hover ~ .desktop-layout_2-3{ opacity: 1 !important; transition: 1.5s;}
-    #sectorHoverID3:hover ~ .desktop-layout_2-1{ opacity: 0 !important; transition: 1.5s;}
+    #sectorHoverID3:not(:hover) ~ .desktop-layout_2-3{ opacity: 0 !important; transition: 1s;}
+    #sectorHoverID3:hover ~ .desktop-layout_2-3{ opacity: 1 !important; transition: 1s;}
+    #sectorHoverID3:hover ~ .desktop-layout_2-1{ opacity: 0 !important; transition: 1s;}
     #sectorHoverID3:not(:hover){ opacity: 0.25 !important; transition: 0.5s;}
     #sectorHoverID3:hover{ opacity: 1 !important; transition: 0.5s;}
     #sectorHoverID3:hover ~ #sectorHoverID1{ opacity: 0.25 !important; transition: 0.5s;}

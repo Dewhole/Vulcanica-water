@@ -473,9 +473,9 @@ body {
         max-width: 440px;
     }
 }
-@media (min-width:1680px){
+@media (min-width:1680px) and (min-height:560px) {
     .h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
     .h2{
         font-size: 30px;
@@ -500,11 +500,19 @@ body {
         height: 80vh;
     }
 }
+@media (min-width:1680px) and (min-height:768px){
+    .h1 {
+        font-size: 40px;
+    }
+}
 @media (min-width:1680px) and (min-height:1080px) {
     .title_p4 {
         top: 20vh;
     }
     .subtitle_p4 {
         top: 40%;
+    }
+    .h1 {
+        font-size: 45px;
     }
 }
