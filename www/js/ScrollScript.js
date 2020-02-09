@@ -376,4 +376,6 @@ $(document).ready(function() {
             }
         }
     }, false);
+
+//    console.log(document.getElementById("p1_animationEffectSfera").getAttribute("y"));
 });
