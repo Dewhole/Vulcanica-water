@@ -190,6 +190,7 @@ form.p7-offer {
     right: 0;
     border-radius: 0 0 5px 5px;
     overflow: hidden;
+    z-index: 2000;
 }
 .themeMailFormOfer .p7-height80px{
     height:120px;
