@@ -25,7 +25,6 @@
     <title>Vulcanica</title>
 </head>
 <body>
-    <!-- <input id="changeSlide" style="position: fixed; z-index: 10000;" value="1"> -->
     <div id="backgroudnFullPage" class="backgroudnFullPage">
         <div id="screenID1" class="sectionFull activeSlide">
             <div class="layout_1">
@@ -63,9 +62,6 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- ---------------------------------------------------------- -->
         <div id="screenID2" class="sectionFull next-activeSlide">
             <!-- LAYOUTS FOR TWO SCREEN -->
             <div class="layouts d-none d-xl-flex">
@@ -178,9 +174,6 @@
                 
             </div>
         </div>
-        <!-- ---------------------------------------------------------- -->
-
-
         <div id="screenID3" class="sectionFull next-activeSlide">
             <div class="background-p3">
                 <div class="p3-box-container d-none d-lg-flex">
@@ -376,25 +369,30 @@
                             <p class="p7-h1 color-white">Хотите предложить сотрудничество<br /> или оставить обратную<br /> связь о продукте?</p>
                             <p class="p7-h2 color-white font-mavenPro d-xl-none">Заполните форму и выберите <br />тему сообщения</p>
                             <p class="p7-h2 color-white font-mavenPro d-none d-xl-block">Заполните форму и выберите тему сообщения</p>
-                            <form class="p7-offer">
-                                <input type="text" placeholder="Имя">
-                                <input type="text" placeholder="Телефон">
-                                <input type="text" placeholder="Email">
-                                <select>
-                                    <option value="" disabled selected>Выберите тему сообщения</option>
-                                    <option value="Distrib">Дистрибуция</option>
-                                    <option value="Opt">Оптовая покупка</option>
-                                    <option value="Other">Другое предложение сотрудничества</option>
-                                    <option value="BackCall">Обратная связь по продукту</option>
-                                </select>
-                                <textarea placeholder="Ваше сообщение"></textarea>
+                            <form id="mailForm_Ofer" class="p7-offer">
+                                <input id="nameMailFormOfer" type="text" placeholder="Имя">
+                                <input id="phoneMailFormOfer" type="text" placeholder="Телефон">
+                                <input id="emailMailFormOfer" type="text" placeholder="Email">
+                                <div id="themeMailFormOfer" class="themeMailFormOfer" data-value="null">
+                                    <p id="themeMailFormOferValue" class="" >Выберите тему сообщения</p>                           
+                                    <svg id="themeMailFormOferTreg" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.58958 1.37012L7.21875 11.1201L12.8479 1.37012H1.58958Z" fill="black" stroke="black"/>
+                                    </svg>
+                                    <div id="themeSelectOptions" class="themeSelectOptions p7-height0px">
+                                        <div id="themeOptionValue-distrib" class="themeOptionValue" data-value="distrib">Дистрибуция</div>
+                                        <div id="themeOptionValue-opt" class="themeOptionValue" data-value="opt">Оптовая покупка</div>
+                                        <div id="themeOptionValue-other" class="themeOptionValue" data-value="other">Другое предложение сотрудничества</div>
+                                        <div id="themeOptionValue-backCall" class="themeOptionValue" data-value="backCall">Обратная связь по продукту</div>
+                                    </div>
+                                </div>
+                                <textarea id="msgMailFormOfer" placeholder="Ваше сообщение"></textarea>
                                 <div class="labelSubmit">
-                                    <label class="checkOfer color-white">Я согласен с 
+                                    <label id="agreeMailFormOfer" class="checkOfer color-white">Я согласен с 
                                         <a href="#" style="color: #73D9D4; text-decoration-line: underline;">условиями</a> обработки персональных данных
-                                        <input type="checkbox">
+                                        <input id="checkboxFormOfer" type="checkbox">
                                         <span class="checkmark"></span>
                                     </label>
-                                    <input type="submit" value="Отправить" class="submitOffer">
+                                    <div id="sendMailFormOfer" class="submitOffer">Отправить</div>
                                 </div>
                             </form>
                         </div>
@@ -472,7 +470,7 @@
             </span>
             <div id="prevNumber" class="prevNumber mb-3 cursor-pointer">
                 <div class="spanNumberMini"></div>
-                <div class="spanNumber text-right">01</div>
+                <div class="spanNumber text-right">0<span id="pre_desktopNumberSlide">0</span></div>
                 <div class="spanNumber">
                     <svg width="22" height="4" viewBox="0 0 22 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="19.9561" y1="1.75964" x2="1.90533" y2="1.75964" stroke="#ADADAD" stroke-width="3" stroke-linecap="round"/>
@@ -481,7 +479,7 @@
             </div>
             <div id="NOW_Number" class="NOW_Number cursor-pointer">
                 <div class="spanNumberMini"></div>
-                <div class="spanNumber text-right">02/08</div>
+                <div class="spanNumber text-right">0<span id="desktopNumberSlide">1</span>/08</div>
                 <div class="spanNumber">
                     <svg width="39" height="4" viewBox="0 0 39 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="37.1675" y1="2.25659" x2="1.90528" y2="2.25659" stroke="white" stroke-width="3" stroke-linecap="round"/>
@@ -490,7 +488,7 @@
             </div>
             <div id="nextNumber" class="nextNumber mt-3 cursor-pointer">
                 <div class="spanNumberMini"></div>
-                <div class="spanNumber text-right">03</div>
+                <div class="spanNumber text-right">0<span id="next_desktopNumberSlide">2</span></div>
                 <div class="spanNumber">
                     <svg width="22" height="4" viewBox="0 0 22 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="19.9561" y1="1.75964" x2="1.90533" y2="1.75964" stroke="#ADADAD" stroke-width="3" stroke-linecap="round"/>
@@ -506,7 +504,7 @@
         </div>
     </div>
     
-    <div class="navigationField_mob d-md-none d-flex mb-2">
+    <div class="navigationField_mob d-md-none d-flex">
         <div class="navigationButton_mob">
             <span id="inStartLayout_mob" class="inStartLayout_mob mr-3">в начало</span>
             <span id="prevLayout_mob" class="prevLayout_mob mr-3">
@@ -514,9 +512,9 @@
                     <path d="M13.4997 31.7881L2.10864 16.7881L13.4997 1.78809" stroke="white" stroke-width="3" stroke-linecap="round"/>
                 </svg>                    
             </span>
-            <span id="prevNumber_mob" class="prevNumber_mob mr-3">01</span>
-            <span id="NOW_Number_mob" class="NOW_Number_mob">02/08</span>
-            <span id="nextNumber_mob" class="nextNumber_mob ml-3">03</span>
+            <span id="prevNumber_mob" class="prevNumber_mob mr-3">0<span id="pre_mobileNumberSlide">0</span></span>
+            <span id="NOW_Number_mob" class="NOW_Number_mob">0<span id="mobileNumberSlide">1</span>/08</span>
+            <span id="nextNumber_mob" class="nextNumber_mob ml-3">0<span id="next_mobileNumberSlide">2</span></span>
             <span id="nextLayout_mob" class="nextLayout_mob ml-3">
                 <svg width="15" height="34" viewBox="0 0 15 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.49981 31.7881L12.8909 16.7881L1.49981 1.78809" stroke="white" stroke-width="3" stroke-linecap="round"/>

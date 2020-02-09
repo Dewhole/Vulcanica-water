@@ -18,17 +18,21 @@ body {
 .bgr-grey {background-color: grey;}
 
 /* АКТИВНЫЙ СЛАЙД */
-.activeSlide { z-index: 1000; right: 0; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+.activeSlide { z-index: 2200; right: 0; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 /* СЛЕДУЮЩИЙ СЛАЙД */
-.next-activeSlide { right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+.next-activeSlide { z-index: 2100; right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 /* ПРЕДЫДУЩИЙ СЛАЙД */
-.pre-activeSlide { right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+.pre-activeSlide { z-index: 2100; right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 
 #screenID1{
     position: absolute;
-    z-index: 2100;
 }
-
+#screenID1.activeSlide{
+    z-index: 2400;
+}
+#screenID8.activeSlide{
+    z-index: 2250;
+}
 .cursor-pointer{
     cursor: pointer;
 }
@@ -43,7 +47,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     overflow: hidden;
-    z-index: 2000;
+    z-index: 2300;
 }
 .navigationButton{
     width: 120px;
@@ -101,7 +105,12 @@ body {
         -ms-flex-align: center;
             align-items: center;
     overflow: hidden;
-    z-index: 2000;
+    z-index: 2300;
+    /* background-color: black; */
+    padding-bottom: 1rem;
+}
+@media (max-width: 568px) and (max-height: 600px){
+    .navigationField_mob{display: none !important;}
 }
 .navigationButton_mob{
     width: 320px;

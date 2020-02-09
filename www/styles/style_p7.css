@@ -1,6 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
     background-color: #0F0F0F;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 .font-mavenPro {
@@ -16,12 +19,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-size: cover; 
     background-color: black;
 }
 .gradient {
+    background:
+    -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
+    -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
+    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
+    background:
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
+    -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
+    -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
     background:
     linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
     linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
@@ -34,15 +48,25 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .p7-block1{ 
     grid-area: p7-block-1; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex; 
-    align-items: flex-start; 
-    flex-direction: column; 
+    -webkit-box-align: start; 
+        -ms-flex-align: start; 
+            align-items: flex-start; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: column; 
+            flex-direction: column; 
     position: relative; 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+            box-sizing: border-box;
 }
 .p7-h1{
     text-transform: uppercase;
@@ -57,7 +81,8 @@ body {
 form.p7-offer {
     position: relative;
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea{
     margin: 5px 0;
@@ -127,8 +152,8 @@ form.p7-offer {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.p7-offer input[type="submit"]{
-    width: 220px;
+.p7-offer .submitOffer{
+    width: 320px;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
@@ -137,6 +162,51 @@ form.p7-offer {
     border: 2px solid white;
     border-radius: 25px;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.themeMailFormOfer p { margin: 0;}
+.themeMailFormOfer{
+    margin: 5px 0;
+    width: 100%;
+    height: 38px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.themeMailFormOfer .themeSelectOptions{
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+.themeMailFormOfer .p7-height80px{
+    height:120px;
+}
+.themeMailFormOfer .p7-height0px{
+    height:0px
+}
+.themeMailFormOfer .themeSelectOptions .themeOptionValue{
+    margin: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.themeMailFormOfer .themeSelectOptions .themeOptionValue:hover{
+    font-weight: bold;    
 }
 
 @media (orientation: portrait) and (max-height: 750px) {
@@ -176,19 +246,22 @@ form.p7-offer {
         max-width: 340px;
     }
     .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea{
-        padding: 20px;
+        padding: 10px 20px;
         font-size: 14px;
         width: 100%;
     }
-    .p7-offer select{height: 61px;}
-    .p7-offer textarea{min-height: 210px;}
+    .p7-offer textarea{min-height: 110px;}
     .checkOfer{
         margin-top: 20px; margin-bottom: 40px;
     }
     .p7-block2{
         width: 100%;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 .p7-img-desktop {
@@ -202,11 +275,18 @@ form.p7-offer {
 .p7-block3 {
     max-width: 450px;
     padding: 40px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .labelSubmit{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 @media (min-width: 992px) {
     .box-container_p7{
@@ -224,8 +304,13 @@ form.p7-offer {
     }
     .labelSubmit{
         margin-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
     .checkOfer {
         padding-right: 50px;
@@ -237,8 +322,12 @@ form.p7-offer {
 @media (min-width: 1200px) {
     .box-container_p7 {
         padding-left: 50px;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .p7-h1{
         min-width: 470px;
@@ -252,8 +341,13 @@ form.p7-offer {
     }
     .labelSubmit{
         margin-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
     .checkOfer {
         padding-right: 50px;
@@ -269,6 +363,31 @@ form.p7-offer {
     }
     .p7-img-desktop{
         max-height: 700px;
+    } 
+}
+@media (min-width: 1200px) and (max-height:700px) {
+    .p7-h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .p7-offer textarea{
+        min-height: 100px;
+    }
+    .p7-img-desktop{
+        min-height: 500px !important;
+    } 
+}
+@media (min-width: 1200px) and (max-height:650px) {
+    .p7-h1{
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .p7-offer textarea{
+        min-height: 60px;
+    }
+    .p7-img-desktop{
+        min-height: 500px !important;
     } 
 }
 @media (min-width: 1400px) {
@@ -288,5 +407,32 @@ form.p7-offer {
     }
     .p7-offer {
         max-width: 525px;
+    }
+}
+@media (max-width: 568px) and (max-height: 750px){
+    .p7-offer textarea{
+        min-height: 60px;
+    }
+}
+@media (max-width: 568px) and (max-height: 675px){
+    .p7-h1{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .p7-offer .submitOffer {
+        width: 180px;
+        height: 35px;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 17px;
+    }
+    .p7-h2{
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 568px) and (max-height: 600px){
+    .box-container_p7{
+        height: 100vh;
     }
 }
