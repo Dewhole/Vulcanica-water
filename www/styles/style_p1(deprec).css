@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.color-white {
+    color: white;
+}
+.color-grey {
+    color: grey;
+}
+/*page_1*/
+.layout_1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/background_page1.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text-background-page1 {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    bottom: 20%;
+    padding-left: 7%;
+    z-index: 1000;
+}
+
+.font-mavenPro {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.font-description-items-page1 {
+    width: 180px;
+    font-size: 14px;
+}
+.font-description-items-page1 p{
+    padding: 0;
+    margin: 0;
+}
+.buttle-position-page1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 998;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttle-page1{
+    width: 60vw;
+    height: 80vh;
+    background-image: url(/img/buttle.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.water-position-page1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.water-page1{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(/img/water.png);
+    background-position: bottom 0 right -100px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.button-next-scroll{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 20px 2px;
+    line-height: 20px;
+    background-color: transparent;
+}
+.response_screen{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* SCROLL MOBILE */
+.mobile_scroll{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.desktop_scroll{
+    margin-left: 150px;
+}
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) {
+    .water-page1{
+        background-position: bottom 20% right 10%;
+        height: 100vh;
+    }
+    .font-mavenPro {
+        font-size: 70px;
+    }
+    .font-description-items-page1 {
+        width: 350px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .water-page1{
+        background-position: bottom 20% right 25%;
+        height: 100vh;
+    }
+    .buttle-page1{
+        width: 60vw;
+        height: 80vh;
+        background-position: bottom right 10%;
+    }
+    .buttle-position-page1{
+        width: 100%;
+        justify-content: center;
+    }
+    .bottle-position-page1 {
+        height: 85%;
+        right: 200px;
+    }
+    .font-mavenPro {
+        font-size: 85px;
+    }
+    .font-description-items-page1{
+        width: 500px;
+        font-size: 24px;
+        margin-bottom: 50px;       
+    }
+}
+
+@media (min-width: 1200px) {
+    .layout_1 {
+        background-position: center center;
+        background-size: cover;
+    }
+}
