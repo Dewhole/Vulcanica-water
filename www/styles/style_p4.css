@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 @media (min-width: 992px) { 
-    .gradient {
+    .gradient_p4 {
     background-image: radial-gradient(80% 110% at 0% 15%, transparent 0%, rgba(0, 0, 0, 0.99) 100%);
     width: 100vw;
     height: 100vh;
@@ -25,7 +25,7 @@ body {
     }
 }
 @media (max-width: 992px) {
-    .gradient_m {
+    .gradient_m_p4 {
     z-index: 1;
     width: 100vw;
     height: 100vh;
