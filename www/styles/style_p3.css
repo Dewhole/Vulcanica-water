@@ -1,6 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
     background-color: #0F0F0F;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 .background_p3{
@@ -10,8 +13,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-size: cover;
 }
 .box-container_p3 {
@@ -19,15 +25,27 @@ body {
     height: 100%;
     max-width: 1920px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     overflow: hidden;
 }
 .left-block_p3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 33.33%;
-    flex-direction: column; 
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
 }
 .title-left-block_p3 {
     position: absolute;
@@ -41,6 +59,8 @@ body {
     font-weight: 700;
 }
 .blu_green {
+    background: -webkit-gradient(linear, left top, right top, from(#45C2EA), to(#4FF44B));
+    background: -o-linear-gradient(left, #45C2EA, #4FF44B);
     background: linear-gradient(90deg, #45C2EA, #4FF44B);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -64,8 +84,12 @@ body {
 .bottle_p3 {
     width: 33.33%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .bottle_p3 img {
     display: block;
@@ -75,10 +99,17 @@ body {
 .right-block_p3 {
     height: 100%;
     width: 33.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 30px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .h3 {
     color: white;
@@ -93,6 +124,8 @@ body {
 } 
 .right-block_p3 img {
     margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -103,16 +136,27 @@ body {
     } 
 }
 .box-container-mobile_p3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100vw;
     height: 100vh;
     padding: 0 30px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .box-minerals_m_p3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .title-left-block_m_p3 {
     position: absolute;
@@ -143,6 +187,8 @@ body {
         margin: 0;
     }
     .box-container-mobile_m_p3 img {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 105px;
     }
@@ -225,6 +271,8 @@ body {
         margin-bottom: 24px;
     }
     .box-container-mobile_p3 img {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 105px;
     }
@@ -379,6 +427,8 @@ body {
     .right-block_p3 img {
     margin-top: 80px;
     width: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     }
 } 

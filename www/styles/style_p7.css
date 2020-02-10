@@ -29,13 +29,13 @@ body {
 }
 .gradient_p7 {
     background:
-    -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
-    -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
-    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
-    background:
     -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
     -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
     -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
+    background:
+    -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
+    -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
+    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
     background:
     linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
     linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
@@ -162,9 +162,15 @@ form.p7-offer {
     border: 2px solid white;
     border-radius: 25px;
     background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     cursor: pointer;
 }
 .themeMailFormOfer p { margin: 0;}
@@ -176,9 +182,15 @@ form.p7-offer {
     border-radius: 5px;
     font-size: 12px;
     padding: 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     cursor: pointer;
 }

@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
@@ -50,20 +52,36 @@ body {
     line-height: 20px;
 }
 #p1_animationEffectSfera {
-    animation-duration: 1s;
-    animation-name: p1_animateSlidein_animationEffectSfera;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: p1_animateSlidein_animationEffectSfera;
+            animation-name: p1_animateSlidein_animationEffectSfera;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+}
+@-webkit-keyframes p1_animateSlidein_animationEffectSfera {
+    from { margin-left: -65px; }
+    to {  margin-left: -40px; }
 }
 @keyframes p1_animateSlidein_animationEffectSfera {
     from { margin-left: -65px; }
     to {  margin-left: -40px; }
 }
 #p1_SVGstr{
-    animation-duration: 1s;
-    animation-name: p1_animateSlidein_SVGstr;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: p1_animateSlidein_SVGstr;
+            animation-name: p1_animateSlidein_SVGstr;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+}
+@-webkit-keyframes p1_animateSlidein_SVGstr {
+    from { margin-left: 40px; }
+    to {  margin-left: 20px; }
 }
 @keyframes p1_animateSlidein_SVGstr {
     from { margin-left: 40px; }
@@ -240,15 +258,28 @@ body {
         line-height: 29px;
     }
     .p1-desktopScrollEffectBlock{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 40px;
     }
     .p1-desktopScrollEffectBlockScrollEffect {
-        animation-duration: 1s;
-        animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+        -webkit-animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+                animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+    }
+    @-webkit-keyframes p1_desktopAnimateSlidein_animationEffectSfera {
+        from { margin-top: 0; }
+        to {  margin-top: 5px; }
     }
     @keyframes p1_desktopAnimateSlidein_animationEffectSfera {
         from { margin-top: 0; }

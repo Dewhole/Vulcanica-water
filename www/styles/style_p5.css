@@ -1,6 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
     background-color: #0F0F0F;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 .background-p5{
@@ -10,11 +13,22 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-size: cover; 
 }
 .gradient {
+    background:
+    -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
+    -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
+    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
+    background:
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
+    -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
+    -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
     background:
     linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
     linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
@@ -22,9 +36,16 @@ body {
 }
 
 .left-block_p5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
 }
 .title-left-block_p5{
     position: absolute;
@@ -38,6 +59,8 @@ body {
     font-weight: 700;
 }
 .blu_green {
+    background: -webkit-gradient(linear, left top, right top, from(#45C2EA), to(#4FF44B));
+    background: -o-linear-gradient(left, #45C2EA, #4FF44B);
     background: linear-gradient(90deg, #45C2EA, #4FF44B);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -53,12 +76,19 @@ body {
     } 
 }
 .box-container-mobile_p5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100vw;
     height: 100vh;
     padding: 0 30px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .title-left-block_m_p5 {
     position: absolute;
@@ -158,8 +188,13 @@ body {
     height: 100%;
     max-width: 1920px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     overflow: hidden;
 }
 @media (min-width: 992px){

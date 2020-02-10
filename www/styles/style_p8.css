@@ -1,6 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
     background-color: rgb(3, 3, 3);
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 .gradient_p8 {
@@ -9,27 +12,44 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    background-image: -o-radial-gradient(-10% -10%, 80% 90%, rgba(65, 65, 65, 0.99) 20%, transparent 150%);
     background-image: radial-gradient(80% 90% at -10% -10%, rgba(65, 65, 65, 0.99) 20%, transparent 150%);
     mix-blend-mode: lighten;
 }
 .content_box {
     width: 100vw;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     max-height: 100vh;
     padding-bottom: 25%;
     padding-left: 5%;
     padding-right: 5%;
 }
 .box_futer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .box_link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .box_link  p:nth-child(2) {
     padding-bottom: 0;
@@ -42,7 +62,9 @@ body {
     position: absolute;
     top: 50%;  
     left: 50%; 
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
+        -ms-transform: translate(-50%, -50%); 
+            transform: translate(-50%, -50%);
     width: 100%;
 }
 .logo_1 {
@@ -50,7 +72,9 @@ body {
     position: absolute;
     top: 50%;  
     left: 50%; 
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); 
+        -ms-transform: translate(-50%, -50%); 
+            transform: translate(-50%, -50%);
     width: 50%;
 }
 .certificate {
@@ -59,23 +83,39 @@ body {
 }
 .link a {
     color: #8DE0DC;
-    text-decoration: underline #8DE0DC;
+    -webkit-text-decoration: underline #8DE0DC;
+            text-decoration: underline #8DE0DC;
 }
 .box_table {
     z-index: 100;
     max-width: 560px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     color: white;
 }
 .row_1, .row_2, .row_3, .row_4, .row_5, .row_6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: 100%;
 }
 .row_1-1, .row_1-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 50%;
     border: 1px solid white;
     padding: 0.5rem;
@@ -87,10 +127,14 @@ body {
 .row_4-1, .row_4-2, .row_4-3, .row_5-1, .row_5-2, .row_5-3,
 .row_6-1, .row_6-2, .row_6-3 {
     width: 33.3333%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0.5rem;
     border: 1px solid white;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .row_2-1 p, .row_2-2 p, .row_2-3 p, .row_3-1 p, .row_3-2 p, .row_3-3 p,
 .row_4-1 p, .row_4-2 p, .row_4-3 p, .row_5-1 p, .row_5-2 p, .row_5-3 p {
@@ -178,7 +222,8 @@ body {
 }
 @media (min-width:500px) and (min-height:650px) {
     .content_box {
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         padding-bottom: 10%;
     }
     .certificate {
@@ -198,7 +243,9 @@ body {
 }
 @media (min-width: 768px) and (orientation: landscape) {
     .content_box {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-bottom: 0%;
     }
     .box_table {
@@ -213,7 +260,9 @@ body {
 }
 @media (min-width:768px) and (min-height:900px) {
     .content_box {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-bottom: 0%;
     }
     .certificate {
@@ -240,8 +289,13 @@ body {
         font-size: 18px;
     }
     .box_futer {
-        flex-direction: row;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .box_link {
         margin-left: 3rem;
@@ -254,7 +308,9 @@ body {
 /*desktop*/
 @media (min-width:1200px) and (orientation: landscape) {
     .content_box {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-bottom: 0%;
         padding-left: 10rem;
     }
@@ -282,8 +338,13 @@ body {
         font-size: 18px;
     }
     .box_futer {
-        flex-direction: row;
-        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .box_link {
         margin-left: 3rem;
