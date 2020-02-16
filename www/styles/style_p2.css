@@ -21,10 +21,7 @@ body {
     background-image: 
         -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0) 90%);
     background-image: 
-        -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.7)), color-stop(90%, rgba(0, 0, 0, 0)));
-    background-image: 
-        linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0) 90%);
-        /* linear-gradient(90deg, rgba(182, 182, 182, 0) 0, rgba(0, 0, 0, 0.85) 100%); */
+        -webkit-gradient(linear, right bottom, left top, color-stop(0, rgba(0, 0, 0, 0.7)), color-stop(90%, rgba(0, 0, 0, 0)));
 }
 .layouts{
     overflow: hidden;
@@ -32,21 +29,55 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
-.layoutID{
+#layoutID1{z-index: 1000;}
+#layoutID2{z-index: 1000;}
+#layoutID3{z-index: 1000;}
+.wrapperTwo {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 300vw;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+.wrapperTwo .pageTwo {
+    position: relative;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     overflow: hidden;
+    will-change: transform;
+    /* -webkit-transform: translateX(100%);
+            transform: translateX(100%); */
 }
 
-/* АКТИВНЫЙ СЛАЙД */
-.activeLayout2 { z-index: 1000; right: 0; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-/* СЛЕДУЮЩИЙ СЛАЙД */
-.next-activeLayout2 { right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-/* ПРЕДЫДУЩИЙ СЛАЙД */
-.pre-activeLayout2 { right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-
+.wrapperTwo.active-pageTwo1 {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+.wrapperTwo.active-pageTwo1 .pageTwo.pageTwo1 {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.wrapperTwo.active-pageTwo2{
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+}
+.wrapperTwo.active-pageTwo2 .pageTwo.pageTwo2 {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.wrapperTwo.active-pageTwo3{
+    -webkit-transform: translateX(-200vw);
+            transform: translateX(-200vw);
+}
+.wrapperTwo.active-pageTwo3 .pageTwo.pageTwo3 {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+  
 .layout_2-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -56,6 +87,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(/img/IMG_desktop2_1.png);
+    background-color: black;
     background-position: top 40% left 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,6 +113,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(/img/IMG_desktop2_2.png);
+    background-color: black;
     background-position: top 40% left 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,6 +130,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(/img/IMG_desktop2_3.png);
+    background-color: black;
     background-position: top 40% left 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,15 +234,15 @@ body {
 }
 .height0{
     height: 0;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 .height100{
     height: 92px;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 @media (max-width: 576px) and (max-height: 725px) {
     .headerTwoScreen{
