@@ -517,6 +517,15 @@
             <span data-target="8" id="inEndLayout_mob" class="nav-btn inEndLayout_mob ml-3">в конец</span>
         </div>
     </div>
+    <script>
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      window.addEventListener('resize', () => {
+        // Выполняем тот же скрипт, что и раньше
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src='js/modernizr.min.js'></script>
     <script src="js/indexPager.js"></script>

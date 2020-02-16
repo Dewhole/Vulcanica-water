@@ -1,5 +1,11 @@
 'use strict';
 $(document).ready(function() {
+  $(document).on('touchmove',function(e){
+    e.preventDefault();
+  });
+  document.body.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+  });
   var $wrap = $(".wrapper"),
       pages = $(".page").length,
       scrolling = false,
