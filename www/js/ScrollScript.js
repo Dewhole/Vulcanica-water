@@ -8,40 +8,182 @@ $(document).ready(function() {
   var sectionFullMinSlide = 1;
   var sectionFullMaxSlide = $('#backgroudnFullPage div.sectionFull').length;
 
+    // //ОТСЛЕЖИВАЕМ КЛИК ПО ЭКРАНУ
+    // document.addEventListener('click', ()=> { });
+
+    //mousewheel
+    $(document).on("mousewheel DOMMouseScroll", function(event) {
+        if (!scrolling) {
+            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                // console.log("-", event.originalEvent.detail)
+                navigatePrevSlide();
+            } else {
+                // console.log("+", event.originalEvent.detail)
+                navigateNextSlide();
+            }
+        }
+    });
+
+ 
+ 
+ 
+ //NEXT SLIDE
+ onTouchEdnMSG(document.getElementsByClassName("tapNext1"));
+ onTouchEdnMSG(document.getElementsByClassName("tapNext"));
+   //mailOfer SENDMAIL
+onTouchEdnMSG(document.getElementById("nameMailFormOfer"));
+onTouchEdnMSG(document.getElementById("phoneMailFormOfer"));
+onTouchEdnMSG(document.getElementById("emailMailFormOfer"));
+onTouchEdnMSG(document.getElementById("themeMailFormOfer"));
+onTouchEdnMSG(document.getElementById("msgMailFormOfer"));
+onTouchEdnMSG(document.getElementById("agreeMailFormOfer"));
+onTouchEdnMSG(document.getElementById("sendMailFormOfer"));
+
+onTouchEdnMSG(document.getElementById("themeOptionValue-distrib"));
+onTouchEdnMSG(document.getElementById("themeOptionValue-opt"));
+onTouchEdnMSG(document.getElementById("themeOptionValue-other"));
+onTouchEdnMSG(document.getElementById("themeOptionValue-backCall"));
+
+//BTN NAVIGATE
+onTouchEdnMSG(document.getElementById("inStartLayout"));
+onTouchEdnMSG(document.getElementById("prevLayout"));
+onTouchEdnMSG(document.getElementById("prevNumber"));
+onTouchEdnMSG(document.getElementById("nextNumber"));
+onTouchEdnMSG(document.getElementById("nextLayout"));
+onTouchEdnMSG(document.getElementById("inEndLayout"));
+
+onTouchEdnMSG(document.getElementById("inStartLayout_mob"));
+onTouchEdnMSG(document.getElementById("prevLayout_mob"));
+onTouchEdnMSG(document.getElementById("prevNumber_mob"));
+onTouchEdnMSG(document.getElementById("nextNumber_mob"));
+onTouchEdnMSG(document.getElementById("nextLayout_mob"));
+onTouchEdnMSG(document.getElementById("inEndLayout_mob"));
+
+//UI INTERFASE
+function onTouchEdnMSG(targetClick) {
+    targetClick.addEventListener('touchend', () => {controllerDoing(targetClick)});
+    targetClick.addEventListener('click', () => {controllerDoing(targetClick)});
+}
+
+//CONTROLLER UI INTERFASE
+function controllerDoing(target){
+    switch(target.id){
+        case "tapNext":
+            nextScreen();   
+            break;
+        case "inStartLayout":
+        case "inStartLayout_mob":
+            navigateFirstSlide();
+            break;
+        case "inEndLayout":
+        case "inEndLayout_mob":
+            navigateLastSlide();
+            break;
+        case "prevLayout":
+        case "prevNumber":
+        case "prevLayout_mob":
+        case "prevNumber_mob":
+            navigatePrevSlide();
+            break;
+        case "nextNumber":
+        case "nextLayout": 
+        case "nextNumber_mob":
+        case "nextLayout_mob":
+            navigateNextSlide();
+            break;
+        case "nameMailFormOfer":
+        case "phoneMailFormOfer":
+        case "emailMailFormOfer":
+        case "msgMailFormOfer":
+            // console.log("target", target);
+            target.focus();
+            break;
+        case "themeMailFormOfer":
+            var themeSelectOptions = document.getElementById("themeSelectOptions");
+            if(themeSelectOptions.classList.contains("p7-height0px")){
+                document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(180deg);");
+                themeSelectOptions.classList.remove("p7-height0px");
+                themeSelectOptions.classList.add("p7-height80px");
+            }else{
+                document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(0deg);");
+                themeSelectOptions.classList.remove("p7-height80px");
+                themeSelectOptions.classList.add("p7-height0px");                      
+            }
+            break;
+
+        case "themeOptionValue-distrib":
+        case "themeOptionValue-opt":
+        case "themeOptionValue-other":
+        case "themeOptionValue-backCall":
+            // console.log(target.getAttribute("data-value"));
+            document.getElementById("themeMailFormOfer").setAttribute("data-value", target.getAttribute("data-value"));
+            document.getElementById("themeMailFormOferValue").textContent = target.textContent;
+            break;
+        case "agreeMailFormOfer":
+            // console.log("agreeMailFormOfer", target);
+            var checkboxFormOfer = document.getElementById("checkboxFormOfer");
+            if(checkboxFormOfer.checked == true){checkboxFormOfer.checked = false}else{checkboxFormOfer.checked = true}
+            break;
+        case "sendMailFormOfer":
+            var nameMailFormOfer = document.getElementById("nameMailFormOfer").value;
+            var phoneMailFormOfer = document.getElementById("phoneMailFormOfer").value;
+            var emailMailFormOfer = document.getElementById("emailMailFormOfer").value;
+            var themeMailFormOfer = document.getElementById("themeMailFormOfer").getAttribute("data-value");
+            var msgMailFormOfer = document.getElementById("msgMailFormOfer").value;
+            var agreeMailFormOfer = document.getElementById("checkboxFormOfer");
+            if(agreeMailFormOfer.checked == true){
+                var objectMassage = {
+                    "name":nameMailFormOfer,
+                    "phone":phoneMailFormOfer,
+                    "email":emailMailFormOfer,
+                    "theme":themeMailFormOfer,
+                    "msg":msgMailFormOfer
+                }
+                console.log(objectMassage);
+            }else{
+                event.preventDefault;
+                console.error("checked agree filed")
+            }
+            break;
+        default:
+            break;
+    }
+}
+
+  function nextScreen(){
+    if(+SCREEN != 8){
+        SCREEN++;
+    }else{
+        SCREEN = 1; 
+    }
+    console.log("screen",SCREEN); 
+    showNextScreen();
+  }
+
+  function showNextScreen(){
+    for (let i = 1; i <= 8; i++){
+      if(i < SCREEN){
+        document.getElementById("screenID"+i).classList.add("pre-activeScreen"); 
+        document.getElementById("screenID"+i).classList.remove("activeScreen");
+      } else {
+        document.getElementById("screenID"+i).classList.add("activeScreen"); 
+        document.getElementById("screenID"+i).classList.remove("pre-activeScreen");
+      }
+    }
+    changeNumberNavigateMenu(SCREEN);
+  }
+
 
     function changeNumberNavigateMenu (screen) {
         //DESKTOP
         document.getElementById("desktopNumberSlide").textContent = screen;
         document.getElementById("pre_desktopNumberSlide").textContent = screen - 1;
-        document.getElementById("next_desktopNumberSlide").textContent = screen == 8 ? screen : screen + 1;
+        document.getElementById("next_desktopNumberSlide").textContent = screen == 8 ? 1 : screen + 1;
         
         //MOBILE
         document.getElementById("mobileNumberSlide").textContent = screen;
         document.getElementById("pre_mobileNumberSlide").textContent = screen - 1;
-        document.getElementById("next_mobileNumberSlide").textContent = screen == 8 ? screen : screen + 1;
-    }
-
-    function navigateNextSlide() {
-        if (isScroll == true) {
-            scrolling = true;
-            isScroll = false;
-            setTimeout(() => {isScroll = true; scrolling = false;}, 1500);
-            var activeSlideID = $('.activeSlide').attr("id").slice(-1);
-            // console.log("activeSlideID", activeSlideID);
-            if(activeSlideID == sectionFullMaxSlide) { 
-                console.log("END"); 
-            } else {
-                var next_activeSlideID = +activeSlideID + 1;
-                SCREEN = next_activeSlideID;
-                changeNumberNavigateMenu(SCREEN);
-
-                $('#screenID'+activeSlideID).removeClass("activeSlide");
-                $('#screenID'+activeSlideID).addClass("pre-activeSlide");
-                $('#screenID'+next_activeSlideID).addClass("activeSlide");
-                $('#screenID'+next_activeSlideID).removeClass("next-activeSlide");
-                paralax_layout2();
-            }
-        }else{ console.log(isScroll)}
+        document.getElementById("next_mobileNumberSlide").textContent = screen == 8 ? 1 : screen + 1;
     }
 
     function navigatePrevSlide() {
@@ -123,22 +265,22 @@ $(document).ready(function() {
 
 
     //Переключение слайдов во втором экране ПРИ НАЖАТИИ НА КНОПКУ ДАЛЬШЕ
-    var buttonNextCLicker = document.getElementById('buttonNext');
-    buttonNextCLicker.addEventListener('touchend', function(event) {
-        if (isScroll == true) {
-            scrolling = true;
-            isScroll = false;
-            setTimeout(() => {isScroll = true; scrolling = false;}, 1500);
-            $("#buttonNext").removeClass("buttonNextNotActive");
-            $("#buttonNext").addClass("buttonNextActive");
-            setTimeout(()=>{
-                $("#buttonNext").addClass("buttonNextNotActive");
-                $("#buttonNext").removeClass("buttonNextActive");                  
-            },1000)
+    // var buttonNextCLicker = document.getElementById('buttonNext');
+    // buttonNextCLicker.addEventListener('touchend', function(event) {
+    //     if (isScroll == true) {
+    //         scrolling = true;
+    //         isScroll = false;
+    //         setTimeout(() => {isScroll = true; scrolling = false;}, 1500);
+    //         $("#buttonNext").removeClass("buttonNextNotActive");
+    //         $("#buttonNext").addClass("buttonNextActive");
+    //         setTimeout(()=>{
+    //             $("#buttonNext").addClass("buttonNextNotActive");
+    //             $("#buttonNext").removeClass("buttonNextActive");                  
+    //         },1000)
 
-            nextLayoutSlide2();
-        }else{console.log("СТОП")}
-    });
+    //         nextLayoutSlide2();
+    //     }else{console.log("СТОП")}
+    // });
 
     //Слайд Эффект, смена текста
     function slideHoverEffect(slide, nextSlide){
@@ -216,166 +358,80 @@ $(document).ready(function() {
     }
 
 
-    //mousewheel
-    $(document).on("mousewheel DOMMouseScroll", function(event) {
-        if (!scrolling) {
-            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
-                // console.log("-", event.originalEvent.detail)
-                navigatePrevSlide();
-            } else {
-                // console.log("+", event.originalEvent.detail)
-                navigateNextSlide();
-            }
-        }
-    });
-
-    //mailOfer SENDMAIL
-    onTouchEdnMSG(document.getElementById("nameMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("phoneMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("emailMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("themeMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("msgMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("agreeMailFormOfer"));
-    onTouchEdnMSG(document.getElementById("sendMailFormOfer"));
-
-    onTouchEdnMSG(document.getElementById("themeOptionValue-distrib"));
-    onTouchEdnMSG(document.getElementById("themeOptionValue-opt"));
-    onTouchEdnMSG(document.getElementById("themeOptionValue-other"));
-    onTouchEdnMSG(document.getElementById("themeOptionValue-backCall"));
-
-    //BTN NAVIGATE
-    onTouchEdnMSG(document.getElementById("inStartLayout"));
-    onTouchEdnMSG(document.getElementById("prevLayout"));
-    onTouchEdnMSG(document.getElementById("prevNumber"));
-    onTouchEdnMSG(document.getElementById("nextNumber"));
-    onTouchEdnMSG(document.getElementById("nextLayout"));
-    onTouchEdnMSG(document.getElementById("inEndLayout"));
-
-    onTouchEdnMSG(document.getElementById("inStartLayout_mob"));
-    onTouchEdnMSG(document.getElementById("prevLayout_mob"));
-    onTouchEdnMSG(document.getElementById("prevNumber_mob"));
-    onTouchEdnMSG(document.getElementById("nextNumber_mob"));
-    onTouchEdnMSG(document.getElementById("nextLayout_mob"));
-    onTouchEdnMSG(document.getElementById("inEndLayout_mob"));
-
-    //UI INTERFASE
-    function onTouchEdnMSG(targetClick) {
-        targetClick.addEventListener('touchend', () => {controllerDoing(targetClick)});
-        targetClick.addEventListener('click', () => {controllerDoing(targetClick)});
-    }
-
-    //CONTROLLER UI INTERFASE
-    function controllerDoing(target){
-        switch(target.id){
-            case "inStartLayout":
-            case "inStartLayout_mob":
-                navigateFirstSlide();
-                break;
-            case "inEndLayout":
-            case "inEndLayout_mob":
-                navigateLastSlide();
-                break;
-            case "prevLayout":
-            case "prevNumber":
-            case "prevLayout_mob":
-            case "prevNumber_mob":
-                navigatePrevSlide();
-                break;
-            case "nextNumber":
-            case "nextLayout": 
-            case "nextNumber_mob":
-            case "nextLayout_mob":
-                navigateNextSlide();
-                break;
-            case "nameMailFormOfer":
-            case "phoneMailFormOfer":
-            case "emailMailFormOfer":
-            case "msgMailFormOfer":
-                // console.log("target", target);
-                target.focus();
-                break;
-            case "themeMailFormOfer":
-                var themeSelectOptions = document.getElementById("themeSelectOptions");
-                if(themeSelectOptions.classList.contains("p7-height0px")){
-                    document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(180deg);");
-                    themeSelectOptions.classList.remove("p7-height0px");
-                    themeSelectOptions.classList.add("p7-height80px");
-                }else{
-                    document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(0deg);");
-                    themeSelectOptions.classList.remove("p7-height80px");
-                    themeSelectOptions.classList.add("p7-height0px");                      
-                }
-                break;
-
-            case "themeOptionValue-distrib":
-            case "themeOptionValue-opt":
-            case "themeOptionValue-other":
-            case "themeOptionValue-backCall":
-                // console.log(target.getAttribute("data-value"));
-                document.getElementById("themeMailFormOfer").setAttribute("data-value", target.getAttribute("data-value"));
-                document.getElementById("themeMailFormOferValue").textContent = target.textContent;
-                break;
-            case "agreeMailFormOfer":
-                // console.log("agreeMailFormOfer", target);
-                var checkboxFormOfer = document.getElementById("checkboxFormOfer");
-                if(checkboxFormOfer.checked == true){checkboxFormOfer.checked = false}else{checkboxFormOfer.checked = true}
-                break;
-            case "sendMailFormOfer":
-                var nameMailFormOfer = document.getElementById("nameMailFormOfer").value;
-                var phoneMailFormOfer = document.getElementById("phoneMailFormOfer").value;
-                var emailMailFormOfer = document.getElementById("emailMailFormOfer").value;
-                var themeMailFormOfer = document.getElementById("themeMailFormOfer").getAttribute("data-value");
-                var msgMailFormOfer = document.getElementById("msgMailFormOfer").value;
-                var agreeMailFormOfer = document.getElementById("checkboxFormOfer");
-                if(agreeMailFormOfer.checked == true){
-                    var objectMassage = {
-                        "name":nameMailFormOfer,
-                        "phone":phoneMailFormOfer,
-                        "email":emailMailFormOfer,
-                        "theme":themeMailFormOfer,
-                        "msg":msgMailFormOfer
-                    }
-                    console.log(objectMassage);
-                }else{
-                    event.preventDefault;
-                    console.error("checked agree filed")
-                }
-                break;
-            default:
-                break;
-        }
-    }
+ 
 
     // TOUCH MOVE FOR MOBILE
-    var initialPoint;
-    var finalPoint;
-    document.addEventListener('touchstart', function(event) {
-        event.stopPropagation();
-        initialPoint=event.changedTouches[0];
-    }, false);
+    // var initialPoint;
+    // var finalPoint;
+    // document.addEventListener('touchstart', function(event) {
+    //     event.stopPropagation();
+    //     initialPoint=event.changedTouches[0];
+    // }, false);
 
-    document.addEventListener('touchend', function(event) {
-        event.preventDefault();
-        event.stopPropagation();
-        finalPoint=event.changedTouches[0];
-        var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
-        var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
-        if (xAbs > 20 || yAbs > 20) {
-            if (xAbs > yAbs) {
-                if (finalPoint.pageX < initialPoint.pageX){
-                    navigateNextSlide();
-                } else {
-                    navigatePrevSlide();
-                }
-            } else {
-                if (finalPoint.pageY < initialPoint.pageY){
-                    console.log("UP")
-                } else {
-                    console.log("Down")
-                }
-            }
-        }
-    }, false);
+    
+    // function(event) {;
+    //     event.preventDefault();
+    //     event.stopPropagation();
+    //     finalPoint=event.changedTouches[0];
+    //     var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
+    //     var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+    //     if (xAbs > 20 || yAbs > 20) {
+    //         if (xAbs > yAbs) {
+    //             if (finalPoint.pageX < initialPoint.pageX){
+    //                 navigateNextSlide();
+    //             } else {
+    //                 navigatePrevSlide();
+    //             }
+    //         } else {
+    //             if (finalPoint.pageY < initialPoint.pageY){
+    //                 console.log("UP")
+    //             } else {
+    //                 console.log("Down")
+    //             }
+    //         }
+    //     }
+    // }, false);
 
 //    console.log(document.getElementById("p1_animationEffectSfera").getAttribute("y"));
 });
+
+
+
+    // function navigateNextTouchSlide(){
+    //     var activeSlideID = $('.activeSlide').attr("id").slice(-1);
+    //     if(activeSlideID == sectionFullMaxSlide) { 
+    //         console.log("END"); 
+    //     } else {
+    //         var next_activeSlideID = +activeSlideID + 1;
+    //         SCREEN = next_activeSlideID;
+    //         changeNumberNavigateMenu(SCREEN);
+
+    //         $('#screenID'+activeSlideID).removeClass("activeSlide");
+    //         $('#screenID'+activeSlideID).addClass("pre-activeSlide");
+    //         $('#screenID'+next_activeSlideID).addClass("activeSlide");
+    //         $('#screenID'+next_activeSlideID).removeClass("next-activeSlide");
+    //         paralax_layout2();
+    //     }     
+    // }
+    // function navigateNextSlide() {
+    //     if (isScroll == true) {
+    //         scrolling = true;
+    //         isScroll = false;
+    //         setTimeout(() => {isScroll = true; scrolling = false;}, 1500);
+    //         var activeSlideID = $('.activeSlide').attr("id").slice(-1);
+    //         // console.log("activeSlideID", activeSlideID);
+    //         if(activeSlideID == sectionFullMaxSlide) { 
+    //             console.log("END"); 
+    //         } else {
+    //             var next_activeSlideID = +activeSlideID + 1;
+    //             SCREEN = next_activeSlideID;
+    //             changeNumberNavigateMenu(SCREEN);
+
+    //             $('#screenID'+activeSlideID).removeClass("activeSlide");
+    //             $('#screenID'+activeSlideID).addClass("pre-activeSlide");
+    //             $('#screenID'+next_activeSlideID).addClass("activeSlide");
+    //             $('#screenID'+next_activeSlideID).removeClass("next-activeSlide");
+    //             paralax_layout2();
+    //         }
+    //     }else{ console.log(isScroll)}
+    // }

@@ -17,22 +17,36 @@ body {
 }
 .bgr-grey {background-color: grey;}
 
-/* АКТИВНЫЙ СЛАЙД */
+/* АКТИВНЫЙ СЛАЙД
 .activeSlide { z-index: 2200; right: 0; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 /* СЛЕДУЮЩИЙ СЛАЙД */
-.next-activeSlide { z-index: 2100; right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+/* .next-activeSlide { z-index: 2100; right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;} */
 /* ПРЕДЫДУЩИЙ СЛАЙД */
-.pre-activeSlide { z-index: 2100; right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+/* .pre-activeSlide { z-index: 2100; right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;} */
 
-#screenID1{
+ /* Активный слайд */
+.activeScreen {right: 0; -webkit-transition: .1s; -o-transition: .1s; transition: .1s;}
+/* .activeScreen {right: 0;} */
+ /* Неактивный слайд */
+.pre-activeScreen {right: +100vw; -webkit-transition: .1s; -o-transition: .1s; transition: .1s;}
+/* .pre-activeScreen {right: +100vw;} */
+.tapNext{
     position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2200;
 }
-#screenID1.activeSlide{
-    z-index: 2400;
-}
-#screenID8.activeSlide{
-    z-index: 2250;
-}
+#screenID1{ z-index: 2202;}
+#screenID2{ z-index: 2199;}
+#screenID4{ z-index: 2197;}
+#screenID3{ z-index: 2198;}
+#screenID5{ z-index: 2196;}
+#screenID6{ z-index: 2195;}
+#screenID7{ z-index: 2194;}
+#screenID8{ z-index: 2193;}
+
 .cursor-pointer{
     cursor: pointer;
 }
@@ -47,7 +61,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     overflow: hidden;
-    z-index: 2300;
+    z-index: 2201;
 }
 .navigationButton{
     width: 120px;
@@ -92,7 +106,7 @@ body {
 ** * *  MOBILE  * * *** 
 **********************/
 .navigationField_mob{
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100px;
     left: 0;
@@ -105,7 +119,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     overflow: hidden;
-    z-index: 2300;
+    z-index: 2200;
     /* background-color: black; */
     padding-bottom: 1.5rem;
 }

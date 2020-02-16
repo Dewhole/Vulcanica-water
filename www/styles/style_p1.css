@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url(/img/background_page1.png);
+    background-color: black;
     background-position: top left;
     background-repeat: no-repeat;
     background-size: auto;
