@@ -19,39 +19,43 @@
 </head>
 <body>
     <div class="background-p7">
-        <div class="gradient_p7 h-100 w-100">
-            <div class="box-container_p7">
-                <div class="p7-block1">
-                    <p class="p7-h1 color-white">Хотите предложить сотрудничество<br /> или оставить обратную<br /> связь о продукте?</p>
-                    <p class="p7-h2 color-white font-mavenPro d-xl-none">Заполните форму и выберите <br />тему сообщения</p>
-                    <p class="p7-h2 color-white font-mavenPro d-none d-xl-block">Заполните форму и выберите тему сообщения</p>
-                    <form class="p7-offer">
-                        <input type="text" placeholder="Имя">
-                        <input type="text" placeholder="Телефон">
-                        <input type="text" placeholder="Email">
-                        <select>
-                            <option value="" disabled selected>Выберите тему сообщения</option>
-                            <option value="Distrib">Дистрибуция</option>
-                            <option value="Opt">Оптовая покупка</option>
-                            <option value="Other">Другое предложение сотрудничества</option>
-                            <option value="BackCall">Обратная связь по продукту</option>
-                        </select>
-                        <textarea placeholder="Ваше сообщение"></textarea>
-                        <div class="labelSubmit">
-                            <label class="checkOfer color-white">Я согласен с 
-                                <a href="#" style="color: #73D9D4; text-decoration-line: underline;">условиями</a> обработки персональных данных
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                            <input type="submit" value="Отправить" class="submitOffer">
+        <div class="box-container_p7">
+            <div class="p7-block1">
+                <p class="p7-h1">Хотите предложить сотрудничество или оставить обратную связь о продукте?</p>
+                <p class="p7-h2">Заполните форму и выберите <br />тему сообщения</p>
+                 <form id="mailForm_Ofer" class="p7-offer">
+                    <input id="nameMailFormOfer" type="text" placeholder="Имя">
+                    <input id="phoneMailFormOfer" type="text" placeholder="Телефон">
+                    <input id="emailMailFormOfer" type="text" placeholder="Email">
+                    <div id="themeMailFormOfer" class="themeMailFormOfer" data-value="null">
+                        <p id="themeMailFormOferValue" class="" >Выберите тему сообщения</p>                           
+                        <svg id="themeMailFormOferTreg" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.58958 1.37012L7.21875 11.1201L12.8479 1.37012H1.58958Z" fill="black" stroke="black"/>
+                        </svg>
+                        <div id="themeSelectOptions" class="themeSelectOptions p7-height0px">
+                            <div id="themeOptionValue-distrib" class="themeOptionValue" data-value="distrib">Дистрибуция</div>
+                            <div id="themeOptionValue-opt" class="themeOptionValue" data-value="opt">Оптовая покупка</div>
+                            <div id="themeOptionValue-other" class="themeOptionValue" data-value="other">Другое предложение сотрудничества</div>
+                            <div id="themeOptionValue-backCall" class="themeOptionValue" data-value="backCall">Обратная связь по продукту</div>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <textarea id="msgMailFormOfer" placeholder="Ваше сообщение"></textarea>
+                    <div class="labelSubmit">
+                        <label id="agreeMailFormOfer" class="checkOfer">Я согласен с 
+                            <a href="#" style="color: #73D9D4; text-decoration-line: underline;">условиями</a> обработки персональных данных
+                            <input id="checkboxFormOfer" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div id="sendMailFormOfer" class="submitOffer">Отправить</div>
+                    </div>
+                </form>
+            </div> 
+            <div class="box_img"> 
                 <div class="p7-block2 d-none d-md-flex d-lg-none">
-                    <div class="p7-img-tablet d-block"><img src="img/p7_image_tablet.png" /></div>
+                    <img src="img/p7_image_tablet.png" />
                 </div>
                 <div class="p7-block3 d-none d-lg-flex">
-                    <div class="p7-img-desktop d-block"></div>
+                    <img src="img/p7_image-desktop.png" />
                 </div>
             </div>
         </div>
