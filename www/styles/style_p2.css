@@ -55,7 +55,7 @@ body {
             box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-image: url(/img/IMG_desktop2_1.png);
+    background-image: url(/img/IMG_desktop2_1.jpg);
     background-position: top 40% left 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,7 +80,7 @@ body {
             box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-image: url(/img/IMG_desktop2_2.png);
+    background-image: url(/img/IMG_desktop2_2.jpg);
     background-position: top 40% left 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +96,7 @@ body {
             box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-image: url(/img/IMG_desktop2_3.png);
+    background-image: url(/img/IMG_desktop2_3.jpg);
     background-position: top 40% left 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,13 +372,13 @@ body {
         background-size: cover;
     }
     .desktop-layout_2-1{
-        background-image: url(../img/IMG_desktop2_1.png);
+        background-image: url(../img/IMG_desktop2_1.jpg);
     }
     .desktop-layout_2-2{
-        background-image: url(../img/IMG_desktop2_2.png);
+        background-image: url(../img/IMG_desktop2_2.jpg);
     }
     .desktop-layout_2-3{
-        background-image: url(../img/IMG_desktop2_3.png);
+        background-image: url(../img/IMG_desktop2_3.jpg);
     }
     .sectorHover{
         position: absolute;
