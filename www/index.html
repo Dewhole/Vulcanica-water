@@ -127,14 +127,14 @@
           </div>
 
 
-          <div class="layouts d-xl-none d-flex">
-              <div id="layoutID1" class="layoutID activeLayout2"><div id="layout_21" class="layout_2-1 layout_2-1_paralax"></div></div>
-              <div id="layoutID2" class="layoutID next-activeLayout2"><div id="layout_22" class="layout_2-2 layout_2-1_paralax"></div></div>
-              <div id="layoutID3" class="layoutID next-activeLayout2"><div id="layout_23" class="layout_2-3 layout_2-1_paralax"></div></div>
+          <div class="d-xl-none d-flex wrapperTwo active-pageTwo1">
+            <div  class="pageTwo pageTwo1"><div id="layout_21" class="layout_2-1 layout_2-1_paralax"></div></div>
+            <div  class="pageTwo pageTwo2"><div id="layout_22" class="layout_2-2 layout_2-1_paralax"></div></div>
+            <div  class="pageTwo pageTwo3"><div id="layout_23" class="layout_2-3 layout_2-1_paralax"></div></div>
           </div>
 
 
-          <div id="layoutsAbsolute" class="layoutsAbsolute tapNext">
+          <div id="layoutsAbsolute" class="layoutsAbsolute">
               <div class="posRelativ">
                   <!-- Header Text two screen-->
                   <div class="headerTwoScreen">
@@ -218,7 +218,7 @@
                       <img src="../img/EAC.png" alt="EAC РСТ">
                   </div>
               </div>
-              <div class="box-container-mobile_p3 d-lg-none d-flex tapNext">
+              <div class="box-container-mobile_p3 d-lg-none d-flex">
                   <h1 class="title-left-block_m_p3 h1">
                       <span>вода высшей категории.</span> 
                       <span class="blu_green"><br>элексир<br></span>
@@ -283,7 +283,7 @@
               </div>
           </div>
           <div class="container-fluid box-container-mobile d-lg-none d-flex">
-              <div class="gradient_m_p4 tapNext"></div>
+              <div class="gradient_m_p4"></div>
               <h1 class="title_p4_m h1 d-flex">
                   <span class="blu_green">Сокровище <br>сибирских гор</span>
               </h1>
@@ -321,7 +321,7 @@
                       </h2>
                   </div>
               </div>
-              <div class="box-container-mobile_p5 d-lg-none d-flex tapNext">
+              <div class="box-container-mobile_p5 d-lg-none d-flex">
                   <h1 class="title-left-block_m_p5 h1">
                       Вода минусинских источников 
                       <span class="blu_green">пользуется популярностью</span><br>
@@ -335,7 +335,7 @@
       </div>
       </div>
       <div id="screenID6" class="page page6">
-        <div class="background-p6 tapNext">
+        <div class="background-p6  ">
           <div class="p6-container-spec">
               <div class="p6-block1">
                   <h1 class="p6-h1 p6-title-left-block color-white">Заслуженный геолог <br class="d-xl-none"/> России<br class="d-none d-xl-block"/> рассказал всю<br class="d-xl-none"/>
@@ -414,7 +414,7 @@
       
       <div id="screenID8" class="page page8">
         <div class="content_box">
-          <div class="gradient_p8 tapNext"></div>
+          <div class="gradient_p8  "></div>
           <div class="box_table">
                 <p class="table_tytle mb-2"><b>Природная питьевая вода «VULCANICA»</b></p>
                 <div class="row_1">
@@ -466,6 +466,7 @@
       </div>
     </div>
     <div id="tapNext" class="tapNext"></div>
+    <div id="tapTwoNext" class="tapNext d-md-none d-none"></div>
     <div id="navigationField" class="navigationField d-none d-md-none">
       <div class="navigationButton">
           <span data-target="1" id="inStartLayout" class="nav-btn inStartLayout mb-3 cursor-pointer">в начало</span>
@@ -516,6 +517,15 @@
             <span data-target="8" id="inEndLayout_mob" class="nav-btn inEndLayout_mob ml-3">в конец</span>
         </div>
     </div>
+    <script>
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      window.addEventListener('resize', () => {
+        // Выполняем тот же скрипт, что и раньше
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src='js/modernizr.min.js'></script>
     <script src="js/indexPager.js"></script>

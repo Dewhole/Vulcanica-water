@@ -1,11 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
-body {
-    background-color: #0F0F0F;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
 .background_p3{
     height: 100vh;
     width: 100vw;
