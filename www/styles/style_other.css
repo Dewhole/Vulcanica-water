@@ -1,27 +1,12 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
-input[type="color"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="email"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"],
-select:focus,
-
-/* АКТИВНЫЙ СЛАЙД
-.activeSlide { z-index: 2200; right: 0; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-/* СЛЕДУЮЩИЙ СЛАЙД */
-/* .next-activeSlide { z-index: 2100; right: -100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;} */
-/* ПРЕДЫДУЩИЙ СЛАЙД */
-/* .pre-activeSlide { z-index: 2100; right: +100vw; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;} */
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  font-size: 16px !important;
+}
 
  /* Активный слайд */
 .activeScreen {right: 0; -webkit-transition: .1s; -o-transition: .1s; transition: .1s;}
