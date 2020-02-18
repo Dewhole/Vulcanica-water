@@ -464,7 +464,7 @@
     #sectorHoverID3:hover ~ #sectorHoverID1{ opacity: 0.25 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
 
     .itemTextUnderBTNTablet{
-        font-size: 30px;
+        font-size: 22px;
         line-height: 34px;
     }
     .hr-itemTextUnderBTNTablet{
@@ -476,20 +476,29 @@
 @media (min-width: 1200px){
     .headerTwoScreen {
         width: 800px;
-        margin-top: 100px;
+        margin-top: 70px;
     }
     .headerTwoScreen h2{
-        font-size: 35px;
-        line-height: 49px;
+        font-size: 28px;
+        line-height: 1.5;
     }
     .subTextTwoScreen{
-        margin-top: 120px;
-        width: 500px
+        margin-top: 100px;
     }
-    .subTextTwoScreen p{
-        font-size: 26px;
-        line-height: 40px;
+    .subTextTwoScreen p {
+        font-size: 18px;
+        line-height: 1.5;
         font-weight: 500;
+        max-width: 350px;
+    }
+    .itemTextUnderBTNTablet{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .hr-itemTextUnderBTNTablet{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;      
     }
 }
 @media (min-width: 1400px){
@@ -498,15 +507,44 @@
         margin-top: 100px;
     }
     .headerTwoScreen h2{
-        font-size: 45px;
-        line-height: 64px;
+        font-size: 35px;
+        line-height: 1.5;
     }
     .subTextTwoScreen{
         margin-top: 200px;
-        width: 500px
+        width: 450px;
     }
-    .subTextTwoScreen p{
+    .subTextTwoScreen p {
+        font-size: 26px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+}
+@media (min-width: 1600px){
+    .headerTwoScreen {
+        width: 1000px;
+        margin-top: 100px;
+    }
+    .headerTwoScreen h2{
+        font-size: 45px;
+        line-height: 1.5;
+    }
+    .subTextTwoScreen{
+        margin-top: 220px;
+        width: 500px;
+    }
+    .subTextTwoScreen p {
+        font-size: 28px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+    .itemTextUnderBTNTablet{
         font-size: 30px;
-        line-height: 40px;
+        line-height: 34px;
+    }
+    .hr-itemTextUnderBTNTablet{
+        font-size: 22px;
+        line-height: 1.4;
+        text-align: center;      
     }
 }

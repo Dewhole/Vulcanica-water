@@ -39,31 +39,53 @@
     z-index: 100;
 }
 .p1-description-items { margin-top: 70px; max-width: 190px;}
-.p1-description-items p{
+.p1-description-items p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
 }
-#p1_animationEffectSfera {
+.p1-mobileScrollEffectBlock {
+    max-width: 60px;
+}
+.p1-mobileScrollEffectBlock {
+    position: relative;
+}
+#p1_animationEffectSfera_1 {
+    position: absolute;
+    
+}
+#p1_animationEffectSfera_2 {
+    position: absolute;
+    left:15px;
+    top:15px;
+}
+#p1_animationEffectSfera_1 circle {
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
-    -webkit-animation-name: p1_animateSlidein_animationEffectSfera;
-            animation-name: p1_animateSlidein_animationEffectSfera;
+    -webkit-animation-name: p1_animateSlidein_animationEffectSfera_1;
+            animation-name: p1_animateSlidein_animationEffectSfera_1;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
 }
-@-webkit-keyframes p1_animateSlidein_animationEffectSfera {
-    from { margin-left: -65px; }
-    to {  margin-left: -40px; }
+#circle1 {
+    stroke: #CDCDCD;
+    stroke-width: 3;
 }
-@keyframes p1_animateSlidein_animationEffectSfera {
-    from { margin-left: -65px; }
-    to {  margin-left: -40px; }
+@-webkit-keyframes p1_animateSlidein_animationEffectSfera_1 {
+    from { r: 20; }
+    to {  r: 45; }
 }
-#p1_SVGstr{
+@keyframes p1_animateSlidein_animationEffectSfera_1 {
+    from { r: 20; }
+    to { r: 40; }
+}
+#hand {
+    width: 45px;
+    position: absolute;
+    left: 20px;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
     -webkit-animation-name: p1_animateSlidein_SVGstr;
@@ -74,12 +96,12 @@
             animation-direction: alternate;
 }
 @-webkit-keyframes p1_animateSlidein_SVGstr {
-    from { margin-left: 40px; }
-    to {  margin-left: 20px; }
+    from { margin-top: 40px; }
+    to {  margin-top: 20px; }
 }
 @keyframes p1_animateSlidein_SVGstr {
-    from { margin-left: 40px; }
-    to {  margin-left: 20px; }
+    from { margin-top: 40px; }
+    to {  margin-top: 20px; }
 }
 .p1-mobileScrollEffectBlock{
     position: relative;
