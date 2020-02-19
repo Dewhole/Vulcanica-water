@@ -7,6 +7,9 @@
 .color-grey {
     color: grey;
 }
+#navButton{
+    cursor: pointer;
+}
 .p1_layout_1 {
     width: 100vw;
     height: 100vh;

@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style_p8.css">
     <link rel="stylesheet" type="text/css" href="styles/style_other.css">
     <link rel="stylesheet" type="text/css" href="styles/stylePager.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
     <title>Vulcanica</title>
 </head>
 <body>
@@ -50,7 +51,7 @@
                 </div>
               </div>
               <div class="p1-positionDesktopScrollEffect">
-                  <div class="p1-desktopScrollEffectBlock d-none d-xl-flex">
+                  <div id="navButton" class="p1-desktopScrollEffectBlock d-none d-xl-flex">
 
                       <svg width="41" height="66" viewBox="0 0 41 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <rect x="17.7549" y="18.6968" width="6" height="13" rx="3" fill="white" stroke="white" stroke-width="2"/>
@@ -383,10 +384,10 @@
                                 <path d="M1.58958 1.37012L7.21875 11.1201L12.8479 1.37012H1.58958Z" fill="black" stroke="black"/>
                             </svg>
                             <div id="themeSelectOptions" class="themeSelectOptions p7-height0px">
-                                <div id="themeOptionValue-distrib" class="themeOptionValue" data-value="distrib">Дистрибуция</div>
-                                <div id="themeOptionValue-opt" class="themeOptionValue" data-value="opt">Оптовая покупка</div>
-                                <div id="themeOptionValue-other" class="themeOptionValue" data-value="other">Другое предложение сотрудничества</div>
-                                <div id="themeOptionValue-backCall" class="themeOptionValue" data-value="backCall">Обратная связь по продукту</div>
+                                <div id="themeOptionValue-distrib" class="themeOptionValue" data-value="Дистрибуция">Дистрибуция</div>
+                                <div id="themeOptionValue-opt" class="themeOptionValue" data-value="Оптовая покупка">Оптовая покупка</div>
+                                <div id="themeOptionValue-other" class="themeOptionValue" data-value="Другое предложение сотрудничества">Другое предложение сотрудничества</div>
+                                <div id="themeOptionValue-backCall" class="themeOptionValue" data-value="Обратная связь по продукту">Обратная связь по продукту</div>
                             </div>
                         </div>
                         <textarea id="msgMailFormOfer" placeholder="Ваше сообщение"></textarea>
@@ -396,7 +397,7 @@
                                 <input id="checkboxFormOfer" type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
-                            <div id="sendMailFormOfer" class="submitOffer">Отправить</div>
+                            <div id="getCaptcha" class="submitOffer">Отправить</div>
                         </div>
                     </form>
                 </div> 
@@ -465,6 +466,9 @@
       </div>
       </div>
     </div>
+    <div class="captcha d-none">
+        <div id="sendMailFormOfer" class="submitOfferOffer">Отправить</div>
+    </div>
     <div id="tapNext" class="tapNext"></div>
     <div id="tapTwoNext" class="tapNext d-md-none d-none"></div>
     <div id="navigationField" class="navigationField d-none d-md-none">
@@ -529,5 +533,9 @@
     <script src="js/jquery.min.js"></script>
     <script src='js/modernizr.min.js'></script>
     <script src="js/indexPager.js"></script>
+    
+    <script>
+
+    </script>
 </body>
 </html>

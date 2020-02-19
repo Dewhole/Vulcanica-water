@@ -14,6 +14,9 @@ $(document).ready(function() {
       $scrollBtn = $(".scroll-btn"),
       $navBtn = $(".nav-btn");
 
+  $("#navButton").click(()=>{
+    navigateDown();
+  })
   /*****************************
   ***** NAVIGATE FUNCTIONS *****
   *****************************/
@@ -235,4 +238,65 @@ $(document).ready(function() {
     }
   }
 
+  $('#themeMailFormOfer').on('click', function(){
+    var themeSelectOptions = document.getElementById("themeSelectOptions");
+    if(themeSelectOptions.classList.contains("p7-height0px")){
+        document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(180deg);");
+        themeSelectOptions.classList.remove("p7-height0px");
+        themeSelectOptions.classList.add("p7-height80px");
+    }else{
+        document.getElementById("themeMailFormOferTreg").setAttribute("style", "transform: rotate(0deg);");
+        themeSelectOptions.classList.remove("p7-height80px");
+        themeSelectOptions.classList.add("p7-height0px");                      
+    }
+  });
+  $('#themeOptionValue-distrib').on('click', (e)=>{themeChange(e.target)});
+  $('#themeOptionValue-opt').on('click', (e)=>{themeChange(e.target)});
+  $('#themeOptionValue-other').on('click', (e)=>{themeChange(e.target)});
+  $('#themeOptionValue-backCall').on('click', (e)=>{themeChange(e.target)});
+
+  function themeChange(target){
+    // console.log('target: ',target)
+    document.getElementById("themeMailFormOfer").setAttribute("data-value", target.getAttribute("data-value"));
+    document.getElementById("themeMailFormOferValue").textContent = target.textContent;
+  }
+
+  $('#agreeMailFormOfer').on('click', function(){
+    var checkboxFormOfer = document.getElementById("checkboxFormOfer");
+    if(checkboxFormOfer.checked == true){checkboxFormOfer.checked = false}else{checkboxFormOfer.checked = true}
+  });
+
+  $('#sendMailFormOfer').on('click', function(){
+    var nameMailFormOfer = document.getElementById("nameMailFormOfer").value;
+    var phoneMailFormOfer = document.getElementById("phoneMailFormOfer").value;
+    var emailMailFormOfer = document.getElementById("emailMailFormOfer").value;
+    var themeMailFormOfer = document.getElementById("themeMailFormOfer").getAttribute("data-value");
+    var msgMailFormOfer = document.getElementById("msgMailFormOfer").value;
+    var agreeMailFormOfer = document.getElementById("checkboxFormOfer");
+    if(agreeMailFormOfer.checked == true){
+        var objectMassage = {
+            "name":nameMailFormOfer,
+            "phone":phoneMailFormOfer,
+            "email":emailMailFormOfer,
+            "theme":themeMailFormOfer,
+            "msg":msgMailFormOfer
+        }
+        if(nameMailFormOfer == "" || phoneMailFormOfer == "" || emailMailFormOfer == "" || themeMailFormOfer == null){
+          event.preventDefault;
+          alert("Все поля должны быть заполнены")
+        }
+        console.log(objectMassage);
+
+        $.ajax({
+          type: "POST", // метод HTTP, используемый для запроса	
+          url: "http://192.168.0.4:7878/sendmail", // строка, содержащая URL адрес, на который отправляется запрос
+          data: objectMassage, // данные, которые будут отправлены на сервер
+          success: (data, status) => {alert("Data: " + data + "\nStatus: " + status)}, // функция обратного вызова, которая вызывается если AJAX запрос выполнится успешно
+          dataType: "json" // тип данных, который вы ожидаете получить от сервера	
+        });
+    }else{
+        event.preventDefault;
+        alert("Укажите согласие с условиями обработки данных")
+    }
+  });
 });
