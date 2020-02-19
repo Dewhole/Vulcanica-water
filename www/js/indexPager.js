@@ -281,7 +281,7 @@ $(document).ready(function() {
             "theme":themeMailFormOfer,
             "msg":msgMailFormOfer
         }
-        if(nameMailFormOfer == "" || phoneMailFormOfer == "" || emailMailFormOfer == "" || themeMailFormOfer == null){
+        if(nameMailFormOfer == null || phoneMailFormOfer == null || emailMailFormOfer == null || themeMailFormOfer == null){
           event.preventDefault;
           alert("Все поля должны быть заполнены")
         }
@@ -291,7 +291,16 @@ $(document).ready(function() {
           type: "POST", // метод HTTP, используемый для запроса	
           url: "http://192.168.0.4:7878/sendmail", // строка, содержащая URL адрес, на который отправляется запрос
           data: objectMassage, // данные, которые будут отправлены на сервер
-          success: (data, status) => {alert("Data: " + data + "\nStatus: " + status)}, // функция обратного вызова, которая вызывается если AJAX запрос выполнится успешно
+          success: () => {
+            setTimeout(()=>{
+              document.getElementById("nameMailFormOfer").value = " ";
+              document.getElementById("phoneMailFormOfer").value = " ";
+              document.getElementById("emailMailFormOfer").value = " ";
+              document.getElementById("msgMailFormOfer").value = " ";
+            }, 500);
+            checkboxFormOfer.checked = false;
+            alert("Сообщение отправлено")
+          }, // функция обратного вызова, которая вызывается если AJAX запрос выполнится успешно
           dataType: "json" // тип данных, который вы ожидаете получить от сервера	
         });
     }else{
