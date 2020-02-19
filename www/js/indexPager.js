@@ -289,7 +289,7 @@ $(document).ready(function() {
 
         $.ajax({
           type: "POST", // метод HTTP, используемый для запроса	
-          url: "http://192.168.0.4:7878/sendmail", // строка, содержащая URL адрес, на который отправляется запрос
+          url: "http://vulcanicawater.com:7878/sendmail", // строка, содержащая URL адрес, на который отправляется запрос
           data: objectMassage, // данные, которые будут отправлены на сервер
           success: () => {
             setTimeout(()=>{
