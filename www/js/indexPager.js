@@ -161,7 +161,7 @@ $(document).ready(function() {
       document.getElementById("navigationField").classList.remove("d-md-none");
       document.getElementById("navigationField").classList.add("d-md-flex");
     }
-    if(+screen == 7 || +screen == 2){
+    if(+screen == 7 || +screen == 2 || +screen == 8){
       document.getElementById("tapNext").classList.add("d-none");
       document.getElementById("tapNext").classList.remove("d-flex");
     }else{

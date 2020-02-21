@@ -26,6 +26,7 @@
     padding-right: 5%;
 }
 .box_futer {
+    z-index: 100;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
