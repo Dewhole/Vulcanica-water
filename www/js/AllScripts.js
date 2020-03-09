@@ -60,6 +60,10 @@ function handleTouchMove(evt) {
     yDown = null;                                             
 };
 
+// document.getElementById("tapNext").addEventListener('click', function() {
+//     navigateDown()
+// })
+
 /*****************************
 ***** NAVIGATE FUNCTIONS *****
 *****************************/

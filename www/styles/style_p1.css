@@ -77,6 +77,41 @@
     stroke: #CDCDCD;
     stroke-width: 3;
 }
+
+.p1-positionDesktopScrollEffect {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.p1-desktopScrollEffectBlock{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40px;
+}
+.p1-desktopScrollEffectBlockScrollEffect {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+            animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+}
+@-webkit-keyframes p1_desktopAnimateSlidein_animationEffectSfera {
+    from { margin-top: 0; }
+    to {  margin-top: 5px; }
+}
+@keyframes p1_desktopAnimateSlidein_animationEffectSfera {
+    from { margin-top: 0; }
+    to {  margin-top: 5px; }
+}
+
 @-webkit-keyframes p1_animateSlidein_animationEffectSfera_1 {
     from { r: 20; }
     to {  r: 45; }
@@ -323,26 +358,6 @@
         font-size: 24px;
         line-height: 29px;
     }
-    .p1-desktopScrollEffectBlock{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        width: 40px;
-    }
-    .p1-desktopScrollEffectBlockScrollEffect {
-        -webkit-animation-duration: 1s;
-                animation-duration: 1s;
-        -webkit-animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
-                animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
-        -webkit-animation-iteration-count: infinite;
-                animation-iteration-count: infinite;
-        -webkit-animation-direction: alternate;
-                animation-direction: alternate;
-    }
     .p1-bottle-position{
         width: 236px;
         height: 770px;
@@ -354,22 +369,6 @@
         width: calc(100% + 120px);
         height: 640px;
         right: 0;
-    }
-    @-webkit-keyframes p1_desktopAnimateSlidein_animationEffectSfera {
-        from { margin-top: 0; }
-        to {  margin-top: 5px; }
-    }
-    @keyframes p1_desktopAnimateSlidein_animationEffectSfera {
-        from { margin-top: 0; }
-        to {  margin-top: 5px; }
-    }
-    .p1-positionDesktopScrollEffect {
-        margin-left: 200px;
-        margin-top: 50px;
-    }
-    .p1-water-position{
-        height: 100%;
-        top: 80px;
     }
 }
 
@@ -384,6 +383,10 @@
     .p1-description-items p{
         font-size: 20px;
         line-height: 25px;
+    }
+    .p1-water-position{
+        height: 100%;
+        top: 80px;
     }
 }
 @media(min-width: 1100px) and (max-width: 1400px) and (max-height: 800px){
