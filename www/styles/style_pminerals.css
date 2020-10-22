@@ -60,9 +60,11 @@ color: #FFFFFF;
 }
 .link1 {
     color: #FFFFFF;
-    -webkit-text-decoration: underline #FFFFFF;;
-            text-decoration: underline #FFFFFF
+    -webkit-text-decoration: underline #FFFFFF;
+            text-decoration: underline #FFFFFF;
 }
+a:hover {
+    color: #FFFFFF;
 .Si{
 
     }
