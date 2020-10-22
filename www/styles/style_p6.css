@@ -1,7 +1,87 @@
-.background-p6{
-    height: 100vh;
-    /* width: 100vw; */
+.text-after-video-area{
+    background-color: black; 
+}
+.text-after-video{
+margin-left: 213px;
+width: 1463px;
+height: 256px;
+left: 213px;
+top: 7250px;
+background-color: black;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+.blackline-ftervideo{
+    background-color: black;
+    height: 153px;
+}
+.page6{
+
+}
+.ifame{
+
+    position: absolute;
+    width: 885px;
+    height: 517px;
+    left: 0px;
+    top: 0px;
+    
+    border: 10px solid #9B0805;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.videoblock{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+    box-sizing: border-box;
+    
+}
+.video{
+    margin-left: px;
+width: px;
+height: 520px;
+left: 0px;
+top: 0px;
+
+border: 10px solid #9B0805;
+box-sizing: border-box;
+border-radius: 10px;
+
+}
+.textnearvideo{
+    margin-top: 140px;
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+
+color: #FFFFFF;
+}
+.background-p66{
+    height: 100%;
+    width: 100vw;
+    background: url(../img/noob4top.png);
+    background-repeat: no-repeat;
+    background-position: bottom 30% right 40%;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-image: url(../img/background_page6.png);
+}
+
+.background-p6{    
+    height: 100%;
+    width: 100vw;
+    background: url(../img/noob4top.png);
     background-repeat: no-repeat;
     background-position: bottom 30% right 40%;
     background-size: cover;
@@ -87,6 +167,11 @@
     margin-top: 30px;
 }
 .p6-textWater-scientist{
+    max-width: 1065px;
+    width: 1094px;
+    height: px;
+    left: 584px;
+    top: 396px;
     margin-bottom: 5px;
     font-style: normal;
     font-weight: normal;
@@ -218,7 +303,8 @@
 }
 @media (min-width: 1400px){
     .p6-container-spec{
-        padding: 0 120px;
+        padding: 0 213px;
+
     } 
     .p6-img-scientistPosition{
         width: 275px;
@@ -267,4 +353,5 @@
         font-size: 26px;
         line-height: 32px;
     }
+
 }

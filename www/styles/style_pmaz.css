@@ -1,0 +1,169 @@
+
+.gradient-maz1{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 9136px;
+    
+    background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+    background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.gradient-maz2{
+    background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 9136px;
+
+background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+mix-blend-mode: darken;
+}
+.gradient-maz3{
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 9136px;
+
+background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+mix-blend-mode: darken;
+}
+.gradient-maz3{
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 9136px;
+    
+    background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    mix-blend-mode: darken;
+    }
+.background-maz{
+    height: 100%;
+    width: 100vw;
+ 
+    background-repeat: no-repeat;
+    background-position: bottom 30% right 0%;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-image: url(../img/maz.png);
+}
+.maz-bottle{
+    position: absolute;
+    width: 102px;
+    height: 336px;
+    left: 95px;
+    top: 9401px;
+    background-image: url(../img/maz-bottle.svg);
+}
+.text-on-maz{
+        position: absolute;
+    width: 987.14px;
+    height: 235px;
+    left: 254.27px;
+    top: 9428.27px;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 235px;
+    color: #494949;
+    transform: rotate(-0.03deg);
+}
+.text-maz{
+    position: absolute;
+    width: 850px;
+    height: 160px;
+    left: 889px;
+    top: 9240px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    
+    color: #FFFFFF;
+}
+.blackline-maz{
+    background-color: black;
+    height: 200px;
+}
+.maz-left-block{
+    position: absolute;
+    width: 625px;
+    height: 443px;
+    left: 212px;
+    top: 9428px;
+    background-image: url(../img/maz-left-block.png);
+}
+.maz-right-block{
+    position: absolute;
+    width: 608px;
+    height: 382px;
+    left: 1099px;
+    top: 9489px;
+    background-image: url(../img/maz-right-block.png);
+}
+.text-under-maz-block1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 213px;
+    top: 10050px;
+
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.0228px;
+    line-height: 40px;
+    /* identical to box height */
+
+
+color: #FFFFFF;
+}
+.text-under-maz-block2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 1099px;
+    top: 10050px;
+    
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.0228px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+.blackline-maz-bot{
+    height: 79px;
+    background-color: black;
+}
+.pallets{
+    height: 520px;
+    background-color: black;
+}
+.left-pallet{
+    position: absolute;
+    width: 582.26px;
+    height: 493px;
+    left: 233px;
+    top: 10182px;
+    background: url(../img/left-pallet.png);
+}
+.right-pallet{
+    position: absolute;
+    width: 582.26px;
+    height: 493px;
+    left: 1112px;
+    top: 10182px;
+    background: url(../img/right-pallet.png);
+}

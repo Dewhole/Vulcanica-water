@@ -1,7 +1,20 @@
+.blackline4{
+    background-color: black;
+    height: 100px;
+}
+.page4viev{
+    background: url(./img/noob4top.png);
+}
+.background-p44 {
+    background: url(../img/noob4top.png);
+}
+
 .background-p4 {
+
     height: 100vh;
     width: 100vw;
     background: url(../img/background_page4.png);
+
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -14,13 +27,14 @@
 }
 @media (min-width: 992px) { 
     .gradient_p4 {
-    background-image: -o-radial-gradient(0% 15%, 80% 110%, transparent 0%, rgba(0, 0, 0, 0.99) 100%);
-    background-image: radial-gradient(80% 110% at 0% 15%, transparent 0%, rgba(0, 0, 0, 0.99) 100%);
-    width: 100vw;
+        background: linear-gradient(3.94deg, #000000 9.32%, rgba(0, 0, 0, 0) 60.03%);  width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
+    }
+    .map{
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 992px) {
@@ -58,6 +72,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
     overflow: hidden;
+    margin-left: 100px;
 }
 .h1 {
     text-transform: uppercase;

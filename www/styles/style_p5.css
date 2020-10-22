@@ -1,7 +1,12 @@
+
+.background-p55 {
+    background: url(../img/background_page5.jpg);
+}
 .background-p5{
     height: 100vh;
     width: 100vw;
-    background: url(../img/background_page5.jpg);
+    background: url(../img/noob4top.png);
+
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -14,13 +19,18 @@
 }
 .gradient {
     background:
-    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
+    -o-linear-gradient(top, rgba(0, 0, 0, 0.6) 5%, transparent 30%),
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.6) 5%, transparent 30%),
     -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
     -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
     background:
     -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
     -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
     -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
+    background:
+    linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
+    linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
     background:
     linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
     linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
@@ -51,14 +61,20 @@
     font-weight: 700;
 }
 .blu_green {
-    background: -o-linear-gradient(left, #45C2EA, #4FF44B);
-    background: -webkit-gradient(linear, left top, right top, from(#45C2EA), to(#4FF44B));
-    background: linear-gradient(90deg, #45C2EA, #4FF44B);
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    margin: 0; 
-    padding: 0;
+    color: linear-gradient(90deg, #45C2EA 6.95%, #4FF44B 79.87%);
+    ;
+    left: 11.09%;
+    right: 67.34%;
+    top: 18.05%;
+    bottom: 71.76%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    
 }
 .h2 {
     color: white;
@@ -323,5 +339,9 @@
 @media (min-width:1680px) and (min-height:1080px) {
     .title-left-block_p5 {
         top: 20vh;
+        padding-left: 213px;
+    }
+    .tourists-title_p5{
+        margin-left: 85px;
     }
 } 

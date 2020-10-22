@@ -74,7 +74,7 @@
     color: white;
     padding-bottom: 0;
 }
-.link a {
+.link a  {
     color: #8DE0DC;
     -webkit-text-decoration: underline #8DE0DC;
             text-decoration: underline #8DE0DC;

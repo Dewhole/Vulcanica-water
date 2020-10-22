@@ -18,6 +18,7 @@
     background:
         linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
         linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
+        background: linear-gradient(360deg, #000000 1.63%, rgba(0, 0, 0, 0.94) 11.34%, rgba(0, 0, 0, 0.67) 19.87%, rgba(0, 0, 0, 0) 38.23%), linear-gradient(90deg, rgba(182, 182, 182, 0) 46.19%, rgba(0, 0, 0, 0.9) 101.32%);
 }
 @media(max-width: 568px){
     .layoutsAbsolute{

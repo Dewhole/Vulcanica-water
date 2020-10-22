@@ -1,0 +1,77 @@
+.mineralsgradient{
+  background-color: black;
+}
+.minerals-block{
+   background: radial-gradient(44.81% 41.84% at 66.59% 43.98%, rgba(71, 70, 70, 0.703125) 0%, rgba(68, 68, 68, 0) 100%);
+   
+}
+.minerals{    position: absolute;
+    margin-top: 104px;
+    width: 918px;
+    margin-left: 150px;
+
+}
+.minerals1{
+    margin-top: px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.minerals2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+.minerals-block{
+    display: flex;
+}
+.minerals-right{
+
+}
+.onwater{
+
+    margin-top: 36px;
+    margin-left: 1250px;
+}
+.bottle{
+
+    position: relative;
+    margin-left: 918px;
+    margin-top: 45px;
+}
+.minerals-box_link{
+    margin-left: 65px;
+    margin-top: 140px;
+}
+.mineral-link{
+
+left: 213px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+/* or 146% */
+text-decoration-line: underline;
+color: #FFFFFF;
+color: #FFFFFF;
+-webkit-text-decoration: underline #FFFFFF;
+        text-decoration: underline #FFFFFF;
+}
+.link1 {
+    color: #FFFFFF;
+    -webkit-text-decoration: underline #FFFFFF;;
+            text-decoration: underline #FFFFFF
+}
+.Si{
+
+    }
+.Mg{
+
+    }
+ .Ca{
+
+    }
+.F{
+
+    }
