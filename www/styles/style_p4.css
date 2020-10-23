@@ -605,14 +605,45 @@
         font-size: 40px;
     }
 }
-@media (min-width:1680px) and (min-height:1080px) {
+@media(min-width: 1920px) {
+}
+@media(min-width: 1620px) and (max-width: 1919px) {
     .title_p4 {
-        top: 20vh;
+        position: absolute;
+        right: 900px;
+        min-width: 700px;
+
     }
     .subtitle_p4 {
+        position: absolute;
+        right: 1060px;
         top: 40%;
+    }
+    .distance_subtitle {
+        position: absolute;
+        right: 265px;
+    }
+    .distance_title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;        
+        position: absolute;
+        right: 348px;
+        bottom: 10px;
     }
     .h1 {
         font-size: 45px;
+    }
+    .box.map{
+
+    }
+    .subtitle_p4{
+
     }
 }

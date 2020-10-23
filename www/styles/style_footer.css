@@ -12,7 +12,7 @@
  
     display: flex;
     background-color: black;
-    width:1980px;
+    width:1920px;
     height:360px;
  
     
@@ -78,4 +78,87 @@ color: #FFFFFF;
     position: absolute;
 left: 1127px;
 
+}
+@media(min-width: 1620px) and (max-width: 1919px) {
+    .icone{
+        position: relative;
+        width: 143px;
+        height: 143px;
+        left: 200px;
+        top: 80px;
+        background-image: url(../img/icon.svg);
+    
+    
+    }
+    .footer-block{
+     
+        display: flex;
+        background-color: black;
+        width:1920px;
+        height:360px;
+     
+        
+    }
+    .adress{
+     
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 35px;
+        /* identical to box height, or 146% */
+        
+        
+        color: #FFFFFF;
+    }
+    .adress-text{
+        margin-top: 15px;
+        width: 598px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 35px;
+        /* identical to box height, or 175% */
+        
+        
+        color: #FFFFFF;
+    }
+    .contacts{
+        margin-top: 39px;
+    
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 45px;
+        /* identical to box height, or 205% */
+        
+        
+        color: #FFFFFF;
+    }
+    .left-text{
+        margin-left: 260px;
+        margin-top: 27px;
+    }
+    .copyright{
+        margin-top: 84px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 45px;
+    /* identical to box height, or 205% */
+    
+    
+    color: #FFFFFF;
+    }
+    .right-text{
+        position: absolute;
+    left: 950px;
+    
+    }
 }

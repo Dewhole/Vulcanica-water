@@ -18,5 +18,12 @@
     overflow: hidden;
     will-change: transform;
   }
- 
-  
+  @media(min-width: 1920px) {
+  }
+  @media(min-width: 1620px) and (max-width: 1919px) {
+    .wrapper .page {
+
+      max-width: 1620px;
+
+    }
+  }

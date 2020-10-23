@@ -22,6 +22,7 @@
 
 }
 .box-container_p3 {
+
     width: 100%;
     height: 100%;
     max-width: 1920px;
@@ -33,7 +34,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    overflow: hidden;
+    overflow: hidden;    margin-left: 100px;
 }
 .left-block_p3 {
 
@@ -592,8 +593,11 @@
     }
     
 }
-@media (min-width:1680px) and (min-height:1080px) {
+@media(min-width: 1920px) {
+}
+@media(min-width: 1620px) and (max-width: 1919px) {
     .title-left-block_p3 {
+
         top: 20vh;
     }
     .h1 {

@@ -33,8 +33,6 @@ color: #FFFFFF;
     height: 139.97px;
     left: 275px;
     top: 11015px;
-    
-    background: url(../img/partners-block1.png);
 }
 .partners-block2{
     position: absolute;
@@ -42,7 +40,7 @@ color: #FFFFFF;
     height: 176.94px;
     left: 273px;
     top: 11199px;
-    background: url(../img/partners-block2.png);
+
 }
 .partners-block3{
     position: absolute;
@@ -50,7 +48,7 @@ color: #FFFFFF;
     height: 169.02px;
     left: 275px;
     top: 11420px;
-    background: url(../img/partners-block3.png);
+
     
 }
 .partners-block4{
@@ -59,7 +57,7 @@ color: #FFFFFF;
     height: 79.23px;
     left: 273px;
     top: 11666px;
-    background: url(../img/partners-block4.png);
+
     
 }
 .partners-block5{
@@ -68,5 +66,95 @@ color: #FFFFFF;
     height: 138.21px;
     left: 324px;
     top: 11854px;
-    background: url(../img/partners-block5.png);
+
+}
+
+@media(min-width: 1920px) {
+}
+@media(min-width: 1620px) and (max-width: 1919px) {
+    .partners{
+        height: 1370px;
+        width: 100vw;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: bottom 30% right 0%;
+        background-size: cover;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    .partners-title{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 184px;
+    top: 9999px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    }
+    .partners-block1{
+        position: absolute;
+        width: 1377.09px;
+        height: 139.97px;
+        left: 184px;
+        top: 10200px;
+    }
+    .partners-block2{
+        position: absolute;
+        width: 1329.56px;
+        height: 176.94px;
+        left: 184px;
+        top: 10380px;
+    }
+    .partners-block3{
+        position: absolute;
+        width: 1429.03px;
+        height: 169.02px;
+        left: 184px;
+        top: 10590px;     
+    }
+    .partners-block4{
+        position: absolute;
+        width: 1410.54px;
+        height: 79.23px;
+        left: 184px;
+        top: 10810px;       
+    }
+    .partners-block5{
+        position: absolute;
+        width: 1340.12px;
+        height: 138.21px;
+        left: 230px;
+        top: 10990px;
+    }
+    .partners-block1 img{
+        width: 92%;
+        height: 92%;
+    }
+    .partners-block2 img{
+        width: 92%;
+        height: 92%;
+    }
+    .partners-block3 img{
+        width: 92%;
+        height: 92%;
+    }
+    .partners-block4 img{
+        width: 92%;
+        height: 92%; 
+    }
+    .partners-block5 img{
+        width: 92%;
+        height: 92%;
+    }
 }

@@ -185,7 +185,7 @@
     width: 100%;
     height: 100%;  
 }
-@media(max-height: 900px){
+/* @media(max-height: 900px){
     .p1-bottle-position{
         height: 600px !important;
     }
@@ -339,7 +339,7 @@
     .p1_layout_1 {
         background-position: center center;
         /* background-size: auto; */
-    }
+/*     }
     .response_screen{
         max-width: 1200px;
         margin: 0 auto;
@@ -419,13 +419,139 @@
         width: 265px;
         height: 865px;
     }  
-}
-@media(min-width: 1700px) and (orientation: landscape) {
+}  */
+@media(min-width: 1919px){
+
     .p1-water-position{
-        right: 0px;
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        right: 5px;
+        top: 0px;
     }
     .p1-bottle-position{
-        right: 670px;
-        bottom: 50px;
+        position: absolute;
+        width: 263.72px;
+        height: 865.64px;
+        left: 1020.52px;
+        top: 157.39px;
     }  
+    .p1-positionDesktopScrollEffect {
+        position: absolute;
+        width: 27.25px;
+        height: 158.84px;
+        margin-left: 240px;
+        margin-top: 620px;
+    }
+    .p1-desktopScrollEffectBlock{
+        height: 44.27px;
+    }
+    .p1-description-items {
+        max-width: 500px;
+        margin-top: 410px;
+        margin-left: 400px;
+    }
+    .p1-description-items p{
+               
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .p1-headerBlock{
+        position: absolute;
+        width: 463px;
+        height: 118px;
+        left: 80.71px;
+        top: 110px;
+       }
+    .p1-h1{
+        position: absolute;
+width: 463px;
+height: 118px;
+left: 350.71px;
+bottom: 50px;
+
+font-family: Maven Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 117px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+    .d-lg-none{
+
+    }
 }
+@media(min-width: 1620px) and (max-width: 1919px) {
+    .p1-fire{
+        position: absolute;
+        width: 1619.62px;
+        height: 911.04px;
+
+        top: 0px;
+    }
+    .p1-water-position{
+        width: 1620px;
+        height: 907.07px;
+        left: 0px;
+        top: 4.22px;
+    }
+    .p1-bottle-position{
+        position: absolute;
+        width: 222.46px;
+        height: 730.21px;
+        left: 860.48px;
+        top: 132.77px;
+    }  
+    .p1-positionDesktopScrollEffect {
+        position: absolute;
+        width: 27.25px;
+        height: 158.84px;
+        margin-left: 515px;
+        margin-top: 50px;
+    }
+    .p1-desktopScrollEffectBlock{
+        height: 44.27px;
+    }
+    .p1-description-items {
+        max-width: 500px;
+        margin-top: 410px;
+        margin-left: 320px;
+    }
+    .p1-description-items p{
+               
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .p1-headerBlock{
+        position: absolute;
+        width: 463px;
+        height: 118px;
+        left: 80.71px;
+        top: 110px;
+       }
+    .p1-h1{
+        position: absolute;
+width: 463px;
+height: 118px;
+left: 265.71px;
+bottom: 50px;
+
+font-family: Maven Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 117px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+    .d-lg-none{
+
+    }
+}
+
+

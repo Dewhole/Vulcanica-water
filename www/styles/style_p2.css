@@ -486,13 +486,30 @@
         line-height: 1.5;
     }
     .subTextTwoScreen{
-        margin-top: 100px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 45px;
+/* or 129% */
+
+
+/* черный текст */
+
+color: #1B1B1B;
     }
     .subTextTwoScreen p {
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 500;
-        max-width: 350px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 45px;
+        /* or 129% */
+        
+        
+        /* черный текст */
+        
+        color: #1B1B1B;
     }
     .itemTextUnderBTNTablet{
         font-size: 22px;
@@ -523,23 +540,50 @@
         font-weight: 500;
     }
 }
-@media (min-width: 1600px){
+@media(min-width: 1920px) {
+}
+@media(min-width: 1620px) and (max-width: 1919px) {
     .headerTwoScreen {
         width: 1000px;
-        margin-top: 100px;
+        margin-top: 74.74px;        
+        margin-left: 177.15px;
+        
     }
     .headerTwoScreen h2{
         font-size: 45px;
         line-height: 1.5;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 54px;
+        /* or 142% */
+
+text-transform: uppercase;
     }
     .subTextTwoScreen{
-        margin-top: 220px;
+        margin-left: 200px;
+        margin-top: 200px;
         width: 500px;
     }
     .subTextTwoScreen p {
-        font-size: 28px;
-        line-height: 1.5;
-        font-weight: 500;
+        position: absolute;
+        width: 415.87px;
+        height: 75.92px;
+        left: 177.15px;
+        top: 336.58px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 38px;
+        /* or 127% */
+        
+        
+        /* черный текст */
+        
+        color: #1B1B1B;
     }
     .itemTextUnderBTNTablet{
         font-size: 30px;

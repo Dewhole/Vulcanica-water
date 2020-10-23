@@ -65,8 +65,9 @@ color: #FFFFFF;
 }
 a:hover {
     color: #FFFFFF;
-.Si{
-
+}
+.Si img{
+    
     }
 .Mg{
 
@@ -77,3 +78,71 @@ a:hover {
 .F{
 
     }
+
+   
+@media(min-width: 1920px) {
+
+
+}
+@media(min-width: 1619px) and (max-width: 1919px) {
+    .Si {
+        
+        }
+    .Mg {
+    margin-left: 78px;        
+        }
+    .Ca {
+
+        }
+    .F {
+        margin-left: 78px;        
+        }   
+    .Si img{
+        width: 95%;
+        height: 95%;
+        }
+    .Mg img{
+        width: 95%;
+        height: 95%;
+        
+        }
+    .Ca img{
+        width: 95%;
+        height: 95%;
+        }
+    .F img{
+        width: 95%;
+        height: 95%;
+        }   
+    .minerals {
+        margin-left: 210px;
+        width: 700px;
+        height: 700px;
+    }
+    .minerals2{
+
+        margin-top: 61px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .minerals-box_link{
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    .onwater{
+
+        margin-top: 36px;
+        margin-left: 950px;
+    }
+    .bottle img{
+
+        width: 90%;
+        height: 90%;
+    }
+    .bottle{
+
+        position: relative;
+        margin-left: 700px;
+        top: 000px;
+    }
+}

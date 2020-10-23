@@ -81,6 +81,7 @@ form.p7-offer {
     cursor: pointer;
     height: 0;
     width: 0;
+    
 }
 .p7-offer .checkOfer > .checkmark {
     position: absolute;
@@ -170,6 +171,123 @@ form.p7-offer {
 .themeMailFormOfer .themeSelectOptions .themeOptionValue:hover{
     font-weight: bold;    
 }
+
+@media(min-width: 1620px) and (max-width: 1919px) {
+    .background-p7 {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    .box-container_p7 {
+        align-items: center;
+    }
+    .p7-h1 {
+        position: absolute;
+        width: 700px;
+        height: 220px;
+        left: 219px;
+        top: 180px;
+   
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+    .p7-h2 {
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+    }
+    .p7-h1 {
+        margin-bottom: 30px;
+    }
+    .p7-h2 {
+        margin-bottom: 14px;
+    }
+    .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea {
+        margin: 6px 0;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .p7-offer select { height: 40px; }
+    .p7-offer textarea { min-height: 130px; }
+    .labelSubmit {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .p7-offer label {
+        font-size: 16px;
+    }
+    .checkOfer {
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 230px;     
+        margin-top: 20px;   
+    }
+    #nameMailFormOfer{
+        height: 60px;
+        margin-top: 25.67px;  
+
+
+    }
+    #phoneMailFormOfer{
+        height: 60px;
+        margin-top: 20px; 
+
+   }
+   #emailMailFormOfer{
+    height: 60px;
+    margin-top: 20px; 
+   }
+    .themeMailFormOfer{
+        margin: 8px 0;
+        height: 60px;
+        font-size: 16px;
+        padding: 0 10px; 
+        margin-top: 20px;
+        margin-bottom: 10;
+    }
+    .textarea{
+        height: 180px;
+    }
+    .box_img {
+        margin-left: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .p7-block3 {
+        display: flex;
+        align-items: center;
+    }
+    .p7-block3 img {
+        width: 35vw;
+    }
+    .p7-offer .submitOffer {
+        width: 220px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .p7-block1{
+        position: absolute;
+        height: 638px;
+        left: 900px;
+        top: 60px;
+    }
+    
+}
+
 
 /*mobile and loptop*/
 /* @media (min-width: 320px) and (min-height: 300px) {
