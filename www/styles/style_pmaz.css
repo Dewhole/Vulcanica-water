@@ -175,7 +175,7 @@ color: #FFFFFF;
 
     .gradient-maz1{
         position: absolute;
-        width: 1920px;
+        max-width: 1620px;
         height: 1080px;
         left: 0px;
         top: 8398px;
@@ -187,7 +187,7 @@ color: #FFFFFF;
     .gradient-maz2{
         background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
         position: absolute;
-    width: 1620px;
+    max-width: 1620px;
     height: 911px;
     left: 0px;
     top: 8398px;
@@ -196,7 +196,7 @@ color: #FFFFFF;
     mix-blend-mode: darken;
     }
     .gradient-maz3{
-    width: 1620px;
+    max-width: 1620px;
     height: 1080px;
     left: 0px;
     top: 9136px;
@@ -206,7 +206,7 @@ color: #FFFFFF;
     }
     .gradient-maz3{
         position: absolute;
-        width: 1920px;
+        max-width: 1620px;
         height: 1080px;
         left: 0px;
         top: 8398px;
