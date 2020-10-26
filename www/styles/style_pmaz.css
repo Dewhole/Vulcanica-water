@@ -16,7 +16,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 width: 1920px;
 height: 1080px;
 left: 0px;
-top: 9057px;
+top: 9163px;
 
 background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
 mix-blend-mode: darken;
@@ -57,7 +57,7 @@ mix-blend-mode: darken;
     height: 336px;
     left: 95px;
     top: 9401px;
-    background-image: url(../img/maz-bottle.svg);
+
 }
 .text-on-maz{
         position: absolute;
@@ -157,7 +157,7 @@ color: #FFFFFF;
     height: 493px;
     left: 233px;
     top: 10182px;
-    background: url(../img/left-pallet.png);
+
 }
 .right-pallet{
     position: absolute;
@@ -165,7 +165,7 @@ color: #FFFFFF;
     height: 493px;
     left: 1112px;
     top: 10182px;
-    background: url(../img/right-pallet.png);
+
 }
 
 @media(min-width: 1920px) {
@@ -190,7 +190,7 @@ color: #FFFFFF;
     max-width: 1620px;
     height: 911px;
     left: 0px;
-    top: 8398px;
+    top: 8421px;
     
     background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
     mix-blend-mode: darken;
@@ -209,7 +209,7 @@ color: #FFFFFF;
         max-width: 1620px;
         height: 1080px;
         left: 0px;
-        top: 8398px;
+        top: 898px;
         
         background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
         mix-blend-mode: darken;
@@ -359,4 +359,201 @@ color: #FFFFFF;
         background: url(../img/right-pallet.png);
     }
     
+}
+@media(min-width: 1199px) and (max-width: 1619px) {
+
+    .gradient-maz1{
+        position: absolute;
+        max-width: 1200px;
+        height: 675px;
+        left: 0px;
+        top: 5740px;
+        
+        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .gradient-maz2{
+        background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+        position: absolute;
+        max-width: 1200px;
+        height: 675px;
+    left: 0px;
+    top: 5742px;
+    
+    background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    mix-blend-mode: darken;
+    }
+    .gradient-maz3{
+        max-width: 1200px;
+        height: 675px;
+    left: 0px;
+    top: 5740px;
+    
+    background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    mix-blend-mode: darken;
+    }
+    .gradient-maz3{
+        position: absolute;
+        max-width: 1200px;
+        height: 675px;
+        left: 0px;
+        top: 5740px;
+        
+        background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+        mix-blend-mode: darken;
+        }
+    .background-maz{
+        height: 100%;
+        max-width: 1200px;
+     
+        background-repeat: no-repeat;
+        background-position: bottom 30% right 0%;
+        background-size: cover;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-image: url(../img/maz.png);
+    }
+    .maz-bottle{
+        position: absolute;
+        width: 102px;
+        height: 336px;
+        left: 60px;
+        top: 5921px;
+
+    }
+    .maz-bottle img{
+        width: 63.77px;
+        height: 210.06px;
+    }
+    .text-on-maz{
+            position: absolute;
+            width: 832.71px;
+            height: 198.23px;
+        left: 150.27px;
+        top: 5960.27px;
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 125.035px;
+        line-height: 147px;
+        /* identical to box height */
+        
+        
+        color: #494949;
+        
+        transform: rotate(-0.03deg);
+        
+        
+        color: #494949;
+        
+        transform: rotate(-0.03deg);
+    }
+    .text-maz{
+        position: absolute;
+        width: 525.39px;
+        height: 100.03px;
+        left: 500px;
+        top: 5800px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #FFFFFF;
+    }
+    .blackline-maz{
+        background-color: black;
+        height: 200px;
+    }
+    .maz-left-block{
+        position: absolute;
+        width: 625px;
+        height: 443px;
+        left: 130px;
+        top: 5938px;        
+    }
+    .maz-left-block img{
+        width: 70%;
+        height: 70%;
+    }
+    .maz-right-block{
+        position: absolute;
+        width: 608px;
+        height: 382px;
+        left: 680px;
+        top: 5978px;
+    }
+    .maz-right-block img{
+        width: 70%;
+        height: 70%;
+
+    }
+    .text-under-maz-block1{
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        left: 133px;
+        top: 6320px;
+    
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    }
+    .text-under-maz-block2{
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        left: 679px;
+        top: 6320px;
+        
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .blackline-maz-bot{
+        height: 79px;
+        background-color: black;
+    }
+    .pallets{
+        height: 520px;
+        background-color: black;
+    }
+    .left-pallet{
+        position: absolute;
+        left: 113px;
+        top: 6402px;
+
+    }
+    .right-pallet{
+        position: absolute;
+        left: 679px;
+        top: 6402px;
+
+    }
+
+    .left-pallet img{
+        width: 70%;
+        height: 70%;
+    }
+    .right-pallet img{
+        width: 70%;
+        height: 70%;
+    }
 }

@@ -1,6 +1,17 @@
 
 .background-p55 {
+    height: 100vh;
+    width: 100vw;
     background: url(../img/background_page5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-size: cover; 
 }
 .background-p5{
     height: 100vh;
@@ -212,34 +223,6 @@
 
 @media(min-width: 1920px) {
     .title-left-block_p5 {
-        max-width: 600px;
-        top: 15vh;
-        padding-left: 120px;
-        position: absolute;
-        white-space: nowrap;
-
-        font-style: normal;
-        font-weight: bold;
-        font-size: 38px;
-        line-height: 46px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-    .tourists-title_p5{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 26px;
-        line-height: 34px;
-        /* or 130% */    
-        color: #FFFFFF;        
-        margin: 200px;
-        margin-top: 520px;
-        }
-} 
-
-@media(min-width: 1619px) and (max-width: 1919px) {
-    .title-left-block_p5 {
         min-width: 400px;
         top: 25vh;
         padding-left: 120px;
@@ -249,8 +232,8 @@
 
         font-style: normal;
         font-weight: bold;
-        font-size: 38px;
-        line-height: 46px;
+        font-size: 45px;
+        line-height: 55px;
         text-transform: uppercase;
 
         color: #FFFFFF;
@@ -273,3 +256,218 @@
         white-space: nowrap
     }
 } 
+
+@media(min-width: 1619px) and (max-width: 1919px) {
+    .background-p55 {
+        max-width: 1620px;
+        background: url(../img/background_page5.jpg);
+
+        overflow: hidden;
+
+    }
+    .title-left-block_p5 {
+            min-width: 400px;
+            top: 25vh;
+            padding-left: 120px;
+            position: absolute;
+            white-space: nowrap;
+    
+    
+            font-style: normal;
+            font-weight: bold;
+            font-size: 38px;
+            line-height: 46px;
+            text-transform: uppercase;
+    
+            color: #FFFFFF;
+    
+    }
+    .tourists-title_p5{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 34px;
+        /* or 130% */
+        
+        
+        color: #FFFFFF;        
+    margin: 200px;
+    margin-top: 650px;
+    
+    }
+    .p{
+        white-space: nowrap
+    }
+    .blu_green {
+        width: 250px;
+        height: 54px;
+        left: px;
+        top: 77.99px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        text-transform: uppercase;
+        
+    }
+} 
+
+@media(min-width: 1119px) and (max-width: 1619px){
+
+    .blu_green {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 32px;
+        text-transform: uppercase;
+        
+    }
+    .title-left-block_p5 {
+        min-width: 400px;
+        top: 10vh;
+        padding-left: 50px;
+        position: absolute;
+        white-space: nowrap;
+
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    .tourists-title_p5{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        /* or 130% */
+        
+        
+        color: #FFFFFF;        
+    margin: 130px;
+    margin-top: 350px;
+    
+    }
+    .blu_green {
+        width: 250px;
+        height: 54px;
+        left: px;
+        top: 77.99px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        text-transform: uppercase;
+        
+    }
+}
+@media(min-width: 768px) and (max-width: 768px){
+
+    .blu_green {
+        
+        width: 250px;
+        height: 54px;
+        left: px;
+        top: 77.99px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: linear-gradient(90deg, #45C2EA 6.95%, #4FF44B 79.87%);
+    }
+    .title-left-block_m_p5 {
+        position: absolute;
+        width: 341px;
+        height: 135px;
+        left: 30px;
+        top: 90px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        
+    }
+    .p{
+        white-space: nowrap
+    }
+    
+.background-p55 {
+    height: 434px;
+    width: 768px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+.background-p5{
+    height: 434px;
+    width: 768px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+    background: url(../img/noob4top.png);
+
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-size: contain; 
+    
+    }
+    .gradient{
+        height: 434px;
+        width: 768px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        
+        background: url(../img/noob4.png);
+    
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-size: contain; 
+        
+    }
+    .tourists-title_m_p5{
+        position: absolute;
+        width: 341px;
+        height: 135px;
+        left: 30px;
+        top: 150px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        
+    }
+}

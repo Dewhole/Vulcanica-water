@@ -146,3 +146,88 @@ a:hover {
         top: 000px;
     }
 }
+@media(min-width: 1199px) and (max-width: 1619px) {
+    .Si {
+        
+        }
+    .Mg {
+    margin-left: 50px;        
+        }
+    .Ca {
+
+        }
+    .F {
+        margin-left: 50px;        
+        }   
+    .Si img{
+        width: 85%;
+        height: 85%;
+        }
+    .Mg img{
+        width: 85%;
+        height: 85%;
+        
+        }
+    .Ca img{
+        width: 85%;
+        height: 85%;
+        }
+    .F img{
+        width: 85%;
+        height: 85%;
+        }   
+    .minerals {
+
+        margin-left: 130px;
+        width: 550px;
+        height: 550px;
+    }
+    .minerals2{
+
+        margin-top: 61px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .minerals-box_link{
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    .onwater{
+        margin-top: 36px;
+        margin-left: 760px;
+    }
+    .onwater img{
+        width: 266.32px;
+        height: 85.02px;
+    }
+    .bottle img{
+
+        width: 595.17px;
+        height: 646.43px;
+    }
+    .bottle{
+
+        position: relative;
+        margin-left: 570px;
+        top: 000px;
+    }
+    .mineral-link{
+
+        left: 213px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 146% */
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        color: #FFFFFF;
+        -webkit-text-decoration: underline #FFFFFF;
+                text-decoration: underline #FFFFFF;
+        }
+        .minerals-box_link{
+            position: absolute;
+             top: 450px;     
+        }
+}

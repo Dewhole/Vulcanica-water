@@ -75,6 +75,7 @@
     padding-bottom: 0;
 }
 .link a  {
+
     color: #8DE0DC;
     -webkit-text-decoration: underline #8DE0DC;
             text-decoration: underline #8DE0DC;
@@ -328,15 +329,16 @@
         top: 1.5rem;
     }
     .link a {
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 22px;
     }
     .box_table {
         margin-bottom: 0;
         margin-left: 9rem;
     }
     .box_link {
-        margin-top: 3rem;
-        margin-left: 3rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     .box_futer {
         -webkit-box-orient: horizontal;

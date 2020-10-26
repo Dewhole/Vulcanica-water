@@ -595,3 +595,172 @@ text-transform: uppercase;
         text-align: center;      
     }
 }
+@media(min-width: 1119px) and (max-width: 1619px) {
+    .headerTwoScreen {
+        width: 1000px;
+        margin-top: 60.74px;        
+        margin-left: 140.15px;
+        
+    }
+    .headerTwoScreen h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 40px;
+        /* or 154% */
+        
+        text-transform: uppercase;
+        
+
+    }
+    .subTextTwoScreen{
+        margin-left: 200px;
+        margin-top: 200px;
+        width: 500px;
+    }
+    .subTextTwoScreen p {
+        position: absolute;
+        width: 308.21px;
+        height: 56.27px;
+        left: 140.29px;
+        top: 249.44px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 141% */
+        
+        
+        /* черный текст */
+        
+        color: #1B1B1B;
+    }
+    .itemTextUnderBTNTablet{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .hr-itemTextUnderBTNTablet{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        /* or 156% */
+
+
+        color: #FFFFFF;   
+    }
+}
+@media (min-width: 768px) and (max-width:768px){
+    .headerTwoScreen {
+        width: 500px;
+        margin-top: 120px;
+    }
+    .headerTwoScreen h2{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .subTextTwoScreen{
+        margin-top: 50px;
+        width: 300px
+    }
+    .subTextTwoScreen p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 600;
+        color: black !important;
+    }
+    .navigationTwoScreen {
+        margin-right: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .textUnderButton_p2 {
+        display: none;
+    }
+    .posRelativ{
+        width: 100%;
+    }
+    .bottomTabletBlock{
+        height: 260px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+
+    }
+    .layoutsAbsolute{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .textUnderBTNTablet{
+        display: block;
+        margin-top: 20px;
+    }
+    .itemTextUnderBTNTablet{
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 64px;
+        color: white;
+    }
+    .hrLine{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /* justify-content: center; */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .blockTextSectionHR{
+        height: 100px;
+        width: 100%;
+        border-top: 2px solid white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .hr-itemTextUnderBTNTablet {
+        font-size: 20px;
+        line-height: 40px;
+        color: white;
+    }
+}
