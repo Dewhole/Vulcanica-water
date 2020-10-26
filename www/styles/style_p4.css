@@ -464,7 +464,7 @@
     }
 }
 
-@media (min-width: 1680px) and (min-height: 560px) {
+@media (min-width: 1619px) and (min-height: 560px) {
     .h1 {
         font-size: 35px;
     }
@@ -474,7 +474,7 @@
     .title_p4{
         padding-left: 130px;
         max-width: 700px;
-        top:15vh;
+        top:20vh;
     }
     .subtitle_p4 {
         padding-left: 130px;

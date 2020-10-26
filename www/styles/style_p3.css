@@ -769,7 +769,7 @@ line-height: 17px;
         display: flex;
     }
 }
-@media(min-width: 768px) and (max-height: 1024px) {
+@media(min-width: 768px) and (max-width: 1199px) {
     .page3{
         max-height: 730px;
     }

@@ -251,3 +251,92 @@ left: 1127px;
     
     }
 }
+@media(min-width: 767px) and (max-width: 1199px) {
+    .allpages{
+        max-width: 768px;
+        overflow: hidden;
+    }
+    .icone{
+        position: relative;
+
+        left: 150px;
+        top: 60px;
+    }
+    .icone img{
+        width: 89.4px;
+        height: 89.4px;
+    }
+    .footer-block{
+     
+        display: flex;
+        background-color: black;
+        max-width:1200px;
+        height:360px;
+     
+        
+    }
+    .adress{
+     
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height, or 146% */
+        
+        
+        color: #FFFFFF;
+    }
+    .adress-text{
+        margin-top: 15px;
+        width: 598px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 175% */
+        
+        
+        color: #FFFFFF;
+    }
+    .contacts{
+        margin-top: 39px;
+    
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        /* identical to box height, or 205% */
+        
+        
+        color: #FFFFFF;
+    }
+    .left-text{
+        margin-left: 140px;
+        margin-top: 27px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .copyright{
+        margin-top: 67px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 205% */
+    
+    
+    color: #FFFFFF;
+    }
+    .right-text{
+        position: absolute;
+    left: 700px;
+    
+    }
+}

@@ -617,18 +617,18 @@ color: #FFFFFF;
 @media(min-width: 767px) and (max-width: 1199px) {
     .text-after-video{
         position: absolute;;
-        top: 4580px;
-        width: 892px;
-        height: 160px;
+        top: 4750px;
+        width: 653px;
+        height: 180px;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         }
     .text-after-video-area{
         position: absolute;
-        right: 1500px;
+        right: 1145px;
         top: 1px;
-        max-width: 1200px;
+        max-width: 768px;
         background-color: white;
         }
         .blackline-ftervideo{
@@ -639,17 +639,17 @@ color: #FFFFFF;
         }
         .videoblock{
             position: absolute;
-            width: 553.28px;
-            height: 323.21px;
-            left: 500px;
-            top: 3880px;
+            width: 431px;
+            height: 251.78px;
+            left: 300px;
+            top: 4150px;
             
 
         
         }
         .video{
             position: absolute;
-            width: 431px;
+            width: 440px;
             height: 251.78px;
             left: 0px;
             top: 0px;
@@ -660,13 +660,13 @@ color: #FFFFFF;
         }
         .textnearvideo{
             position: absolute;
-            width: 343.85px;
-            height: 138.79px;
-            right: 580px;
-            top: 3880px.17px;
+            width: 202px;
+            height: 89px;
+            right: 480px;
+            top: -80px;
             font-weight: 500;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 14px;
+            line-height: 18px;
         }
         .background-p66{
             height: 434px;
@@ -769,8 +769,8 @@ color: #FFFFFF;
             position: absolute;
 
 
-            left: 200px;
-            top: 4100px;
+            left: 210px;
+            top: 4070px;
             width: 507px;
             height: 292px;
 
@@ -795,7 +795,15 @@ color: #FFFFFF;
             background: black;
         }
         .p6-textWater-scientist{
-
+            width: 507px;
+            height: 120px;
+            font-size: 14px;
+            line-height: 18px;
         }
+        #screenID6{
+            height: 720px;
+            background-color: black;
+        }
+        
 }
 
