@@ -759,3 +759,207 @@ color: #FFFFFF;
         height: 228.06px;
     }
 }
+@media(min-width: 375px) and (max-width: 767px) {
+
+    .gradient-maz1{
+        position: absolute;
+        width: 375px;
+        height: 755px;
+        left: 0px;
+        top: 5671px;
+        
+        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+        background: linear-gradient(365.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .gradient-maz2{
+        background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+        position: absolute;
+        width: 375px;
+        height: 355px;
+    left: 0px;
+    top: 5830px;
+    
+    background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    mix-blend-mode: darken;
+    }
+    .gradient-maz3{
+        width: 375px;
+        height: 355px;
+    left: 0px;
+    top: 5671px;
+    background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    mix-blend-mode: darken;
+    }
+    .gradient-maz3{
+        position: absolute;
+        width: 375px;
+        height: 355px;
+        left: 0px;
+        top: 5940px;
+        
+        background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+        mix-blend-mode: darken;
+        }
+    .background-maz{
+        height: 434px;
+        width: 375px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        
+        background-position-x: -430px;
+    
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+
+        background-image: url(../img/maz.png);
+    }
+    .maz-bottle{
+        position: absolute;
+        width: 102px;
+        height: 336px;
+        left: 60px;
+        top: 5721px;
+
+    }
+    .maz-bottle img{
+        width: 0px;
+        height: 134.4px;
+    }
+    .text-on-maz{
+            position: absolute;
+            width: 832.71px;
+            height: 198.23px;
+        left: -170.27px;
+        top: 5875.27px;
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 94px;
+        /* identical to box height */
+        overflow: hidden;
+        
+        
+        color: #494949;
+        
+        transform: rotate(-0.03deg);
+        
+        
+        color: #494949;
+        
+        transform: rotate(-0.03deg);
+    }
+    .text-maz{
+        position: absolute;
+        width: 302px;
+        height: 136px;
+        left: 28px;
+        top: 5680px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #FFFFFF;
+    }
+    .blackline-maz{
+        background-color: black;
+        height: 200px;
+    }
+    .maz-left-block{
+        position: absolute;
+        width: 625px;
+        height: 443px;
+        left: 30px;
+        top: 5858px;        
+    }
+    .maz-left-block img{
+        width: 286px;
+        height: 193px;
+    }
+    .maz-right-block{
+        position: absolute;
+        width: 608px;
+        height: 382px;
+        left: 40px;
+        top: 6448px;   
+    }
+    .maz-right-block img{
+        width: 288.31px;
+        height: 194.69px;
+
+    }
+    .text-under-maz-block1{
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        left: 30px;
+        top: 6090px;
+    
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    }
+    .text-under-maz-block2{
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        left: 30px;
+        top: 6690px;
+        
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .blackline-maz-bot{
+        height: 79px;
+        background-color: black;
+    }
+    .pallets{
+        height: 220px;
+        background-color: black;
+    }
+    .left-pallet{
+        position: absolute;
+        left: 70px;
+        top: 6152px;
+
+    }
+    .right-pallet{
+        position: absolute;
+        left: 70px;
+        top: 6752px;
+
+    }
+
+    .left-pallet img{
+        width: 270.35px;
+        height: 228.06px;
+    }
+    .right-pallet img{
+        width: 270.35px;
+        height: 228.06px;
+    }
+}

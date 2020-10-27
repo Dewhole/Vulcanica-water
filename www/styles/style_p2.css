@@ -764,3 +764,116 @@ text-transform: uppercase;
         color: white;
     }
 }
+@media (min-width: 375px) and (max-width: 767px){
+    .blackline{
+        max-height: 0px;
+    }
+    .headerTwoScreen {
+        width: 500px;
+        margin-top: 120px;
+    }
+    .headerTwoScreen h2{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .subTextTwoScreen{
+        margin-top: 50px;
+        width: 300px
+    }
+    .subTextTwoScreen p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 600;
+        color: black !important;
+    }
+    .navigationTwoScreen {
+        margin-right: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .textUnderButton_p2 {
+        display: none;
+    }
+    .posRelativ{
+        width: 100%;
+    }
+    .bottomTabletBlock{
+        height: 260px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+
+    }
+    .layoutsAbsolute{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .textUnderBTNTablet{
+        display: block;
+        margin-top: 20px;
+    }
+    .itemTextUnderBTNTablet{
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 64px;
+        color: white;
+    }
+    .hrLine{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        /* justify-content: center; */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .blockTextSectionHR{
+        height: 100px;
+        width: 100%;
+        border-top: 2px solid white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .hr-itemTextUnderBTNTablet {
+        font-size: 20px;
+        line-height: 40px;
+        color: white;
+    }
+}

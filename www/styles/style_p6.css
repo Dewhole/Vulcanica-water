@@ -806,4 +806,199 @@ color: #FFFFFF;
         }
         
 }
+@media(min-width: 375px) and (max-width: 767px) {
+    .text-after-video{
+        position: absolute;;
+        top: 4510px;
+        left: -180px;
+        width: 311px;
+        height: 270px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        }
+    .text-after-video-area{
+        position: absolute;
+        right:px;
+        top: 1px;
+        max-width: 375px;
+        background-color: white;
+        }
+        .blackline-ftervideo{
+        max-width: 1200px;
+        }
+        .page6{
+                    
+        }
+        .videoblock{
+            position: absolute;
+            width: 375px;
+            height: 251.78px;
+            left: 30px;
+            top: 3970px;
+            
+
+        
+        }
+        .video{
+            position: absolute;
+            width: 315px;
+            height: 184.02px;
+            left: 0px;
+            top: 0px;
+            
+            border: 4.87006px solid #9B0805;
+            box-sizing: border-box;
+            border-radius: 4.87006px;
+        }
+        .textnearvideo{
+            position: absolute;
+            width: 233px;
+            height: 89px;
+            right: 100px;
+            top: -230px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        .background-p66{
+            height: 604.9999389648438px;
+            width: 376px;
+            
+            
+            background-color: BLACK;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden;
+
+
+
+        }
+        
+        .background-p6{ 
+            
+     
+        }
+        .p6-container-spec{
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+        .p6-header78{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+        }
+        .p6-h1{
+            position: absolute;
+  
+            width: 229px;
+            height: 51px;
+            top: 3520px;
+            left: 30px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+        }
+        .p6-grad-blue-green{
+
+        }
+        .p6-img-scientistPosition{
+            position: absolute;
+            left: 30px;
+            top: 3670px;
+        }
+        .p6-img-scientist{
+            width: 86px;
+            height: 114px;
+        }
+        .p6-imgAndText{
+
+        }
+        .p6-imgText{
+            position: absolute;
+            left: 140px;
+            top: 3670px;
+        }
+        .p6-headImgText{
+            width: 175px;
+            height: 45px;        
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            
+            color: #FFFFFF;
+        }
+        .p6-title-block{
+            position: absolute;
+            width: 113px;
+            height: 45px;
+            left: 0px;
+            top: 65px;
+ 
+            font-size: 12px;
+            line-height: 15px;
+        }
+        .p6-text-bold-header{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 20px;
+            /* or 143% */
+            
+            text-transform: uppercase;
+            
+            color: #FFFFFF;
+        }
+        .p6-legacytext{
+            position: absolute;
+
+
+            left: 35px;
+            top: 3770px;
+            width: 507px;
+            height: 292px;
+
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            /* or 129% */
+
+
+            color: #FFFFFF;
+
+          
+        }
+        .p6-block1{
+            
+        }
+        .blackline66{
+            height: 200px;
+            background: black;
+        }
+        .p6-textWater-scientist{
+            width: 298px;
+            height: 150px;
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: 500;
+        }
+        #screenID6{
+            height: 1030px;
+            background-color: black;
+        }
+        
+}
 

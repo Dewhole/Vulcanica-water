@@ -274,6 +274,7 @@
     .font_minerals {
         font-size: 14px;
     }
+
 }
 @media (min-width:768px) and (min-height:900px) {
     .content_box {
@@ -300,7 +301,11 @@
         font-size: 18px;
     }
     .link a {
-        font-size: 22px;
+        font-weight: 500;
+    }
+    .footer-link{
+        width: 400px;
+height: 15px;
     }
     .table_tytle {
         font-size: 18px;
@@ -320,6 +325,7 @@
     .box_table {
         margin-bottom: 5rem;
     }
+
 }
 
 /*desktop*/
@@ -353,6 +359,10 @@
         margin-top: 1rem;
         font-size: 16px;
         margin-bottom: 0;
+    }
+    .footer-link{
+        width: 400px;
+height: 15px;
     }
 }
 @media (min-width:1440px) and (orientation: landscape) and (min-height:600px) {
@@ -394,9 +404,17 @@
         margin-top: 5rem;
         margin-left: 3rem;
     }
+    .footer-link{
+        width: 400px;
+height: 25px;
+    }
 }
 @media (min-width:1440px) and (orientation: landscape) {
     .box_table {
         margin-top: 8rem;
+    }
+    .footer-link{
+        width: 400px;
+height: 25px;
     }
 }

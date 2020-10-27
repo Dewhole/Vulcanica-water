@@ -495,11 +495,21 @@
 @media(min-width: 1920px) {
 }
 @media(min-width: 768px) and (max-width: 1199px) {
-    .map_m{
-    left: 10px;
-    bottom: 100px;
+    .background-p4 {
+        width: 768px;
+        height: 432px;
+        background: url(../img/background_page4.png);
+    
+
+        background-size: cover;
     }
-    .map_m img{
+    
+    .map_m{
+        
+    left: 10px;
+    bottom: 80px;
+    }
+    .map_m img{        
         height: 450px;
     }
     .subtitle_p4_m {
@@ -546,5 +556,37 @@
         height: 600px;
     }
 }
-
-
+@media(min-width: 375px) and (max-width: 767px) {
+    .title_p4_m{
+        margin-top: 60px;
+    }
+    .subtitle_p4_m{
+        width: 200px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 100px;
+    }
+    .distance_m{
+        position: absolute;
+        top: 400px;
+    }
+    .my-0{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .map_m{
+        
+        left: 20px;
+        bottom: 1px;
+        }
+    .map_m img{        
+        width: 380px;
+        height: px;
+    }
+    .page4{
+        max-height: 730px;
+    }
+}

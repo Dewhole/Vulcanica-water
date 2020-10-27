@@ -922,6 +922,163 @@ left: 214px;
 top: 642px;
     }
 }
+@media(min-width: 375px) and (max-width: 767px) {
+    .page3{
+        max-height: 560px;
+    }
+    .background_p3{
+        width: 375px;
+        max-height: px;
+        left: -326px;
+        top: 0px;
+
+    }
+    
+    .background_p33{
+
+        background-image: url(../img/background-p3.png);
+        background-color: BLACK;
+        background-repeat: no-repeat;
+        background-position-y: 200px;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-size: contain;
+
+        
+    }
+    .minerals_m_p3{
+        position: absolute;
+        width: 260.17px;
+        height: 267px;
+        left: 30px;
+        top: 245px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .balance-title_m_p3{
+        position: absolute;
+        width: 228px;
+        height: 40px;
+        left: 30px;
+        top: 200px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .title-left-block_m_p3 h1{
+        position: absolute;
+  
+        left: 30px;
+        top: 87px;
+
+
+        font-size: 10px;
+        line-height: 10px;
+
+    }
+    .blu_green h1{
+        width: 134px;
+        height: 54px;
+        left: 30px;
+        top: 141px;
+        font-size: 10px;
+        line-height: 10px;   
+    }
+    .box-container-mobile_p3{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .span{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .box-container-mobile_p3 h1{
+        font-size: 22px;
+        line-height: 27px;
+        
+    }
+    .blu_green{
+        
+        font-size: 10px;
+        line-height: 10px;     
+    }
+    .box-container-mobile_p3 h1{
+        position: absolute;
+        width: 195px;
+        height: 54px;
+        left: 30px;
+        top: 100px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        
+    }
+    .bottle_p3 img{
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        width: 0px;
+
+    }
+    .bottle_p3 img {
+
+        margin-bottom: 178.1px;
+        z-index: 100;
+        
+    }
+    .ph-title_m_p3 {
+        position: absolute;
+        width: 140.81px;
+        height: 42.55px;
+        left: 30px;
+        top: 420px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    .ph_m_p3{
+        position: absolute;
+width: 147px;
+height: 34px;
+left: 30px;
+top: 500.55px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+    }
+    .EACPCT img{
+        position: absolute;
+max-width: 0px;
+max-height: 0px;
+left: 214px;
+top: 64px;
+    }
+    .blackline4{
+        max-height: 0px;
+    }
+}
 
 
 

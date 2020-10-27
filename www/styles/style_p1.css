@@ -710,3 +710,81 @@ color: #FFFFFF;
 
     }
 }
+@media(min-width: 375px) and (max-width: 767px) {
+    .p1-fire{
+        position: absolute;
+        width: 1444px;
+        height: 812px;
+        left: 0px;
+        top: 0px;
+    }
+    .p1-water-position{
+        position: absolute;
+        width: 1643.41px;
+        height: 732px;
+        left: -778px;
+        top: 80px;
+    }
+    .p1-bottle-position{
+        width: 179.44px;
+        height: 589.01px;
+        left: 212.32px;
+        top: 185.66px;
+    }  
+    .p1-positionDesktopScrollEffect {
+        position: absolute;
+        width: 27.25px;
+        height: 158.84px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .p1-desktopScrollEffectBlock{
+        height: 50.27px;
+    }
+    .p1-description-items {
+        max-width: 188px;
+        margin-top: 340px;
+        margin-left: px;
+        
+    }
+    .p1-description-items p{
+               
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+    }
+    .p1-headerBlock{
+        position: absolute;
+        width: 463px;
+        height: 118px;
+        left: 80.71px;
+        top: 110px;
+       }
+    .p1-h1{
+        position: absolute;
+        width: 289.46px;
+        height: 73.77px;
+        left: -50px;
+        bottom: 88px;
+        
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40.4179px;
+        line-height: 47px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .d-lg-none{
+
+    }
+}
