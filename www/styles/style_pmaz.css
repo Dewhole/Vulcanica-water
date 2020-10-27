@@ -90,7 +90,7 @@ mix-blend-mode: darken;
 }
 .blackline-maz{
     background-color: black;
-    height: 200px;
+    height: 0px;
 }
 .maz-left-block{
     position: absolute;
