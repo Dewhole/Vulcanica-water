@@ -62,7 +62,7 @@ form.p7-offer {
     border-radius: 5px;
     border: none;
     width: 490px;
-    height: 60px;
+    height: 40px;
 }
 .p7-offer textarea {
     resize: none;
@@ -1107,7 +1107,7 @@ width: 196px;
         border-radius: 25px;
     }
 } */
-@media (min-width: 1920px) and (orientation: landscape) and (min-height: 1080px) {
+@media (min-width: 1920px) and (orientation: landscape)  {
     .background-p7 {
         padding-left: 8vw;
         padding-right: 8vw;

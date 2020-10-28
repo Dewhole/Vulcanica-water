@@ -82,7 +82,9 @@ a:hover {
 
    
 @media(min-width: 1920px) {
-
+    .mineralsgradient{
+        max-width: 0px;
+      }
 
 }
 @media(min-width: 1619px) and (max-width: 1919px) {
@@ -136,16 +138,20 @@ a:hover {
         margin-left: 950px;
     }
     .bottle img{
-
-        width: 90%;
-        height: 90%;
+        width: 803.06px;
+        height: 872.23px;
     }
     .bottle{
 
         position: relative;
-        margin-left: 700px;
+        margin-left: 710px;
         top: 000px;
     }
+    .mineralsgradient{
+        background-image: none;
+
+            max-width: 0px;
+      }
 }
 @media(min-width: 1199px) and (max-width: 1619px) {
     .Si {
@@ -231,7 +237,12 @@ a:hover {
             position: absolute;
              top: 450px;     
         }
-}
+        .mineralsgradient{
+            background-image: none;
+    
+                max-width: 0px;
+          }
+    }
 @media(min-width: 768px) and (max-width: 1198px) {
     .Si {
         
@@ -323,102 +334,74 @@ a:hover {
             display: flex;
             padding:10 5px;flex-direction: column;
         }
-        
-}
-@media(min-width: 375px) and (max-width: 767px) {
-    .minerals-block{
-        height: 820px;
-    }
+        .mineralsgradient{
+            background-image: none;
     
-    .Si {
-        
-
+                max-width: 0px;
           }
-    .Mg {
-    margin-left: 00px;        
-        }
-    .Ca {
-
-        }
-    .F {
-        margin-right: 0px;        
-        }   
-    .Si img{
-        width: 75%;
-        height: 100%;
-        }
-    .Mg img{
-        width: 75%;
-        height: 100%;
-        
-        }
-    .Ca img{
-        width: 75%;
-        height: 100%;
-        }
-    .F img{
-        width: 75%;
-        height: 100%;
-        }   
-    .minerals {
-        margin-left: 26px;
-        width: 370px;
-        height: 300px;
+    }
+@media(min-width: 375px) and (max-width: 767px) {
+    .Si {
+        display: none;
 
     }
-    .minerals2{
+.Mg {
+    display: none;    
+  }
+.Ca {
+    display: none;
+  }
+.F {
+    display: none;      
+  }   
+.Si img{
+    display: none;
+  }
+.Mg img{
+    display: none;
+  
+  }
+.Ca img{
+    display: none;
+  }
+.F img{
+    display: none;
+  }   
+.minerals {
+    display: none;
 
-        margin-top: 31px;
-
-
-      }
-      .minerals-box_link{
-        margin-left: 0px;
-        margin-top: 140px;
-    }
-    .onwater{
-
-        position: relative;
-        margin-left: 26px;
-        top: 480px;
-    }
-    .onwater img{
-        width: 199px;
-        height: 63.53px;
-    }
-    .bottle img{
-
-        width: 218.78px;
-        height: 237.63px;
-    }
-    .bottle{
-
-        position: relative;
-        margin-left: 165px;
-        top: 360px;
-    }
-    .mineral-link{    
-        display: flex;
-        padding:10 5px;
-        left: 213px;
-        bottom: 100px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
-        /* or 146% */
-        text-decoration-line: underline;
-        color: #FFFFFF;
-        color: #FFFFFF;
-        -webkit-text-decoration: underline #FFFFFF;
-                text-decoration: underline #FFFFFF;
-        }
-        .minerals-box_link{
-            position: absolute;
-            top: 550px;
-            display: flex;
-            padding:10 5px;flex-direction: column;
-        }
-        
 }
+.minerals2{
+    display: none;
+
+
+}
+.minerals-box_link{
+    display: none;
+}
+.onwater{
+
+    display: none;
+}
+.onwater img{
+ 
+  display: none;
+}
+.bottle img{
+
+    display: none;
+}
+.bottle{
+    display: none;
+}
+.mineral-link{    
+    display: none;
+  }
+  .minerals-box_link{
+    display: none;
+  }
+  
+}
+    .mineralsgradient{
+        background-image: url(../img/minerals-all375.png);
+      }

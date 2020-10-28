@@ -7,6 +7,7 @@
 }
 .background-p44 {
     background: url(../img/noob4top.png);
+
 }
 
 .background-p4 {
@@ -437,7 +438,7 @@
     padding: 0;
     margin: 0; 
 }
-@media (min-width: 1199px) and (max-width: 1619px){
+@media (min-width: 769px) and (max-width: 1619px){
     .h1 {
         font-size: 25px;
     }
@@ -495,7 +496,7 @@
 
 @media(min-width: 1920px) {
 }
-@media(min-width: 768px) and (max-width: 1199px) {
+@media(min-width: 768px) and (max-width: 769px) {
     .background-p4 {
         width: 768px;
         height: 432px;

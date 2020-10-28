@@ -267,7 +267,7 @@ left: 1127px;
         height: 57.2px;
     }
     .footer-block{
-     
+        
         display: flex;
         background-color: black;
         max-width: 100%;
@@ -353,7 +353,7 @@ left: 1127px;
         position: relative;
 
         left: 30px;
-        top: 285px;
+        top: 440px;
     }
     .icone img{
         width: 80px;
@@ -364,7 +364,8 @@ left: 1127px;
         display: flex;
         background-color: black;
         max-width: 375px;
-        height: 580px;
+        height: 700px;
+        margin-bottom: 100px;
      
         
     }
@@ -392,7 +393,7 @@ left: 1127px;
         line-height: 18px;
         /* identical to box height, or 175% */
         
-        
+
         color: #FFFFFF;
     }
     .contacts{
@@ -411,7 +412,7 @@ left: 1127px;
     }
     .left-text{
         margin-left: -110px;
-        margin-top: 400px;
+        margin-top: 550px;
         font-size: 14px;
         line-height: 22px;
     }
@@ -430,8 +431,7 @@ left: 1127px;
     .right-text{
         width: 500px;
         height: 200px;
-        position: absolute;
-        top: 8125px;
+        top: 8055px;
         left: 30px;
 
     

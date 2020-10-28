@@ -483,29 +483,63 @@ color: #FFFFFF;
 }
 @media(min-width: 1199px) and (max-width: 1619px) {
     .text-after-video{
-        position: absolute;;
-        top: 4580px;
+
+  
         width: 892px;
         height: 160px;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         }
-    .text-after-video-area{
-        position: absolute;
-        right: 1500px;
-        top: 1px;
-        max-width: 1200px;
-        background-color: white;
-        }
         .blackline-ftervideo{
-        max-width: 1200px;
+            
         }
         .page6{
                     
         }
+        .iframe{
+            min-width: 746.54px;
+            min-height: 436.12px;
+            left: 0px;
+            top: 0px;
+        }
         .videoblock{
-            position: absolute;
+            margin-top: 100px;
+
+        
+        }
+        .video{
+            min-width: 553.28px;
+            min-height: 323.21px;
+            left: 0px;
+            top: 0px;
+            border: 10px solid #9B0805;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color: black;
+        }
+        .textnearvideo{
+            margin-top: 140px;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        
+        color: #FFFFFF;
+        }
+        .textnearvideo{
+            width: 490.95px;
+            height: 187.27px;
+            margin-right: 50px;
+        }
+
+
+        .page6{
+                    
+        }
+        .videoblock{
+            
             width: 553.28px;
             height: 323.21px;
             left: 500px;
@@ -514,28 +548,10 @@ color: #FFFFFF;
 
         
         }
-        .video{
-        min-width: 553.28px;
-        min-height: 323.21px;
-        left: 0px;
-        top: 0px;
-        border: 10px solid #9B0805;
-        box-sizing: border-box;
-        border-radius: 10px;
-        background-color: black;
-        }
-        .textnearvideo{
-            position: absolute;
-            width: 343.85px;
-            height: 138.79px;
-            right: 580px;
-            top: 3880px.17px;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 22px;
-        }
+
+ 
         .background-p66{
-            height: 1000px;
+       
             width: 100vw;
 
             background-position: bottom 30% right 40%;
