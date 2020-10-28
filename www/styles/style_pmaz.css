@@ -40,6 +40,7 @@ mix-blend-mode: darken;
     mix-blend-mode: darken;
     }
 .background-maz{
+    
     height: 100%;
     width: 100vw;
  
@@ -49,7 +50,7 @@ mix-blend-mode: darken;
     overflow: hidden;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-image: url(../img/maz.png);
+    background-image: url(../img/mazall.png);
 }
 .maz-bottle{
     position: absolute;
@@ -108,12 +109,15 @@ mix-blend-mode: darken;
     top: 9489px;
 
 }
+.text-under-maz{
+    display: flex;
+}
 .text-under-maz-block1{
-    position: absolute;
+    margin-top: 440px;
+    margin-left: 220px;
     width: 400px;
     height: 40px;
-    left: 213px;
-    top: 10050px;
+
 
     font-family: Maven Pro;
     font-style: normal;
@@ -126,11 +130,11 @@ mix-blend-mode: darken;
 color: #FFFFFF;
 }
 .text-under-maz-block2{
-    position: absolute;
+    margin-top: 440px;
+    margin-left: 500px;
     width: 400px;
     height: 40px;
-    left: 1099px;
-    top: 10050px;
+
     
     font-family: Maven Pro;
     font-style: normal;
@@ -148,35 +152,25 @@ color: #FFFFFF;
     background-color: black;
 }
 .pallets{
-    height: 520px;
+    height: 0px;
     background-color: black;
+    display: flex;
 }
 .left-pallet{
-    position: absolute;
-    width: 582.26px;
-    height: 493px;
-    left: 233px;
-    top: 10182px;
+    margin-top: 100px;
+    margin-left: 250px;
 
 }
 .right-pallet{
-    position: absolute;
-    width: 582.26px;
-    height: 493px;
-    left: 1112px;
-    top: 10182px;
-
+    margin-left: 300px;
+    margin-top: 100px;
 }
 
 @media(min-width: 1920px) {
-
-}
-@media(min-width: 1620px) and (max-width: 1919px) {
-
     .gradient-maz1{
         position: absolute;
-        max-width: 1620px;
-        height: 1080px;
+        max-width: 0px;
+        height: 0px;
         left: 0px;
         top: 8398px;
         
@@ -187,8 +181,8 @@ color: #FFFFFF;
     .gradient-maz2{
         background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
         position: absolute;
-    max-width: 1620px;
-    height: 911px;
+    max-width: 0px;
+    height: 0px;
     left: 0px;
     top: 8421px;
     
@@ -196,8 +190,8 @@ color: #FFFFFF;
     mix-blend-mode: darken;
     }
     .gradient-maz3{
-    max-width: 1620px;
-    height: 1080px;
+    max-width: 0px;
+    height: 0px;
     left: 0px;
     top: 9136px;
     
@@ -206,8 +200,8 @@ color: #FFFFFF;
     }
     .gradient-maz3{
         position: absolute;
-        max-width: 1620px;
-        height: 1080px;
+        max-width: 0px;
+        height: 0px;
         left: 0px;
         top: 898px;
         
@@ -215,35 +209,35 @@ color: #FFFFFF;
         mix-blend-mode: darken;
         }
     .background-maz{
-        height: 100%;
-        max-width: 1620px;
+        min-height: 90%;
+        max-width: 1920px;
      
         background-repeat: no-repeat;
         background-position: bottom 30% right 0%;
+        background-position-y: 100px;
         background-size: cover;
         overflow: hidden;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-        background-image: url(../img/maz.png);
+
+                background-size: contain;
+                background-image: url(../img/mazall.png);
+
     }
     .maz-bottle{
-        position: absolute;
-        width: 102px;
-        height: 336px;
-        left: 95px;
-        top: 8601px;
-        background-image: url(../img/maz-bottle.svg);
+        display: none;
+
     }
     .text-on-maz{
             position: absolute;
-            width: 832.71px;
-            height: 198.23px;
+            width: 0px;
+            height: 0px;
         left: 254.27px;
         top: 8628.27px;
         font-family: Maven Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: 168.71px;
+        font-size: 0px;
         line-height: 198px;
         /* identical to box height */
         
@@ -256,6 +250,124 @@ color: #FFFFFF;
         color: #494949;
         
         transform: rotate(-0.03deg);
+    }
+    .text-maz{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 707px;
+        top: 8440px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0px;
+        line-height: 29px;
+        
+        color: #FFFFFF;
+    }
+    .blackline-maz{
+        background-color: black;
+        height: 0px;
+    }
+    .maz-left-block{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 212px;
+        top: 8628px;        
+    }
+    .maz-left-block img{
+        width: 0%;
+        height: 0%;
+    }
+    .maz-right-block{
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 969px;
+        top: 8689px;
+    }
+    .maz-right-block img{
+        width: 0%;
+        height: 0%;
+
+    }
+    .text-under-maz-block1{
+  
+        width: 400px;
+        height: 40px;
+
+    
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34.0228px;
+        line-height: 40px;
+        /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    }
+    .text-under-maz-block2{
+
+        width: 400px;
+        height: 40px;
+
+        
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34.0228px;
+        line-height: 40px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .blackline-maz-bot{
+        height: 79px;
+        background-color: black;
+    }
+
+}
+
+@media(min-width: 1620px) and (max-width: 1919px) {
+
+    .gradient-maz1{
+        display: none;
+    }
+    .gradient-maz2{
+        display: none;
+    }
+    .gradient-maz3{
+        display: none;
+    }
+    .gradient-maz3{
+        display: none;
+        }
+    .background-maz{
+        min-height: 90%;
+        max-width: 1620px;
+     
+        background-repeat: no-repeat;
+        background-position: bottom 30% right 0%;
+        background-size: cover;
+
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+
+                background-size: contain;
+        background-image: url(../img/mazall.png);
+    }
+    .maz-bottle{
+        display: none;
+
+    }
+    .text-on-maz{
+        display: none;
     }
     .text-maz{
         position: absolute;
@@ -274,37 +386,33 @@ color: #FFFFFF;
     }
     .blackline-maz{
         background-color: black;
-        height: 200px;
+        height: 100px;
     }
     .maz-left-block{
-        position: absolute;
-        width: 625px;
-        height: 443px;
-        left: 212px;
-        top: 8628px;        
+        display: none;     
     }
     .maz-left-block img{
-        width: 90%;
-        height: 90%;
+        display: none;
     }
     .maz-right-block{
-        position: absolute;
-        width: 608px;
-        height: 382px;
-        left: 969px;
-        top: 8689px;
+        display: none;
     }
     .maz-right-block img{
-        width: 90%;
-        height: 90%;
+        display: none;
 
     }
+    .text-maz{
+        display: none;
+    }
+    .text-under-maz{
+        display: flex;
+    }
     .text-under-maz-block1{
-        position: absolute;
+        margin-bottom: 30px;
+        margin-left: 200px;
         width: 400px;
         height: 40px;
-        left: 213px;
-        top: 9170px;
+    
     
         font-family: Maven Pro;
         font-style: normal;
@@ -317,11 +425,11 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        position: absolute;
+        margin-bottom: 30px;
+        margin-left: 350px;
         width: 400px;
         height: 40px;
-        left: 969px;
-        top: 9170px;
+    
         
         font-family: Maven Pro;
         font-style: normal;
@@ -339,165 +447,101 @@ color: #FFFFFF;
         background-color: black;
     }
     .pallets{
-        height: 520px;
+        height: 0px;
         background-color: black;
+        display: flex;
     }
     .left-pallet{
-        position: absolute;
-        width: 582.26px;
-        height: 493px;
-        left: 213px;
-        top: 9282px;
-        background: url(../img/left-pallet.png);
+        margin-top: 100px;
+        margin-left: 250px;
+    
     }
     .right-pallet{
-        position: absolute;
-        width: 582.26px;
-        height: 493px;
-        left: 969px;
-        top: 9282px;
-        background: url(../img/right-pallet.png);
+        margin-left: 140px;
+        margin-top: 100px;
     }
     
 }
 @media(min-width: 1199px) and (max-width: 1619px) {
 
     .gradient-maz1{
-        position: absolute;
-        max-width: 1200px;
-        height: 675px;
-        left: 0px;
-        top: 5740px;
-        
-        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+        display: none;
     }
     .gradient-maz2{
-        background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        position: absolute;
-        max-width: 1200px;
-        height: 675px;
-    left: 0px;
-    top: 5742px;
-    
-    background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
+        display: none;
     }
     .gradient-maz3{
-        max-width: 1200px;
-        height: 675px;
-    left: 0px;
-    top: 5740px;
-    
-    background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
+        display: none;
     }
     .gradient-maz3{
-        position: absolute;
-        max-width: 1200px;
-        height: 675px;
-        left: 0px;
-        top: 5740px;
-        
-        background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        mix-blend-mode: darken;
+        display: none;
         }
     .background-maz{
-        height: 100%;
+        min-height: 100%;
         max-width: 1200px;
      
         background-repeat: no-repeat;
         background-position: bottom 30% right 0%;
         background-size: cover;
+
         overflow: hidden;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-        background-image: url(../img/maz.png);
+
+                background-size: contain;
+        background-image: url(../img/mazall.png);
     }
     .maz-bottle{
-        position: absolute;
-        width: 102px;
-        height: 336px;
-        left: 60px;
-        top: 5921px;
+        display: none;
 
     }
-    .maz-bottle img{
-        width: 63.77px;
-        height: 210.06px;
-    }
     .text-on-maz{
-            position: absolute;
-            width: 832.71px;
-            height: 198.23px;
-        left: 150.27px;
-        top: 5960.27px;
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 125.035px;
-        line-height: 147px;
-        /* identical to box height */
-        
-        
-        color: #494949;
-        
-        transform: rotate(-0.03deg);
-        
-        
-        color: #494949;
-        
-        transform: rotate(-0.03deg);
+        display: none;
     }
     .text-maz{
         position: absolute;
-        width: 525.39px;
-        height: 100.03px;
-        left: 500px;
-        top: 5800px;
+        width: 790px;
+        height: 145px;
+        left: 707px;
+        top: 8440px;
         
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 29px;
         
         color: #FFFFFF;
     }
     .blackline-maz{
         background-color: black;
-        height: 200px;
+        height: 100px;
     }
     .maz-left-block{
-        position: absolute;
-        width: 625px;
-        height: 443px;
-        left: 130px;
-        top: 5938px;        
+        display: none;     
     }
     .maz-left-block img{
-        width: 70%;
-        height: 70%;
+        display: none;
     }
     .maz-right-block{
-        position: absolute;
-        width: 608px;
-        height: 382px;
-        left: 680px;
-        top: 5978px;
+        display: none;
     }
     .maz-right-block img{
-        width: 70%;
-        height: 70%;
+        display: none;
 
     }
+    .text-maz{
+        display: none;
+    }
+    .text-under-maz{
+        display: flex;
+    }
     .text-under-maz-block1{
-        position: absolute;
+        margin-top: 260px;
+        margin-left: 135px;
         width: 400px;
         height: 40px;
-        left: 133px;
-        top: 6320px;
+    
     
         font-family: Maven Pro;
         font-style: normal;
@@ -510,11 +554,11 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        position: absolute;
+        margin-top: 260px;
+        margin-left: 160px;
         width: 400px;
         height: 40px;
-        left: 679px;
-        top: 6320px;
+    
         
         font-family: Maven Pro;
         font-style: normal;
@@ -532,21 +576,21 @@ color: #FFFFFF;
         background-color: black;
     }
     .pallets{
-        height: 520px;
+        height: 400px;
         background-color: black;
+        display: flex;
     }
     .left-pallet{
-        position: absolute;
-        left: 113px;
-        top: 6402px;
-
+        margin-top: 0px;
+        margin-left: 150px;
+    
     }
     .right-pallet{
-        position: absolute;
-        left: 679px;
-        top: 6402px;
-
+        margin-left: 70px;
+        margin-top: 0px;
     }
+    
+
 
     .left-pallet img{
         width: 70%;
@@ -560,169 +604,102 @@ color: #FFFFFF;
 @media(min-width: 767px) and (max-width: 1199px) {
 
     .gradient-maz1{
-        position: absolute;
-        width: 768px;
-        height: 432px;
-        left: 0px;
-        top: 5612px;
-        
-        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-        background: linear-gradient(365.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+        display: none;
     }
     .gradient-maz2{
-        background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        position: absolute;
-        width: 768px;
-        height: 432px;
-    left: 0px;
-    top: 5615px;
-    
-    background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
+        display: none;
     }
     .gradient-maz3{
-        width: 768px;
-        height: 432px;
-    left: 0px;
-    top: 5612px;
-    background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
+        display: none;
     }
     .gradient-maz3{
-        position: absolute;
-        width: 768px;
-        height: 432px;
-        left: 0px;
-        top: 5612px;
-        
-        background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        mix-blend-mode: darken;
+        display: none;
         }
     .background-maz{
-        height: 434px;
-        width: 768px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-        
+  
+        min-height: 394px;
+        max-height: 400px;
+        max-width: 1200px;
+     
 
-    
-        overflow: hidden;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
 
-        background-image: url(../img/maz.png);
+
+        background-image: url(../img/mazall.png);
     }
     .maz-bottle{
-        position: absolute;
-        width: 102px;
-        height: 336px;
-        left: 60px;
-        top: 5721px;
+        display: none;
 
     }
-    .maz-bottle img{
-        width: 40.8px;
-        height: 134.4px;
-    }
     .text-on-maz{
-            position: absolute;
-            width: 832.71px;
-            height: 198.23px;
-        left: 110.27px;
-        top: 5740.27px;
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 80px;
-        line-height: 94px;
-        /* identical to box height */
-        
-        
-        color: #494949;
-        
-        transform: rotate(-0.03deg);
-        
-        
-        color: #494949;
-        
-        transform: rotate(-0.03deg);
+        display: none;
     }
     .text-maz{
         position: absolute;
-        width: 479px;
-        height: 85px;
-        left: 250px;
-        top: 5600px;
+        width: 790px;
+        height: 145px;
+        left: 707px;
+        top: 8440px;
         
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 24px;
+        line-height: 29px;
         
         color: #FFFFFF;
     }
     .blackline-maz{
         background-color: black;
-        height: 200px;
+        height: 100px;
     }
     .maz-left-block{
-        position: absolute;
-        width: 625px;
-        height: 443px;
-        left: 70px;
-        top: 5758px;        
+        display: none;     
     }
     .maz-left-block img{
-        width: 50%;
-        height: 50%;
+        display: none;
     }
     .maz-right-block{
-        position: absolute;
-        width: 608px;
-        height: 382px;
-        left: 440px;
-        top: 5788px;
+        display: none;
     }
     .maz-right-block img{
-        width: 50%;
-        height: 50%;
+        display: none;
 
     }
+    .text-maz{
+        display: none;
+    }
+    .text-under-maz{
+        display: flex;
+    }
     .text-under-maz-block1{
-        position: absolute;
+        margin-bottom: 20px;
+        margin-left: 80px;
         width: 400px;
         height: 40px;
-        left: 133px;
-        top: 6050px;
+    
     
         font-family: Maven Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 20px;
+        line-height: 23px;
         /* identical to box height */
     
     
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        position: absolute;
+        margin-bottom: 20px;
+        margin-left: 20px;
         width: 400px;
         height: 40px;
-        left: 499px;
-        top: 6050px;
+    
         
         font-family: Maven Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 20px;
+        line-height: 23px;
         /* identical to box height */
         
         
@@ -734,20 +711,18 @@ color: #FFFFFF;
         background-color: black;
     }
     .pallets{
-        height: 220px;
+        height: 400px;
         background-color: black;
+        display: flex;
     }
     .left-pallet{
-        position: absolute;
-        left: 70px;
-        top: 6102px;
-
+        margin-top: 0px;
+        margin-left: 100px;
+    
     }
     .right-pallet{
-        position: absolute;
-        left: 439px;
-        top: 6102px;
-
+        margin-left: 100px;
+        margin-top: 0px;
     }
 
     .left-pallet img{
@@ -758,7 +733,6 @@ color: #FFFFFF;
         width: 270.35px;
         height: 228.06px;
     }
-}
 @media(min-width: 375px) and (max-width: 767px) {
 
     .gradient-maz1{
@@ -962,4 +936,5 @@ color: #FFFFFF;
         width: 270.35px;
         height: 228.06px;
     }
+}
 }
