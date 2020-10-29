@@ -188,19 +188,30 @@
     }
 }
 @media (min-width: 768px) and (min-height: 568px)  {
+    
     .h1 {
-        font-size: 33px;
+        font-size: 22px;
     }
     .h2 {
-        font-size: 20px;
+        font-size: 20px;       
     }
     .title-left-block_m_p5 {
         max-width: 450px;
         top:15vh;
     }
-    .tourists-title_m_p5 {
+    .tourists-title_p5 {
+        margin-left: 78px;
+        max-width: 550px;
+        margin-top: 100px;
+    }
+    .tourists-title_p55 {
+        margin-left: 5px;
         max-width: 350px;
-        margin-top: 110px;
+        margin-top: 50px;
+        
+    }
+    .subtitle_p4{
+        margin-top: -100px;
     }
 }
 
@@ -255,13 +266,17 @@
     .p{
         white-space: nowrap
     }
-} 
+    .subtitle_p4{
+        margin-top: 100px;
+    }
+}
+
 
 @media(min-width: 1619px) and (max-width: 1919px) {
     .background-p55 {
-        max-width: 1620px;
+  
         background: url(../img/background_page5.jpg);
-
+        
         overflow: hidden;
 
     }
@@ -313,7 +328,11 @@
         text-transform: uppercase;
         
     }
-} 
+    .subtitle_p4{
+        margin-top: 80px;
+    }
+
+}
 
 @media(min-width: 1119px) and (max-width: 1619px){
 
@@ -372,7 +391,8 @@
         
     }
 }
-@media(min-width: 768px) and (max-width: 768px){
+@media(min-width: 768px) and (max-width: 1199px){
+
 
     .blu_green {
         
@@ -390,11 +410,10 @@
         color: linear-gradient(90deg, #45C2EA 6.95%, #4FF44B 79.87%);
     }
     .title-left-block_m_p5 {
-        position: absolute;
+  
         width: 341px;
         height: 135px;
-        left: 30px;
-        top: 90px;
+
 
         font-family: Montserrat;
         font-style: normal;
@@ -411,34 +430,27 @@
     }
     
 .background-p55 {
-    height: 434px;
-    width: 768px;
+    width: 100vw;
     left: 0px;
     top: 0px;
     border-radius: 0px;
     
 }
 .background-p5{
-    height: 434px;
-    width: 768px;
+
+
     left: 0px;
     top: 0px;
     border-radius: 0px;
     
     background: url(../img/noob4top.png);
 
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-size: contain; 
+    background-size: cover; 
     
     }
     .gradient{
         height: 434px;
-        width: 768px;
+        width: 100vw;
         left: 0px;
         top: 0px;
         border-radius: 0px;
@@ -456,15 +468,15 @@
     }
     .tourists-title_m_p5{
         position: absolute;
-        width: 341px;
+        width: 501px;
         height: 135px;
         left: 30px;
         top: 150px;
 
         font-family: Montserrat;
         font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
+        font-weight: normal;
+        font-size: 14px;
         line-height: 24px;
         text-transform: uppercase;
 
@@ -472,7 +484,7 @@
         
     }
 }
-@media(min-width: 375px) and (max-width: 767px){
+@media(min-width: 300px) and (max-width: 767px){
 
     .blu_green {
         
@@ -490,7 +502,7 @@
         color: linear-gradient(90deg, #45C2EA 6.95%, #4FF44B 79.87%);
     }
     .title-left-block_m_p5 {
-        position: absolute;
+
         width: 274px;
         height: 135px;
         left: 30px;
@@ -510,41 +522,22 @@
         white-space: nowrap
     }
     
-.background-p55 {
-    height: 434px;
-    width: 768px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background-position: -210px;
-    
-}
-.background-p5{
-    height: 434px;
-    width: 768px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    
-    background: url(../img/noob4top.png);
-
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-size: contain; 
-    
-    }
-    .gradient{
+    .background-p55 {
         height: 434px;
-        width: 768px;
+        width: 100vw;
         left: 0px;
         top: 0px;
         border-radius: 0px;
         
-        background: url(../img/noob4.png);
+    }
+    .background-p5{
+    
+        width: 100vw;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        
+        background: url(../img/noob4top.png);
     
         overflow: hidden;
         display: -webkit-box;
@@ -554,7 +547,25 @@
                 box-sizing: border-box;
         background-size: contain; 
         
-    }
+        }
+        .gradient{
+            height: 434px;
+            width: 100vw;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+            
+            background: url(../img/noob4.png);
+        
+            overflow: hidden;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            background-size: contain; 
+            
+        }
     .tourists-title_m_p5{
         position: absolute;
         width: 341px;

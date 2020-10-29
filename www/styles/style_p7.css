@@ -403,7 +403,7 @@ form.p7-offer {
         border-radius: 25px;
     }
     .p7-block1{
-        position: absolute;
+        margin-left: 100px;
         width: 370px;
         height: 437px;
         left: 600px;
@@ -416,8 +416,14 @@ form.p7-offer {
 
         top: 320.49px;   
     }
+    .page7{
+        min-height: 650px;
+    }
 }
 @media(min-width: 767px) and (max-width: 1199px) {
+    .page7{
+        max-height: 150px;
+    }
     .background-p7 {
         width: 768px;
         height: 550px;
@@ -562,7 +568,7 @@ form.p7-offer {
         background-color: black;
     }
 }
-@media(min-width: 375px) and (max-width: 767px) {
+@media(min-width: 300px) and (max-width: 767px) {
     .background-p7 {
         width: 700px;
         background-position-x: -150px;

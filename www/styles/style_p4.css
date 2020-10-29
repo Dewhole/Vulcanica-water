@@ -141,6 +141,7 @@
     margin: 0; 
 }
 @media (min-width: 320px) and (max-height: 620px) {
+    
     .h1 {
         font-size: 18px;
     }
@@ -451,7 +452,7 @@
     }
     .subtitle_p4 {
         padding-left: 50px;
-        top: 35%;
+        top: 50%;
     }
     .distance {
         padding-left: 50px;
@@ -496,7 +497,7 @@
 
 @media(min-width: 1920px) {
 }
-@media(min-width: 768px) and (max-width: 769px) {
+@media(min-width: 768px) and (max-width: px) {
     .background-p4 {
         width: 768px;
         height: 432px;
@@ -534,7 +535,7 @@
         height: 751px;
     }
     .page4{
-        height: 751px;
+        
     }
     .gradient_m_p4{
         height: 600px;
@@ -558,7 +559,7 @@
         height: 600px;
     }
 }
-@media(min-width: 375px) and (max-width: 767px) {
+@media(min-width: 300px) and (max-width: 767px) {
     .title_p4_m{
         margin-top: 60px;
     }

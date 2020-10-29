@@ -162,7 +162,7 @@ left: 1127px;
     
     }
 }
-@media(min-width: 1199px) and (max-width: 1619px) {
+@media(min-width: 1200px) and (max-width: 1619px) {
     .allpages{
         max-width: 1200px;
         overflow: hidden;
@@ -200,6 +200,7 @@ left: 1127px;
         color: #FFFFFF;
     }
     .adress-text{
+        
         margin-top: 15px;
         width: 598px;
         
@@ -323,7 +324,7 @@ left: 1127px;
         line-height: 22px;
     }
     .copyright{
-        margin-top: 130px;
+        margin-top: 33px;
         font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -335,16 +336,16 @@ left: 1127px;
     color: #FFFFFF;
     }
     .right-text{
+        margin-top: 60px;
+        margin-left: -700px;
+      
 
-        position: absolute;
-        top: 7725px;
-        left: 420px;
 
     
     }
 
 }
-@media(min-width: 375px) and (max-width: 767px) {
+@media(min-width: 300px) and (max-width: 767px) {
     .allpages{
         max-width: 375px;
         overflow: hidden;
@@ -353,7 +354,7 @@ left: 1127px;
         position: relative;
 
         left: 30px;
-        top: 440px;
+        top: 300px;
     }
     .icone img{
         width: 80px;
@@ -363,8 +364,8 @@ left: 1127px;
      
         display: flex;
         background-color: black;
-        max-width: 375px;
-        height: 700px;
+        width: 100%;
+        height: 600px;
         margin-bottom: 100px;
      
         
@@ -412,7 +413,7 @@ left: 1127px;
     }
     .left-text{
         margin-left: -110px;
-        margin-top: 550px;
+        margin-top: 400px;
         font-size: 14px;
         line-height: 22px;
     }
@@ -429,10 +430,10 @@ left: 1127px;
     color: #FFFFFF;
     }
     .right-text{
-        width: 500px;
+        width: 200px;
         height: 200px;
-        top: 8055px;
-        left: 30px;
+background-color: black;
+        margin-left: -1100px;
 
     
     }

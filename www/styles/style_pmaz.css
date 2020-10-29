@@ -477,7 +477,7 @@ color: #FFFFFF;
     .background-maz{
         height: 100%;
         width: 100vw;
-     
+        background-size: contain;
  
         background-image: url(../img/mazall.png);
     }
@@ -527,7 +527,7 @@ color: #FFFFFF;
         display: flex;
     }
     .text-under-maz-block1{
-        margin-top: 260px;
+        margin-bottom: 160px;
         margin-left: 135px;
         width: 400px;
         height: 40px;
@@ -544,8 +544,8 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        margin-top: 260px;
-        margin-left: 160px;
+        margin-bottom: 260px;
+        margin-left: 300px;
         width: 400px;
         height: 40px;
     
@@ -608,13 +608,14 @@ color: #FFFFFF;
     .background-maz{
   
         min-height: 394px;
-        max-height: 400px;
-        max-width: 1200px;
-     
+        max-height: 600px;
 
+     
+        background-size: contain;
 
 
         background-image: url(../img/mazall.png);
+
     }
     .maz-bottle{
         display: none;
@@ -700,28 +701,31 @@ color: #FFFFFF;
         height: 79px;
         background-color: black;
     }
+ 
     .pallets{
-        height: 350px;
+        height: 400px;
         background-color: black;
         display: flex;
     }
     .left-pallet{
         margin-top: 0px;
-        margin-left: 90px;
+        margin-left: 150px;
     
     }
     .right-pallet{
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: 0px;
     }
+    
+
 
     .left-pallet img{
-        width: 270.35px;
-        height: 228.06px;
+        width: 70%;
+        height: 70%;
     }
     .right-pallet img{
-        width: 270.35px;
-        height: 228.06px;
+        width: 70%;
+        height: 70%;
     }
 }
 @media(min-width: 374px) and (max-width: 767px) {
@@ -742,10 +746,13 @@ color: #FFFFFF;
   
  
         background-color:black;
-
+        
         background-position-y: px;
-        min-height: 1100px;
+        min-height: 1400px;
         background-repeat: no-repeat;
+        width: 100vw;
+   
+        background-size: contain;
 
 
 

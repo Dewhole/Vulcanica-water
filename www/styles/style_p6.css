@@ -310,7 +310,7 @@ color: #FFFFFF;
         font-size: 24px;
     }
 }
-@media (min-width: 1400px){
+@media (min-width: 1600px){
     .p6-container-spec{
         padding: 0 213px;
 
@@ -411,6 +411,7 @@ color: #FFFFFF;
         min-height: 436.12px;
         left: 0px;
         top: 0px;
+        margin-right: 100px;
         border: 10px solid #9B0805;
         box-sizing: border-box;
         border-radius: 10px;
@@ -434,7 +435,7 @@ color: #FFFFFF;
         .background-p66{
             
             background-position: 30%;
-            max-width: 1620px;
+
             background-repeat: no-repeat;
 
         }
@@ -484,7 +485,7 @@ color: #FFFFFF;
 @media(min-width: 1199px) and (max-width: 1619px) {
     .text-after-video{
 
-  
+        margin-left: 130px;
         width: 892px;
         height: 160px;
         font-weight: 500;
@@ -505,12 +506,13 @@ color: #FFFFFF;
         }
         .videoblock{
             margin-top: 100px;
-
+            width: 600.95px;
         
         }
         .video{
             min-width: 553.28px;
             min-height: 323.21px;
+            margin-left: 50px;
             left: 0px;
             top: 0px;
             border: 10px solid #9B0805;
@@ -523,15 +525,15 @@ color: #FFFFFF;
         font-family: Montserrat;
         font-style: italic;
         font-weight: 500;
-        font-size: 30px;
-        line-height: 37px;
+        font-size: 18px;
+        line-height: 25px;
         
         color: #FFFFFF;
         }
         .textnearvideo{
-            width: 490.95px;
+            min-width: 300px;
             height: 187.27px;
-            margin-right: 50px;
+            margin-right: 100px;
         }
 
 
@@ -632,82 +634,86 @@ color: #FFFFFF;
 }
 @media(min-width: 767px) and (max-width: 1199px) {
     .text-after-video{
-        position: absolute;;
-        top: 4750px;
+
+        margin-left: 50px;
         width: 653px;
         height: 180px;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
         }
-    .text-after-video-area{
-        position: absolute;
-        right: 1145px;
-        top: 1px;
-        max-width: 768px;
-        background-color: white;
-        }
         .blackline-ftervideo{
-        max-width: 1200px;
+            
         }
         .page6{
                     
         }
+
         .videoblock{
-            position: absolute;
+            margin-top: 100px;
+            width: 431px;
+        
+        }
+        .video{
+        
+            min-width: 440px;
+            max-height: 251px;
+            margin-left: -30px;
+            left: 0px;
+            top: 0px;
+            border: 4.87006px solid #9B0805;
+            box-sizing: border-box;
+            border-radius: 4.87006px;
+            background-color: black;
+        }
+        .textnearvideo{
+            
+            margin-top: 50px;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #FFFFFF;
+        }
+        .textnearvideo{
+              min-width: 202px;
+               height: 89px;
+            margin-right: 100px;
+        }
+
+
+        .page6{
+                    
+        }
+        .videoblock{
+            
             width: 431px;
             height: 251.78px;
-            left: 300px;
-            top: 4150px;
+            left: 500px;
+            top: 3880px;
             
 
         
         }
-        .video{
-            position: absolute;
-            width: 440px;
-            height: 251.78px;
-            left: 0px;
-            top: 0px;
-            
-            border: 4.87006px solid #9B0805;
-            box-sizing: border-box;
-            border-radius: 4.87006px;
-        }
-        .textnearvideo{
-            position: absolute;
-            width: 202px;
-            height: 89px;
-            right: 480px;
-            top: -80px;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 18px;
-        }
+
+ 
         .background-p66{
-            height: 434px;
-            width: 768px;
-            left: 0px;
-            top: 0px;
-            border-radius: 0px;
-            
-        
-            overflow: hidden;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
-            background-size: contain; 
+       
+            width: 100vw;
+
+            background-position: bottom 30% right 40%;
+
         }
         
         .background-p6{ 
-            
+
      
         }
         .p6-container-spec{
             margin-top: 50px;
-            margin-left: 80px;
+            margin-left: -20px;
         }
         .p6-header78{
             font-family: Montserrat;
@@ -719,11 +725,6 @@ color: #FFFFFF;
             color: #FFFFFF;
         }
         .p6-h1{
-            position: absolute;
-  
-            width: 500px;
-            top: 3900px;
-            left: 30px;
             font-family: Montserrat;
             font-style: normal;
             font-weight: bold;
@@ -735,7 +736,6 @@ color: #FFFFFF;
 
         }
         .p6-img-scientistPosition{
-            position: absolute;
             left: 30px;
         }
         .p6-img-scientist{
@@ -750,22 +750,21 @@ color: #FFFFFF;
         }
         .p6-headImgText{
             width: 400px;
-            margin-left: 70px;            
+            margin-left: 10px;            
             font-family: Montserrat;
             font-style: normal;
             font-weight: bold;
             font-size: 14px;
             line-height: 17px;
-            
-            color: #FFFFFF;
         }
         .p6-title-block{
-            position: absolute;
+            margin-top: 140px;
+            margin-left: -160px;
             width: 132px;
             height: 138.79px;
             left: 28px;
             top: 4280px;
- 
+    
             font-size: 14px;
             line-height: 17px;
         }
@@ -782,47 +781,31 @@ color: #FFFFFF;
             color: #FFFFFF;
         }
         .p6-legacytext{
-            position: absolute;
-
-
-            left: 210px;
-            top: 4070px;
+            margin-top: -300px;
+            margin-left: 180px;
+            max-height: 250px;
+        }
+        .p6-textWater-scientist{
             width: 507px;
-            height: 292px;
-
-
+            height: 122px;
             font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 18px;
-            /* or 129% */
-
-
-            color: #FFFFFF;
-
           
         }
         .p6-block1{
-            
+            max-width: 500px;
+            max-height: 50px;
         }
-        .blackline66{
-            height: 200px;
-            background: black;
-        }
-        .p6-textWater-scientist{
-            width: 507px;
-            height: 120px;
-            font-size: 14px;
-            line-height: 18px;
-        }
-        #screenID6{
-            height: 720px;
-            background-color: black;
-        }
-        
 }
-@media(min-width: 375px) and (max-width: 767px) {
+
+
+
+
+
+@media(min-width: 300px) and (max-width: 767px) {
     .text-after-video{
         position: absolute;;
         top: 4510px;
@@ -844,7 +827,7 @@ color: #FFFFFF;
         max-width: 1200px;
         }
         .page6{
-                    
+           max-height: 800px;         
         }
         .videoblock{
             position: absolute;

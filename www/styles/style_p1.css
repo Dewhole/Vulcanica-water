@@ -486,14 +486,14 @@ color: #FFFFFF;
 }
 @media(min-width: 1620px) and (max-width: 1919px) {
     .p1-fire{
-        position: absolute;
-        width: 1619.62px;
+        
+  
         height: 911.04px;
 
         top: 0px;
     }
     .p1-water-position{
-        width: 1620px;
+
         height: 907.07px;
         left: 0px;
         top: 4.22px;
@@ -632,7 +632,7 @@ color: #FFFFFF;
 
     }
 }
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width: 1198px) {
     .p1-fire{
         position: absolute;
         width: 1821px;
@@ -710,7 +710,7 @@ color: #FFFFFF;
 
     }
 }
-@media(min-width: 375px) and (max-width: 767px) {
+@media(min-width: 300px) and (max-width: 767px) {
     .p1-fire{
         position: absolute;
         width: 1444px;
