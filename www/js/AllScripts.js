@@ -399,3 +399,23 @@ $(document).on("click", ".nav-btn:not(.active)", function() {
         }
     }
 });
+
+  $(document).ready(function(){
+    $('.multiple-items').slick({
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: false,
+      nextArrow: false
+    });
+  });
+
+    $(document).ready(function(){
+      $('.multiple-items2').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: false,
+        nextArrow: false
+      });
+    });

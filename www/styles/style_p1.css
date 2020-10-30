@@ -706,6 +706,9 @@ color: #FFFFFF;
     }
 }
 @media(min-width: 300px) and (max-width: 767px) {
+    #screenID1{
+        max-height: 810px;
+    }
     .p1-fire{
         position: absolute;
         width: 1444px;

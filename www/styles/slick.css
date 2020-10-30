@@ -1,9 +1,33 @@
 .wedding {
     display: flex;
-
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
  .wedding__item {
- 
-
+    flex-basis: 340px;
+    background-color: black;
+}
+.wedding__item img {
+    min-width: 390px;
+    min-height: 800px;
+}
+.wrap{
+    max-height: 800px;
+    
+}
+.wedding2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .wedding__item2 {
+    flex-basis: 340px;
+    background-color: black;
+}
+.wedding__item2 img {
+    min-width: 390px;
+    min-height: 800px;
+}
+.wrap2{
+    max-height: 800px;
 }
