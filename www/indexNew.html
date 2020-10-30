@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-title" content="Vulcanica">
     <meta name="application-name" content="Vulcanica">
     <meta name="theme-color" content="#000000">
-    <meta name="Description" content="Vulcanica вода из подземного пресного моря, Высшая категория, Баланс миниралов.">
+    <meta name="Description" content="Vulcanica вода из подземного пресного моря, Высшая категория, Баланс минералов.">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
@@ -27,11 +27,9 @@
     <link rel="stylesheet" type="text/css" href="styles/style_p8.css">
     <link rel="stylesheet" type="text/css" href="styles/style_other.css">
     <link rel="stylesheet" type="text/css" href="styles/stylePager.css">
-    <link rel="stylesheet" type="text/css" href="slick_all/slick/slick.js"/>
-<link rel="stylesheet" type="text/css" href="slick_all/slick/slick-theme.css"/>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick_all/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+  <link rel="stylesheet" href="style.css">
     <script src="https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key"></script>
     
     <title>Vulcanica</title>
@@ -87,6 +85,13 @@
           </div>
       </div>
       </div>
+      <section class="wrap">
+        <div class="wedding multiple-items">
+            <div class="wedding__item"><img src="img/mobile-1.png" alt=""></div>
+            <div class="wedding__item"><img src="img/mobile-2.png" alt=""></div>
+            <div class="wedding__item"><img src="img/mobile-3.png" alt=""></div>
+    </div>
+    </section>
       <div id="screenID2" class="page page2">
         
           <!-- LAYOUTS FOR TWO SCREEN -->
@@ -536,20 +541,32 @@
 
     </div>
 </div>
-    <script>
-      let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-      window.addEventListener('resize', () => {
-        // Выполняем тот же скрипт, что и раньше
-        let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
-      });
-    </script>
-    <script src="js/jquery.min.js"></script>
-    <script src='js/modernizr.min.js'></script>
-    <script src="js/AllScripts.js"></script>
-    
-    <!-- Yandex.Metrika counter -->
+<script>
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  window.addEventListener('resize', () => {
+    // Выполняем тот же скрипт, что и раньше
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+</script>
+<script src="js/jquery.min.js"></script>
+<script src='js/modernizr.min.js'></script>
+<script src="js/AllScripts.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.multiple-items').slick({
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: false,
+      nextArrow: false
+    });
+  });
+  </script>
+<!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})

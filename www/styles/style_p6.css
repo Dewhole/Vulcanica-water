@@ -807,7 +807,7 @@ color: #FFFFFF;
 
 @media(min-width: 300px) and (max-width: 767px) {
     .text-after-video{
-        position: absolute;;
+     
         top: 4510px;
         left: -180px;
         width: 311px;
@@ -817,7 +817,7 @@ color: #FFFFFF;
         line-height: 15px;
         }
     .text-after-video-area{
-        position: absolute;
+     
         right:px;
         top: 1px;
         max-width: 375px;
@@ -827,12 +827,14 @@ color: #FFFFFF;
         max-width: 1200px;
         }
         .page6{
-           max-height: 800px;         
+      
         }
         .videoblock{
-            position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-top: -10px;
             width: 375px;
-            height: 251.78px;
+          
             left: 30px;
             top: 3970px;
             
@@ -840,9 +842,10 @@ color: #FFFFFF;
         
         }
         .video{
-            position: absolute;
-            width: 315px;
-            height: 184.02px;
+            margin-left: -20px;
+            margin-top: 20px;
+            width: 380px;
+            height: 200px;
             left: 0px;
             top: 0px;
             
@@ -851,7 +854,7 @@ color: #FFFFFF;
             border-radius: 4.87006px;
         }
         .textnearvideo{
-            position: absolute;
+            margin-left: 20px;
             width: 233px;
             height: 89px;
             right: 100px;
@@ -861,14 +864,16 @@ color: #FFFFFF;
             line-height: 15px;
         }
         .background-p66{
-            height: 604.9999389648438px;
-            width: 376px;
+
+        
             
             
             background-color: BLACK;
             background-repeat: no-repeat;
             background-position: center;
+            
             overflow: hidden;
+            
 
 
 
@@ -892,7 +897,7 @@ color: #FFFFFF;
             color: #FFFFFF;
         }
         .p6-h1{
-            position: absolute;
+
   
             width: 229px;
             height: 51px;
@@ -909,7 +914,7 @@ color: #FFFFFF;
 
         }
         .p6-img-scientistPosition{
-            position: absolute;
+ 
             left: 30px;
             top: 3670px;
         }
@@ -921,13 +926,16 @@ color: #FFFFFF;
 
         }
         .p6-imgText{
-            position: absolute;
-            left: 140px;
-            top: 3670px;
+            margin-left: 40px;
+            margin-top: 60px;
+max-height: 50px;
         }
         .p6-headImgText{
+            margin-bottom: 12px;
+            margin-left: -20px;
+            
             width: 175px;
-            height: 45px;        
+            max-height: 45px;        
             font-family: Montserrat;
             font-style: normal;
             font-weight: bold;
@@ -937,7 +945,7 @@ color: #FFFFFF;
             color: #FFFFFF;
         }
         .p6-title-block{
-            position: absolute;
+            margin-left: -20px;
             width: 113px;
             height: 45px;
             left: 0px;
@@ -959,9 +967,9 @@ color: #FFFFFF;
             color: #FFFFFF;
         }
         .p6-legacytext{
-            position: absolute;
 
 
+            margin-top: 20px;
             left: 35px;
             top: 3770px;
             width: 507px;
@@ -995,8 +1003,11 @@ color: #FFFFFF;
             font-weight: 500;
         }
         #screenID6{
-            height: 1030px;
+           
             background-color: black;
+        }
+        .p6-container-spec{
+            margin-left: 20px;
         }
         
 }

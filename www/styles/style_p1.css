@@ -166,7 +166,7 @@
     position: absolute;
     bottom: 0;
     width: calc(100% + 100px);
-    height: 490px;
+    height: calc(100% + 100px);
     right:-100px;
 }
 .p1-fire{
@@ -556,17 +556,12 @@ color: #FFFFFF;
 
 @media(min-width: 1119px) and (max-width: 1619px) {
     .p1-fire{
-        width: 1200.33px;
-        height: 675.19px;
-        left: 104.22px;
+
         top: 0px;
     }
     .p1-water-position{
-        position: absolute;
-        width: 1250.9px;
-        height: 672.25px;
-        left: 0px;
-        top: 3.13px;
+
+
     }
     .p1-bottle-position{
         position: absolute;

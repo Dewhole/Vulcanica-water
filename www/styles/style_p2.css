@@ -1,3 +1,6 @@
+.wrap{
+ display: none;
+}
 .color-white { color: white; }
 .color-grey { color: grey; }
 /*page_2*/
@@ -656,6 +659,12 @@ text-transform: uppercase;
     
 }
 @media (min-width: 768px) and (max-width:1199px){
+    #screenID2{
+        display: none;
+    }
+    .wrap{
+        display: flex;
+    }
     .headerTwoScreen {
         width: 500px;
         margin-top: 120px;
@@ -766,6 +775,12 @@ text-transform: uppercase;
     }
 }
 @media (min-width: 300px) and (max-width: 767px){
+    #screenID2{
+        display: none;
+    }
+    .wrap{
+        display: flex;
+       }
     .blackline{
         max-height: 0px;
     }

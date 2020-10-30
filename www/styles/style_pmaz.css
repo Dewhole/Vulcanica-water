@@ -477,7 +477,7 @@ color: #FFFFFF;
     .background-maz{
         height: 100%;
         width: 100vw;
-        background-size: contain;
+        min-height: 600px;
  
         background-image: url(../img/mazall.png);
     }
@@ -731,7 +731,20 @@ color: #FFFFFF;
 @media(min-width: 374px) and (max-width: 767px) {
 
     .gradient-maz1{
-        display: none;
+        background-color:black;
+        
+        background-position-y: px;
+        min-height: 1400px;
+        background-repeat: no-repeat;
+    
+   
+        background-size: contain;
+
+
+
+
+
+        background-image: url(../img/maz-375x.png);
     }
     .gradient-maz2{
         display: none;
@@ -747,18 +760,7 @@ color: #FFFFFF;
  
         background-color:black;
         
-        background-position-y: px;
-        min-height: 1400px;
-        background-repeat: no-repeat;
-        width: 100vw;
-   
-        background-size: contain;
 
-
-
-
-
-        background-image: url(../img/maz-375x.png);
     }
     .maz-bottle{
         display: none;

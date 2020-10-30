@@ -1,0 +1,36 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+
+</head>
+  <body>
+
+    <section class="wrap">
+        <div class="wedding multiple-items">
+            <div class="wedding__item"><img src="img/mobile-1.png" alt=""></div>
+            <div class="wedding__item"><img src="img/mobile-2.png" alt=""></div>
+            <div class="wedding__item"><img src="img/mobile-3.png" alt=""></div>
+    </div>
+    </section>
+
+
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.multiple-items').slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: false,
+            nextArrow: false
+          });
+        });
+        </script>
+
+
+    </body>
+</html>

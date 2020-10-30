@@ -173,6 +173,9 @@ form.p7-offer {
 }
 
 @media(min-width: 1620px) and (max-width: 1919px) {
+    #screenID7{
+        min-height: 820px;
+    }
     .background-p7 {
         padding-left: 8vw;
         padding-right: 8vw;
@@ -421,11 +424,14 @@ form.p7-offer {
     }
 }
 @media(min-width: 767px) and (max-width: 1199px) {
+    #screenID7{
+        min-height: 600px;
+    }
     .page7{
         max-height: 150px;
     }
     .background-p7 {
-        width: 768px;
+        
         height: 550px;
 
         
@@ -569,6 +575,9 @@ form.p7-offer {
     }
 }
 @media(min-width: 300px) and (max-width: 767px) {
+    #screenID7{
+        min-height: 800px;
+    }
     .background-p7 {
         width: 700px;
         background-position-x: -150px;
@@ -1114,6 +1123,7 @@ width: 196px;
     }
 } */
 @media (min-width: 1920px) and (orientation: landscape)  {
+
     .background-p7 {
         padding-left: 8vw;
         padding-right: 8vw;

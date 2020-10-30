@@ -368,7 +368,7 @@ a:hover {
     display: none;
   }   
 .minerals {
-    display: none;
+    max-width: 375px;
 
 }
 .minerals2{
@@ -377,7 +377,7 @@ a:hover {
 
 }
 .minerals-box_link{
-    display: none;
+
 }
 .onwater{
 
@@ -395,17 +395,36 @@ a:hover {
     display: none;
 }
 .mineral-link{    
-    display: none;
-  }
-  .minerals-box_link{
-    display: none;
-  }
+    display: flex;
+ 
+    margin-left: -182px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    /* or 146% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    color: #FFFFFF;
+    -webkit-text-decoration: underline #FFFFFF;
+            text-decoration: underline #FFFFFF;
+    }
+    .minerals-box_link{
+        margin-top: 980px;
+        display: flex;
+        padding:10 5px;flex-direction: column;
+    }
   
-}
+
     .mineralsgradient{
-        min-height: 1000px;
+        min-height: 1200px;
         background-image: url(../img/minerals-all375.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
       }
       .text-after-video{
           display: none;
       }
+}

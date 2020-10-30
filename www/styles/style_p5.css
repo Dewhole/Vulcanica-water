@@ -449,7 +449,7 @@
     
     }
     .gradient{
-        height: 434px;
+       
         width: 100vw;
         left: 0px;
         top: 0px;
@@ -463,7 +463,7 @@
         display: flex;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-        background-size: contain; 
+        background-size: cover; 
         
     }
     .tourists-title_m_p5{
@@ -522,52 +522,9 @@
         white-space: nowrap
     }
     
-    .background-p55 {
-        height: 434px;
-        width: 100vw;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-        
-    }
-    .background-p5{
-    
-        width: 100vw;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-        
-        background: url(../img/noob4top.png);
-    
-        overflow: hidden;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        background-size: contain; 
-        
-        }
-        .gradient{
-            height: 434px;
-            width: 100vw;
-            left: 0px;
-            top: 0px;
-            border-radius: 0px;
-            
-            background: url(../img/noob4.png);
-        
-            overflow: hidden;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
-            background-size: contain; 
-            
-        }
+
     .tourists-title_m_p5{
-        position: absolute;
+        margin-top: 20px;
         width: 341px;
         height: 135px;
         left: 30px;
