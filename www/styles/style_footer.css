@@ -324,7 +324,7 @@ left: 1127px;
         line-height: 22px;
     }
     .copyright{
-        margin-top: 33px;
+        margin-top: 115px;
         font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -347,6 +347,7 @@ left: 1127px;
 }
 @media(min-width: 300px) and (max-width: 767px) {
     .allpages{
+ 
         max-width: 375px;
         overflow: hidden;
     }
@@ -400,7 +401,7 @@ left: 1127px;
     .contacts{
         margin-top: 20px;
     
-        min-width: 400px;
+        min-width: 300px;
         font-family: Montserrat;
         font-style: normal;
         font-weight: 500;

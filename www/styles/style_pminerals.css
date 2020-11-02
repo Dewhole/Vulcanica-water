@@ -40,8 +40,12 @@
     margin-top: 45px;
 }
 .minerals-box_link{
+    
     margin-left: 65px;
     margin-top: 140px;
+}
+.mineral-link:hover{
+    color: #8DE0DC;
 }
 .mineral-link{
 
@@ -368,7 +372,7 @@ a:hover {
     display: none;
   }   
 .minerals {
-    max-width: 375px;
+    max-width: 10px;
 
 }
 .minerals2{
@@ -426,5 +430,9 @@ a:hover {
       }
       .text-after-video{
           display: none;
+      }
+      body{
+      
+  
       }
 }

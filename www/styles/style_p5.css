@@ -2,7 +2,7 @@
 .background-p55 {
     height: 100vh;
     width: 100vw;
-    background: url(../img/background_page5.jpg);
+    background: url(../img/background_page5.png);
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -12,40 +12,6 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-size: cover; 
-}
-.background-p5{
-    height: 100vh;
-    width: 100vw;
-    background: url(../img/noob4top.png);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-size: cover; 
-}
-.gradient {
-    background:
-    -o-linear-gradient(top, rgba(0, 0, 0, 0.6) 5%, transparent 30%),
-    -o-linear-gradient(bottom, rgba(0, 0, 0, 0.6) 5%, transparent 30%),
-    -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
-    -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
-    background:
-    -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
-    -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent)),
-    -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), color-stop(20%, transparent));
-    background:
-    linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
-    linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
-    background:
-    linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
-    linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, transparent 20%);
 }
 
 .left-block_p5 {
@@ -275,9 +241,13 @@
 @media(min-width: 1619px) and (max-width: 1919px) {
     .background-p55 {
   
-        background: url(../img/background_page5.jpg);
+        background: url(../img/background_page5.png);
         
         overflow: hidden;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+
+                background-size: contain;
 
     }
     .title-left-block_p5 {
@@ -436,36 +406,7 @@
     border-radius: 0px;
     
 }
-.background-p5{
 
-
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    
-    background: url(../img/noob4top.png);
-
-    background-size: cover; 
-    
-    }
-    .gradient{
-       
-        width: 100vw;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-        
-        background: url(../img/noob4.png);
-    
-        overflow: hidden;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        background-size: cover; 
-        
-    }
     .tourists-title_m_p5{
         position: absolute;
         width: 501px;

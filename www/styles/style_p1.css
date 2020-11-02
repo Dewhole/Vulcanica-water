@@ -440,11 +440,12 @@
         position: absolute;
         width: 27.25px;
         height: 158.84px;
-        margin-left: 240px;
-        margin-top: 620px;
+        margin-left: 540px;
+        margin-top: 60px;
     }
     .p1-desktopScrollEffectBlock{
-        height: 44.27px;
+        width: 27.25px;
+height: 58.84px;
     }
     .p1-description-items {
         max-width: 500px;

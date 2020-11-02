@@ -219,7 +219,7 @@ color: #FFFFFF;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
 
-                background-size: contain;
+       
                 background-image: url(../img/mazall.png);
 
     }
@@ -424,7 +424,7 @@ color: #FFFFFF;
     }
     .text-under-maz-block2{
         margin-bottom: 30px;
-        margin-left: 350px;
+        margin-left: 450px;
         width: 400px;
         height: 40px;
     
@@ -445,6 +445,7 @@ color: #FFFFFF;
         background-color: black;
     }
     .pallets{
+        width: 1200px;
         height: 0px;
         background-color: black;
         display: flex;
@@ -455,8 +456,18 @@ color: #FFFFFF;
     
     }
     .right-pallet{
-        margin-left: 140px;
+        margin-left: 420px;
         margin-top: 100px;
+    }
+    .left-pallet img{
+        width: 425.8px;
+
+        object-fit:cover
+    }
+    .right-pallet img{
+        width: 425.8px;
+  
+        object-fit:cover
     }
     
 }
@@ -475,10 +486,13 @@ color: #FFFFFF;
         display: none;
         }
     .background-maz{
-        height: 100%;
-        width: 100vw;
-        min-height: 600px;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+
+                background-size: contain;
  
+                max-height: 900px;
         background-image: url(../img/mazall.png);
     }
     .maz-bottle{
@@ -527,7 +541,7 @@ color: #FFFFFF;
         display: flex;
     }
     .text-under-maz-block1{
-        margin-bottom: 160px;
+        margin-bottom: 150px;
         margin-left: 135px;
         width: 400px;
         height: 40px;
@@ -544,7 +558,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        margin-bottom: 260px;
+        margin-bottom: 150px;
         margin-left: 300px;
         width: 400px;
         height: 40px;
@@ -566,6 +580,7 @@ color: #FFFFFF;
         background-color: black;
     }
     .pallets{
+        margin-top: -50px;
         height: 400px;
         background-color: black;
         display: flex;
@@ -576,19 +591,23 @@ color: #FFFFFF;
     
     }
     .right-pallet{
-        margin-left: 70px;
+   
         margin-top: 0px;
     }
     
 
 
     .left-pallet img{
+        max-height: 400px;
         width: 70%;
         height: 70%;
+
     }
     .right-pallet img{
+        max-height: 400px;
         width: 70%;
         height: 70%;
+
     }
 }
 @media(min-width: 767px) and (max-width: 1199px) {
@@ -663,8 +682,8 @@ color: #FFFFFF;
         display: flex;
     }
     .text-under-maz-block1{
-        margin-bottom: 180px;
-        margin-left: 80px;
+        margin-bottom: 60px;
+        margin-left: 135px;
         width: 400px;
         height: 40px;
     
@@ -672,16 +691,16 @@ color: #FFFFFF;
         font-family: Maven Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 14px;
+        line-height: 16px;
         /* identical to box height */
     
     
     color: #FFFFFF;
     }
     .text-under-maz-block2{
-        margin-bottom: 180px;
-        margin-left: 30px;
+        margin-bottom: 60px;
+        margin-left: 100px;
         width: 400px;
         height: 40px;
     
@@ -689,8 +708,8 @@ color: #FFFFFF;
         font-family: Maven Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 14px;
+        line-height: 16px;
         /* identical to box height */
         
         
@@ -709,23 +728,25 @@ color: #FFFFFF;
     }
     .left-pallet{
         margin-top: 0px;
-        margin-left: 150px;
+        margin-left: 100px;
     
     }
     .right-pallet{
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: 0px;
     }
     
 
 
     .left-pallet img{
-        width: 70%;
-        height: 70%;
+        width: 269.35px;
+
+        object-fit:cover
     }
     .right-pallet img{
-        width: 70%;
-        height: 70%;
+        width: 269.35px;
+  
+        object-fit:cover
     }
 }
 @media(min-width: 374px) and (max-width: 767px) {
@@ -734,7 +755,7 @@ color: #FFFFFF;
         background-color:black;
         
         background-position-y: px;
-        min-height: 1400px;
+        min-height: 1200px;
         background-repeat: no-repeat;
     
    

@@ -17,6 +17,11 @@
     height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
     will-change: transform;
+    
+  }
+  .body{
+    overflow: hidden;
+    background-color: black;
   }
   @media(min-width: 1920px) {
   }
@@ -25,5 +30,11 @@
 
       max-width: 1919px;
 
+    }
+  }
+  @media(min-width: 300px) and (max-width: 767px) {
+    .body{
+      overflow: hidden;
+      background-color: black;
     }
   }

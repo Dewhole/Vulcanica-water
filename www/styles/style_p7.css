@@ -1,3 +1,7 @@
+.number{
+    color: #FFFFFF;
+}
+
 .gradient-p7{
 
     background: url(../img/noob4top.png);
@@ -85,7 +89,7 @@ form.p7-offer {
 }
 .p7-offer .checkOfer > .checkmark {
     position: absolute;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 2px solid white;
     background-color: black;
 }
@@ -104,8 +108,8 @@ form.p7-offer {
     display: block;
 }
 .checkOfer .checkmark:after {
-    left: 7px;
-    top: 4px;
+    left: 6px;
+    top: 3px;
     width: 5px;
     height: 10px;
     border: solid white;
@@ -223,7 +227,7 @@ form.p7-offer {
     .p7-offer select { height: 40px; }
     .p7-offer textarea { min-height: 130px; }
     .labelSubmit {
-        margin-top: 30px;
+        margin-top: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -329,10 +333,10 @@ form.p7-offer {
         margin-bottom: 30px;
     }
     .p7-h2 {
-        width: 253px;
-        font-size: 16px;
+        width: 320px;
+        font-size: 18px;
         line-height: 19px;
-        margin-bottom: 14px;
+        margin-bottom: 0px;
     }
     .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea {
         margin: 6px 0;
@@ -423,157 +427,7 @@ form.p7-offer {
         min-height: 650px;
     }
 }
-@media(min-width: 767px) and (max-width: 1199px) {
-    #screenID7{
-        min-height: 600px;
-    }
-    .page7{
-        max-height: 150px;
-    }
-    .background-p7 {
-        
-        height: 550px;
 
-        
-        background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        background-size: cover;
-        background-color: black;
-    }
-    .box-container_p7 {
-        align-items: center;
-    }
-    .p7-h1 {
-        position: absolute;
-        width: 700px;
-        height: 220px;
-        left: 30px;
-        top: 150px;
-   
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 27px;
-        text-transform: uppercase;
-        
-        color: #FFFFFF;
-    }
-    .p7-h2 {
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        
-        color: #FFFFFF;
-    }
-    .p7-h1 {
-        margin-bottom: 30px;
-    }
-    .p7-h2 {
-        width: 253px;
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 14px;
-    }
-    .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea {
-        margin: 6px 0;
-        padding: 12px;
-        font-size: 16px;
-    }
-    .p7-offer select { height: 40px; }
-    .p7-offer textarea { min-height: 130px; }
-    .labelSubmit {
-        margin-top: 30px;
-    }
-    .p7-offer label {
-        font-size: 16px;
-    }
-    .checkOfer {
-        margin-top: 0;
-        margin-bottom: 0;
-        max-width: 230px;     
-        margin-top: 0px;   
-    }
-    #nameMailFormOfer{        width: 307px;
-        height: 35.09px;
-        margin-top: 5px;  
-
-
-    }
-    #phoneMailFormOfer{        width: 307px;
-        height: 35.09px;
-        margin-top: 5px; 
-
-   }
-   #emailMailFormOfer{        width: 307px;
-    height: 35.09px;
-    margin-top: 5px; 
-   }
-   #msgMailFormOfer{
-    width: 307px;
-    height: 35.09px;
-   }
-    .themeMailFormOfer{
-        margin: 1px 0;
-        height: 37.51px;
-        font-size: 16px;
-        padding: 0 10px; 
-        margin-top: 5px;
-    }
-    .textarea{
-        height: 112.53px;
-    }
-    .box_img {
-        margin-left: 13%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
-    .p7-block3 {
-        display: flex;
-        align-items: center;
-    }
-    .p7-block3 img {
-        width: 35vw;
-    }
-    .p7-offer .submitOffer {
-        width: 220px;
-        height: 50px;
-        border-radius: 25px;
-    }
-    .p7-block1{
-        position: absolute;
-        width: 307px;
-        height: 35.09px;
-
-        left: 420px;
-        top: 10px;
-    }
-    .labelSubmit{
-        position: absolute;
-        width: 370px;
-        height: 112.53px;
-
-        top: 320.49px;   
-    }
-    .sendMailFormOfer{
-        position: absolute;
-        top: 1000px;
-    }
-    #screenID7{
-        max-height: 630px;
-        background-color: black;
-    }
-}
 @media(min-width: 300px) and (max-width: 767px) {
     #screenID7{
         min-height: 800px;
@@ -699,7 +553,7 @@ form.p7-offer {
         width: 370px;
         height: 112.53px;
 
-        top: 320.49px;   
+        top: 280.49px;   
     }
     #agreeMailFormOfer{
         font-weight: 500;
@@ -718,22 +572,8 @@ width: 196px;
     }
 }
 /*mobile and loptop*/
-/* @media (min-width: 320px) and (min-height: 300px) {
-    .p7-h1 {
-    font-size: 10px;
-    margin-top: 20px;
-    max-width: 230px; 
-    }
-    .p7-h2 {
-        font-size: 12px;
-        line-height: 1.3;
-    }
-    .p7-h1, .p7-h2 {
-        margin-bottom: 8px;
-    }
-    form.p7-offer {
-        max-width: 100%;
-    }
+ @media (min-width: 320px) and (min-height: 300px) {
+ 
     .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea {
         margin: 5px 0;
         padding: 8px 10px 8px 10px;
@@ -742,10 +582,12 @@ width: 196px;
     .p7-offer select { height: 30px; }
     .p7-offer textarea { min-height: 80px; }
     .p7-offer label {
-        font-size: 12px;
+        max-width: 200px;
+        font-size: 14px;
+        line-height: 16px;
     }
     .themeMailFormOfer {
-        height: 38px;
+        height: 50px;
         font-size: 12px;
     }
     .checkOfer {
@@ -757,18 +599,23 @@ width: 196px;
     .p7-offer .checkOfer > .checkmark {
         top: calc(50% - 11px);
         left: 0;
-        height: 22px;
-        width: 22px;
+        height: 20px;
+        width: 20px;
     }
     .p7-offer .submitOffer {
-        max-width: 180px;
-        height: 35px;
-        font-size: 14px;
+        width: 185.58px;
+        height: 42.18px;
+        font-size: 16px;
         line-height: 22px;
         border-radius: 20px;
+        margin-top: px;
+        margin-left: 15px;
     }
-} */
-/* @media (min-width: 320px) and (min-height: 650px) {
+    .labelSubmit{
+        margin-bottom: 50px;
+    }
+} 
+/*  @media (min-width: 320px) and (min-height: 650px) {
     .p7-h1 {
         font-size: 12px;
         max-width: 250px; 
@@ -789,8 +636,8 @@ width: 196px;
     .p7-offer label {
         font-size: 12px;
     }
-}  
-@media (min-width: 320px) and (min-height: 750px) {
+}   */
+/* @media (min-width: 320px) and (min-height: 750px) {
     .p7-h1 {
         font-size: 14px;
         max-width: 310px;
@@ -1165,20 +1012,21 @@ width: 196px;
     .p7-offer select { height: 40px; }
     .p7-offer textarea { min-height: 130px; }
     .labelSubmit {
-        margin-top: 30px;
+        margin-top: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
     .p7-offer label {
-        font-size: 16px;
+        font-size: 14px;
+line-height: 17px;
     }
     .checkOfer {
         margin-top: 0;
         margin-bottom: 0;
         max-width: 230px;     
-        margin-top: 20px;   
+        margin-top: 0px;   
     }
     #nameMailFormOfer{
         height: 60px;
@@ -1223,6 +1071,7 @@ width: 196px;
         width: 220px;
         height: 50px;
         border-radius: 25px;
+        margin-bottom: 0px;
     }
     .p7-block1{
         position: absolute;
@@ -1538,4 +1387,157 @@ top: 60px;
     .box-container_p7{
         height: 100vh;
     }
-} */
+} */@media(min-width: 767px) and (max-width: 1199px) {
+    #screenID7{
+        min-height: 600px;
+    }
+    .page7{
+        max-height: 150px;
+    }
+    .background-p7 {
+        
+        height: 550px;
+
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-size: cover;
+        background-color: black;
+    }
+    .box-container_p7 {
+        align-items: center;
+    }
+    .p7-h1 {
+        position: absolute;
+        width: 700px;
+        height: 220px;
+        left: 30px;
+        top: 150px;
+   
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+    .p7-h2 {
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+    }
+    .p7-h1 {
+        margin-bottom: 30px;
+    }
+    .p7-h2 {
+        width: 253px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 14px;
+    }
+    .p7-offer input[type="text"], .p7-offer select, .p7-offer textarea {
+        margin: 6px 0;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .p7-offer select { height: 40px; }
+    .p7-offer textarea { min-height: 130px; }
+    .labelSubmit {
+        margin-top: 70px;
+    }
+    .p7-offer label {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .checkOfer {
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 230px;     
+        margin-top: 0px;   
+    }
+    #nameMailFormOfer{        width: 307px;
+        height: 35.09px;
+        margin-top: 5px;  
+
+
+    }
+    #phoneMailFormOfer{        width: 307px;
+        height: 35.09px;
+        margin-top: 5px; 
+
+   }
+   #emailMailFormOfer{        width: 307px;
+    height: 35.09px;
+    margin-top: 5px; 
+   }
+   #msgMailFormOfer{
+    width: 307px;
+    height: 35.09px;
+   }
+    .themeMailFormOfer{
+        margin: 1px 0;
+        height: 37.51px;
+        font-size: 16px;
+        padding: 0 10px; 
+        margin-top: 5px;
+    }
+    .textarea{
+        height: 112.53px;
+    }
+    .box_img {
+        margin-left: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .p7-block3 {
+        display: flex;
+        align-items: center;
+    }
+    .p7-block3 img {
+        width: 35vw;
+    }
+    .p7-offer .submitOffer {
+        width: 185px;
+        height: 42.05px;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .p7-block1{
+        position: absolute;
+        width: 307px;
+        height: 35.09px;
+
+        left: 420px;
+        top: 10px;
+    }
+    .labelSubmit{
+        position: absolute;
+        width: 370px;
+        height: 112.53px;
+
+        top: 270.49px;   
+    }
+    .sendMailFormOfer{
+        position: absolute;
+        top: 1000px;
+    }
+    #screenID7{
+        max-height: 630px;
+        background-color: black;
+    }
+}

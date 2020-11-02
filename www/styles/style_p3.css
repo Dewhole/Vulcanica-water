@@ -39,7 +39,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    overflow: hidden;    margin-left: 100px;
+  margin-left: 100px;
 }
 .left-block_p3 {
 
@@ -96,6 +96,7 @@
 .bottle_p3 { 
     width: 33.33%;
     height: 100%;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -105,7 +106,7 @@
 }
 .bottle_p3 img {
     display: block;
-    margin-bottom: 178.1px;
+    margin-bottom: 600.1px;
     z-index: 100;
 }
 .right-block_p3 {
@@ -426,7 +427,8 @@
         max-width: 267px;
     }
     .bottle_p3 img {
-        margin-top: 300px;
+        
+        margin-top: 500px;
         width: 350px;
     }
     .minerals_p3 p {
@@ -645,7 +647,7 @@
     .box-container_p3 {
     
         width: 100%;
-        height: 100%;
+        height: 100vh;
         max-width: 1920px;
         margin: 0 auto;
         display: -webkit-box;
@@ -659,7 +661,7 @@
     }
     .left-block_p3 {
     
-        margin-bottom: 180px;
+        margin-bottom: -40px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -673,7 +675,7 @@
                 justify-content: center;
     }
     .title-left-block_p3 {
-        margin-top: 10px;    
+        margin-top: 170px;    
         min-width: 404px;
         font-family: Montserrat;
         font-style: normal;
@@ -717,6 +719,7 @@ line-height: 17px;
         margin-bottom: 40px;
     }
     .bottle_p3 {
+        min-height: 1000px;
         width: 33.33%;
         height: 100%;
         display: -webkit-box;
@@ -727,7 +730,8 @@ line-height: 17px;
                 align-items: center;
     }
     .bottle_p3 img {
-        margin-bottom: 178.1px;
+        margin-bottom: 520px;
+        width: 70%;
         z-index: 100;
         
     }
@@ -745,7 +749,7 @@ line-height: 17px;
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-left: 30px;
-        margin-bottom: 100px;
+        margin-top: 50px;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
@@ -855,7 +859,7 @@ line-height: 17px;
         line-height: 10px;     
     }
     .bottle_p3 img {
-        margin-top: 50px;
+        margin-top: 00px;
         margin-left: 350px;
         min-width: 350px;
         margin-bottom: 178.1px;

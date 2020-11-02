@@ -533,7 +533,8 @@ color: #FFFFFF;
         .textnearvideo{
             min-width: 300px;
             height: 187.27px;
-            margin-right: 100px;
+            margin-right: 10px;
+            margin-top: 80px;
         }
 
 
@@ -844,8 +845,8 @@ color: #FFFFFF;
         .video{
             margin-left: -20px;
             margin-top: 20px;
-            width: 380px;
-            height: 200px;
+            width: 320px;
+            height: 180px;
             left: 0px;
             top: 0px;
             
