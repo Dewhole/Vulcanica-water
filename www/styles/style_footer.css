@@ -4,6 +4,7 @@
 	height: 143px;
 	left: 200px;
 	top: 80px;
+
 }
 .footer-block {
 	display: flex;
@@ -62,12 +63,14 @@
 @media(min-width: 1620px) and (max-width:1919px) {
 	.icone {
 		position: relative;
+		
 		width: 143px;
 		height: 143px;
 		left: 200px;
 		top: 80px;
-		background-image: url(../img/icon.svg);
+
 	}
+
 	.footer-block {
 		display: flex;
 		background-color: black;
