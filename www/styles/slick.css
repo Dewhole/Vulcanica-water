@@ -7,7 +7,7 @@
 
   	background-color: black;
 
-  	height: 812px;
+
 
   }
 
@@ -30,7 +30,7 @@
   @media (min-width: 300px) {
 
   	.slider__item img {
-
+      
   		width: 100%;
 
   	}

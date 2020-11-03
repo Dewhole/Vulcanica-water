@@ -336,7 +336,8 @@ a:hover {
 		color: #FFFFFF;
 		color: #FFFFFF;
 		-webkit-text-decoration: underline #FFFFFF;
-		text-decoration: underline #FFFFFF;
+        text-decoration: underline #FFFFFF;
+        min-width: 300px;
 	}
 	.minerals-box_link {
 		margin-top: 980px;
