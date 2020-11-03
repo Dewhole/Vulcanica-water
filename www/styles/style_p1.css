@@ -1,189 +1,211 @@
 .font-mavenPro {
-    font-family: 'Maven Pro', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 }
 .color-white {
-    color: white;
+	color: white;
 }
 .color-grey {
-    color: grey;
+	color: grey;
 }
-#navButton{
-    cursor: pointer;
+#navButton {
+	cursor: pointer;
 }
 .p1_layout_1 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/img/background_page1.png);
-    background-color: black;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: auto;
-    overflow: hidden;
-    position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(/img/background_page1.png);
+	background-color: black;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: auto;
+	overflow: hidden;
+	position: relative;
 }
-.p1-h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 59px;
+.p1-h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 59px;
 }
-.p1-headerBlock{
-    margin-top: 190px;
+.p1-headerBlock {
+	margin-top: 190px;
 }
-.response_screen{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0 25px;
-    z-index: 100;
+.response_screen {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 25px;
+	z-index: 100;
 }
-.p1-description-items { margin-top: 70px; max-width: 190px;}
+.p1-description-items {
+	margin-top: 70px;
+	max-width: 190px;
+}
 .p1-description-items p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
 }
 .p1-mobileScrollEffectBlock {
-    max-width: 60px;
+	max-width: 60px;
 }
 .p1-mobileScrollEffectBlock {
-    position: relative;
+	position: relative;
 }
 #p1_animationEffectSfera_1 {
-    position: absolute;
-    
+	position: absolute;
 }
 #p1_animationEffectSfera_2 {
-    position: absolute;
-    left:15px;
-    top:15px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
 }
 #p1_animationEffectSfera_1 circle {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-name: p1_animateSlidein_animationEffectSfera_1;
-            animation-name: p1_animateSlidein_animationEffectSfera_1;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-name: p1_animateSlidein_animationEffectSfera_1;
+	animation-name: p1_animateSlidein_animationEffectSfera_1;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
 }
 #circle1 {
-    stroke: #CDCDCD;
-    stroke-width: 3;
+	stroke: #CDCDCD;
+	stroke-width: 3;
 }
-
 .p1-positionDesktopScrollEffect {
-    margin-left: 50px;
-    margin-top: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
 }
-
-.p1-desktopScrollEffectBlock{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 40px;
+.p1-desktopScrollEffectBlock {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 40px;
 }
 .p1-desktopScrollEffectBlockScrollEffect {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
-            animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+	animation-name: p1_desktopAnimateSlidein_animationEffectSfera;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
 }
 @-webkit-keyframes p1_desktopAnimateSlidein_animationEffectSfera {
-    from { margin-top: 0; }
-    to {  margin-top: 5px; }
+	from {
+		margin-top: 0;
+	}
+	to {
+		margin-top: 5px;
+	}
 }
 @keyframes p1_desktopAnimateSlidein_animationEffectSfera {
-    from { margin-top: 0; }
-    to {  margin-top: 5px; }
+	from {
+		margin-top: 0;
+	}
+	to {
+		margin-top: 5px;
+	}
 }
-
 @-webkit-keyframes p1_animateSlidein_animationEffectSfera_1 {
-    from { r: 20; }
-    to {  r: 45; }
+	from {
+		r: 20;
+	}
+	to {
+		r: 45;
+	}
 }
 @keyframes p1_animateSlidein_animationEffectSfera_1 {
-    from { r: 20; }
-    to { r: 40; }
+	from {
+		r: 20;
+	}
+	to {
+		r: 40;
+	}
 }
 #hand {
-    width: 45px;
-    position: absolute;
-    left: 20px;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-name: p1_animateSlidein_SVGstr;
-            animation-name: p1_animateSlidein_SVGstr;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+	width: 45px;
+	position: absolute;
+	left: 20px;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-name: p1_animateSlidein_SVGstr;
+	animation-name: p1_animateSlidein_SVGstr;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
 }
 @-webkit-keyframes p1_animateSlidein_SVGstr {
-    from { margin-top: 40px; }
-    to {  margin-top: 20px; }
+	from {
+		margin-top: 40px;
+	}
+	to {
+		margin-top: 20px;
+	}
 }
 @keyframes p1_animateSlidein_SVGstr {
-    from { margin-top: 40px; }
-    to {  margin-top: 20px; }
+	from {
+		margin-top: 40px;
+	}
+	to {
+		margin-top: 20px;
+	}
 }
-.p1-mobileScrollEffectBlock{
-    position: relative;
-    margin-left: 50px;
-    margin-top: 100px;
+.p1-mobileScrollEffectBlock {
+	position: relative;
+	margin-left: 50px;
+	margin-top: 100px;
 }
-.p1-bottle-position{
-    width: 145px;
-    height: 500px;
-    position: absolute;
-    bottom: 100px;
-    right: 0;
+.p1-bottle-position {
+	width: 145px;
+	height: 500px;
+	position: absolute;
+	bottom: 100px;
+	right: 0;
 }
-.p1-bottleIMG{
-    background-image: url(../img/p1-buttle.png);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
+.p1-bottleIMG {
+	background-image: url(../img/p1-buttle.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
 }
-
-.p1-water-position{
-    position: absolute;
-    bottom: 0;
-    width: calc(100% + 100px);
-    height: calc(100% + 100px);
-    right:-100px;
+.p1-water-position {
+	position: absolute;
+	bottom: 0;
+	width: calc(100% + 100px);
+	height: calc(100% + 100px);
+	right: -100px;
 }
-.p1-fire{
-    background-image: url(../img/p1-fire.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;  
+.p1-fire {
+	background-image: url(../img/p1-fire.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
-.p1-waterIMG{
-    background-image: url(../img/p1-water.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;  
+.p1-waterIMG {
+	background-image: url(../img/p1-water.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 /* @media(max-height: 900px){
     .p1-bottle-position{
@@ -339,6 +361,7 @@
     .p1_layout_1 {
         background-position: center center;
         /* background-size: auto; */
+
 /*     }
     .response_screen{
         max-width: 1200px;
@@ -420,370 +443,318 @@
         height: 865px;
     }  
 }  */
-@media(min-width: 1919px){
 
-    .p1-water-position{
-        position: absolute;
-        width: 1920px;
-        height: 1080px;
-        right: 5px;
-        top: 0px;
-    }
-    .p1-bottle-position{
-        position: absolute;
-        width: 263.72px;
-        height: 865.64px;
-        left: 1020.52px;
-        top: 157.39px;
-    }  
-    .p1-positionDesktopScrollEffect {
-        position: absolute;
-        width: 27.25px;
-        height: 158.84px;
-        margin-left: 540px;
-        margin-top: 60px;
-    }
-    .p1-desktopScrollEffectBlock{
-        width: 27.25px;
-height: 58.84px;
-    }
-    .p1-description-items {
-        max-width: 500px;
-        margin-top: 410px;
-        margin-left: 400px;
-    }
-    .p1-description-items p{
-               
-        font-size: 24px;
-        line-height: 29px;
-    }
-    .p1-headerBlock{
-        position: absolute;
-        width: 463px;
-        height: 118px;
-        left: 80.71px;
-        top: 110px;
-       }
-    .p1-h1{
-        position: absolute;
-width: 463px;
-height: 118px;
-left: 350.71px;
-bottom: 50px;
-
-font-family: Maven Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 100px;
-line-height: 117px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-    }
-    .d-lg-none{
-
-    }
+@media(min-width: 1919px) {
+	.p1-water-position {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		right: 5px;
+		top: 0px;
+	}
+	.p1-bottle-position {
+		position: absolute;
+		width: 263.72px;
+		height: 865.64px;
+		left: 1020.52px;
+		top: 157.39px;
+	}
+	.p1-positionDesktopScrollEffect {
+		position: absolute;
+		width: 27.25px;
+		height: 158.84px;
+		margin-left: 540px;
+		margin-top: 60px;
+	}
+	.p1-desktopScrollEffectBlock {
+		width: 27.25px;
+		height: 58.84px;
+	}
+	.p1-description-items {
+		max-width: 500px;
+		margin-top: 410px;
+		margin-left: 400px;
+	}
+	.p1-description-items p {
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.p1-headerBlock {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 80.71px;
+		top: 110px;
+	}
+	.p1-h1 {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 350.71px;
+		bottom: 50px;
+		font-family: Maven Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		line-height: 117px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.d-lg-none {}
 }
-@media(min-width: 1620px) and (max-width: 1919px) {
-    .p1-fire{
-        
-  
-        height: 911.04px;
-
-        top: 0px;
-    }
-    .p1-water-position{
-
-        height: 907.07px;
-        left: 0px;
-        top: 4.22px;
-    }
-    .p1-bottle-position{
-        position: absolute;
-        width: 222.46px;
-        height: 730.21px;
-        left: 860.48px;
-        top: 132.77px;
-    }  
-    .p1-positionDesktopScrollEffect {
-        position: absolute;
-        width: 27.25px;
-        height: 158.84px;
-        margin-left: 515px;
-        margin-top: 50px;
-    }
-    .p1-desktopScrollEffectBlock{
-        height: 44.27px;
-    }
-    .p1-description-items {
-        max-width: 500px;
-        margin-top: 410px;
-        margin-left: 320px;
-    }
-    .p1-description-items p{
-               
-        font-size: 24px;
-        line-height: 29px;
-    }
-    .p1-headerBlock{
-        position: absolute;
-        width: 463px;
-        height: 118px;
-        left: 80.71px;
-        top: 110px;
-       }
-    .p1-h1{
-        position: absolute;
-width: 463px;
-height: 118px;
-left: 265.71px;
-bottom: 50px;
-
-font-family: Maven Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 100px;
-line-height: 117px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-    }
-    .d-lg-none{
-
-    }
+@media(min-width: 1620px) and (max-width:1919px) {
+	.p1-fire {
+		height: 911.04px;
+		top: 0px;
+	}
+	.p1-water-position {
+		height: 907.07px;
+		left: 0px;
+		top: 4.22px;
+	}
+	.p1-bottle-position {
+		position: absolute;
+		width: 222.46px;
+		height: 730.21px;
+		left: 860.48px;
+		top: 132.77px;
+	}
+	.p1-positionDesktopScrollEffect {
+		position: absolute;
+		width: 27.25px;
+		height: 158.84px;
+		margin-left: 515px;
+		margin-top: 50px;
+	}
+	.p1-desktopScrollEffectBlock {
+		height: 44.27px;
+	}
+	.p1-description-items {
+		max-width: 500px;
+		margin-top: 410px;
+		margin-left: 320px;
+	}
+	.p1-description-items p {
+		font-size: 24px;
+		line-height: 29px;
+	}
+	.p1-headerBlock {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 80.71px;
+		top: 110px;
+	}
+	.p1-h1 {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 265.71px;
+		bottom: 50px;
+		font-family: Maven Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		line-height: 117px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.d-lg-none {}
 }
-
-@media(min-width: 1119px) and (max-width: 1619px) {
-    .p1-fire{
-
-        top: 0px;
-    }
-    .p1-water-position{
-
-
-    }
-    .p1-bottle-position{
-        position: absolute;
-        width: 164.87px;
-        height: 541.18px;
-        left: 700.42px;
-        top: 98.4px;
-    }  
-    .p1-positionDesktopScrollEffect {
-        position: absolute;
-        width: 27.25px;
-        height: 158.84px;
-        margin-left: 330px;
-        margin-top: 50px;
-    }
-    .p1-desktopScrollEffectBlock{
-        height: 44.27px;
-    }
-    .p1-description-items {
-        max-width: 500px;
-        margin-top: 270px;
-        margin-left: 210px;
-        
-    }
-    .p1-description-items p{
-               
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-    }
-    .p1-headerBlock{
-        position: absolute;
-        width: 463px;
-        height: 118px;
-        left: 80.71px;
-        top: 110px;
-       }
-    .p1-h1{
-        position: absolute;
-        width: 289.46px;
-        height: 73.77px;
-        left: 159.55px;
-        bottom: 180px;
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 62.5174px;
-        line-height: 73px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .d-lg-none{
-
-    }
+@media(min-width: 1119px) and (max-width:1619px) {
+	.p1-fire {
+		top: 0px;
+	}
+	.p1-water-position {} .p1-bottle-position {
+		position: absolute;
+		width: 164.87px;
+		height: 541.18px;
+		left: 700.42px;
+		top: 98.4px;
+	}
+	.p1-positionDesktopScrollEffect {
+		position: absolute;
+		width: 27.25px;
+		height: 158.84px;
+		margin-left: 330px;
+		margin-top: 50px;
+	}
+	.p1-desktopScrollEffectBlock {
+		height: 44.27px;
+	}
+	.p1-description-items {
+		max-width: 500px;
+		margin-top: 270px;
+		margin-left: 210px;
+	}
+	.p1-description-items p {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.p1-headerBlock {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 80.71px;
+		top: 110px;
+	}
+	.p1-h1 {
+		position: absolute;
+		width: 289.46px;
+		height: 73.77px;
+		left: 159.55px;
+		bottom: 180px;
+		font-family: Maven Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 62.5174px;
+		line-height: 73px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.d-lg-none {}
 }
-@media(min-width: 768px) and (max-width: 1198px) {
-    .p1-fire{
-        position: absolute;
-        width: 1821px;
-        height: 1024px;
-        left: 0px;
-        top: 0px;
-    }
-    .p1-water-position{
-        position: absolute;
-        width: 2290px;
-        height: 1020px;
-        left: -961px;
-        top: 2px;
-    }
-    .p1-bottle-position{
-        width: 250.04px;
-        height: 820.76px;
-        left: 479.11px;
-        top: 149.23px;
-    }  
-    .p1-positionDesktopScrollEffect {
-        position: absolute;
-        width: 27.25px;
-        height: 158.84px;
-        margin-left: 200px;
-        margin-top: 50px;
-    }
-    .p1-desktopScrollEffectBlock{
-        height: 44.27px;
-    }
-    .p1-description-items {
-        max-width: 500px;
-        margin-top: 460px;
-        margin-left: 80px;
-        
-    }
-    .p1-description-items p{
-               
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-    }
-    .p1-headerBlock{
-        position: absolute;
-        width: 463px;
-        height: 118px;
-        left: 80.71px;
-        top: 110px;
-       }
-    .p1-h1{
-        position: absolute;
-        width: 289.46px;
-        height: 73.77px;
-        left: 35.55px;
-        bottom: 20px;
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 88px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .d-lg-none{
-
-    }
+@media(min-width: 768px) and (max-width:1198px) {
+	.p1-fire {
+		position: absolute;
+		width: 1821px;
+		height: 1024px;
+		left: 0px;
+		top: 0px;
+	}
+	.p1-water-position {
+		position: absolute;
+		width: 2290px;
+		height: 1020px;
+		left: -961px;
+		top: 2px;
+	}
+	.p1-bottle-position {
+		width: 250.04px;
+		height: 820.76px;
+		left: 479.11px;
+		top: 149.23px;
+	}
+	.p1-positionDesktopScrollEffect {
+		position: absolute;
+		width: 27.25px;
+		height: 158.84px;
+		margin-left: 200px;
+		margin-top: 50px;
+	}
+	.p1-desktopScrollEffectBlock {
+		height: 44.27px;
+	}
+	.p1-description-items {
+		max-width: 500px;
+		margin-top: 460px;
+		margin-left: 80px;
+	}
+	.p1-description-items p {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 23px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.p1-headerBlock {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 80.71px;
+		top: 110px;
+	}
+	.p1-h1 {
+		position: absolute;
+		width: 289.46px;
+		height: 73.77px;
+		left: 35.55px;
+		bottom: 20px;
+		font-family: Maven Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 75px;
+		line-height: 88px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.d-lg-none {}
 }
-@media(min-width: 300px) and (max-width: 767px) {
-    #screenID1{
-        max-height: 810px;
-    }
-    .p1-fire{
-        position: absolute;
-        width: 1444px;
-        height: 812px;
-        left: 0px;
-        top: 0px;
-    }
-    .p1-water-position{
-        position: absolute;
-        width: 1643.41px;
-        height: 732px;
-        left: -778px;
-        top: 80px;
-    }
-    .p1-bottle-position{
-        width: 179.44px;
-        height: 589.01px;
-        left: 212.32px;
-        top: 185.66px;
-    }  
-    .p1-positionDesktopScrollEffect {
-        position: absolute;
-        width: 27.25px;
-        height: 158.84px;
-        margin-left: 60px;
-        margin-top: 20px;
-    }
-    .p1-desktopScrollEffectBlock{
-        height: 50.27px;
-    }
-    .p1-description-items {
-        max-width: 188px;
-        margin-top: 340px;
-        margin-left: px;
-        
-    }
-    .p1-description-items p{
-               
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-    }
-    .p1-headerBlock{
-        position: absolute;
-        width: 463px;
-        height: 118px;
-        left: 80.71px;
-        top: 110px;
-       }
-    .p1-h1{
-        position: absolute;
-        width: 289.46px;
-        height: 73.77px;
-        left: -50px;
-        bottom: 88px;
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40.4179px;
-        line-height: 47px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .d-lg-none{
-
-    }
+@media(min-width: 300px) and (max-width:767px) {
+	#screenID1 {
+		max-height: 810px;
+	}
+	.p1-fire {
+		position: absolute;
+		width: 1444px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+	}
+	.p1-water-position {
+		position: absolute;
+		width: 1643.41px;
+		height: 732px;
+		left: -778px;
+		top: 80px;
+	}
+	.p1-bottle-position {
+		width: 179.44px;
+		height: 589.01px;
+		left: 212.32px;
+		top: 185.66px;
+	}
+	.p1-positionDesktopScrollEffect {
+		position: absolute;
+		width: 27.25px;
+		height: 158.84px;
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+	.p1-desktopScrollEffectBlock {
+		height: 50.27px;
+	}
+	.p1-description-items {
+		max-width: 188px;
+		margin-top: 340px;
+		margin-left: px;
+	}
+	.p1-description-items p {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.p1-headerBlock {
+		position: absolute;
+		width: 463px;
+		height: 118px;
+		left: 80.71px;
+		top: 110px;
+	}
+	.p1-h1 {
+		position: absolute;
+		width: 289.46px;
+		height: 73.77px;
+		left: -50px;
+		bottom: 88px;
+		font-family: Maven Pro;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40.4179px;
+		line-height: 47px;
+		/* identical to box height */
+		color: #FFFFFF;
+	}
+	.d-lg-none {}
 }

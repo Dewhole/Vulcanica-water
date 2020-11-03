@@ -1,4 +1,5 @@
 
+/* 
 var $wrap = $(".wrapper"),
     pages = $(".page").length,
     scrolling = false,
@@ -35,30 +36,30 @@ function handleTouchMove(evt) {
     var yDiff = yDown - yUp;
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
-        if ( xDiff > 0 ) {
+ /*        if ( xDiff > 0 ) { */
             /* left swipe */ 
             // console.log("LEFT");
-            navigateDown();
-        } else {
+/*             navigateDown();
+        } else { */
             /* right swipe */
             // console.log("RIGHT");
-            navigateUp();
+/*             navigateUp();
         }                       
     } else {
-        if ( yDiff > 0 ) {
+        if ( yDiff > 0 ) { */
             /* up swipe */ 
             // console.log("UP");
-            navigateDown();
-        } else { 
+/*             navigateDown();
+        } else {  */
             /* down swipe */
             // console.log("DOWN");
-            navigateUp();
+/*             navigateUp();
         }                                                                 
-    }
+    } */
     /* reset values */
-    xDown = null;
+/*     xDown = null;
     yDown = null;                                             
-};
+}; */
 
 // document.getElementById("tapNext").addEventListener('click', function() {
 //     navigateDown()
@@ -67,6 +68,7 @@ function handleTouchMove(evt) {
 /*****************************
 ***** NAVIGATE FUNCTIONS *****
 *****************************/
+/* 
 function manageClasses() {
     $wrap.removeClass(function (index, css) {
         return (css.match (/(^|\s)active-page\S+/g) || []).join(' ');
@@ -206,7 +208,7 @@ function manageTwoClasses() {
 
 
 
-
+/* 
 //Функция изменения цифры в панели навигации
 function changeNumberNavigateMenu (screen) {
     //DESKTOP
@@ -265,7 +267,7 @@ function changeNumberNavigateMenu (screen) {
 /*********************
  ***** MOUSEWHEEL *****
 *********************/
-$(document).on("mousewheel DOMMouseScroll", function(e) {
+/* $(document).on("mousewheel DOMMouseScroll", function(e) {
     if (!scrolling) {
         if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
             // console.log("UP")
@@ -275,7 +277,7 @@ $(document).on("mousewheel DOMMouseScroll", function(e) {
             navigateDown();
         }
     }
-});
+}); */
 
 
 
@@ -367,16 +369,16 @@ $('#sendMailFormOfer').on('click', function(){
 **************************/
 
 /* NAV UP/DOWN BTN PAGE NAVIGATION */
-$(document).on("click", ".scroll-btn", function() {
+/* $(document).on("click", ".scroll-btn", function() {
     if ($(this).hasClass("up")) {
         navigateUp();
     } else {
         navigateDown();
     }
 });
-
+ */
 /* NAV CIRCLE DIRECT PAGE BTN */
-$(document).on("click", ".nav-btn:not(.active)", function() {
+/* $(document).on("click", ".nav-btn:not(.active)", function() {
     if (!scrolling) {
         var target = $(this).attr("data-target");
         changeNumberNavigateMenu(target)
@@ -398,9 +400,9 @@ $(document).on("click", ".nav-btn:not(.active)", function() {
         $wrap.animate({"top": "-" + ( (target - 1) * 100) + "%"}, 500);
         }
     }
-});
+}); */
 
-  $(document).ready(function(){
+/*   $(document).ready(function(){
     $('.multiple-items').slick({
       infinite: false,
       slidesToShow: 1,
@@ -418,4 +420,4 @@ $(document).on("click", ".nav-btn:not(.active)", function() {
         prevArrow: false,
         nextArrow: false
       });
-    });
+    }); */

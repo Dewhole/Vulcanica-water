@@ -1,438 +1,357 @@
-.mineralsgradient{
-  background-color: black;
+.mineralsgradient {
+	background-color: black;
 }
-.minerals-block{
-   background: radial-gradient(44.81% 41.84% at 66.59% 43.98%, rgba(71, 70, 70, 0.703125) 0%, rgba(68, 68, 68, 0) 100%);
-   
+.minerals-block {
+	background: radial-gradient(44.81% 41.84% at 66.59% 43.98%, rgba(71, 70, 70, 0.703125) 0%, rgba(68, 68, 68, 0) 100%);
 }
-.minerals{    position: absolute;
-    margin-top: 104px;
-    width: 918px;
-    margin-left: 150px;
-
+.minerals {
+	position: absolute;
+	margin-top: 104px;
+	width: 918px;
+	margin-left: 150px;
 }
-.minerals1{
-    margin-top: px;
-    display: flex;
-    justify-content: space-around;  
+.minerals1 {
+	margin-top: px;
+	display: flex;
+	justify-content: space-around;
 }
-
-.minerals2{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-  }
-.minerals-block{
-    display: flex;
+.minerals2 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
 }
-.minerals-right{
-
+.minerals-block {
+	display: flex;
 }
-.onwater{
-
-    margin-top: 36px;
-    margin-left: 1250px;
+.minerals-right {} .onwater {
+	margin-top: 36px;
+	margin-left: 1250px;
 }
-.bottle{
-
-    position: relative;
-    margin-left: 918px;
-    margin-top: 45px;
+.bottle {
+	position: relative;
+	margin-left: 918px;
+	margin-top: 45px;
 }
-.minerals-box_link{
-    
-    margin-left: 65px;
-    margin-top: 140px;
+.minerals-box_link {
+	margin-left: 65px;
+	margin-top: 140px;
 }
-.mineral-link:hover{
-    color: #8DE0DC;
+.mineral-link:hover {
+	color: #8DE0DC;
 }
-.mineral-link{
-
-left: 213px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 35px;
-/* or 146% */
-text-decoration-line: underline;
-color: #FFFFFF;
-color: #FFFFFF;
--webkit-text-decoration: underline #FFFFFF;
-        text-decoration: underline #FFFFFF;
+.mineral-link {
+	left: 213px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	/* or 146% */
+	text-decoration-line: underline;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	-webkit-text-decoration: underline #FFFFFF;
+	text-decoration: underline #FFFFFF;
 }
 .link1 {
-    color: #FFFFFF;
-    -webkit-text-decoration: underline #FFFFFF;
-            text-decoration: underline #FFFFFF;
-            
+	color: #FFFFFF;
+	-webkit-text-decoration: underline #FFFFFF;
+	text-decoration: underline #FFFFFF;
 }
 a:hover {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
-.Si img{
-    
-    }
-.Mg{
-
-    }
- .Ca{
-
-    }
-.F{
-
-    }
-
-   
-@media(min-width: 1920px) {
-    .mineralsgradient{
-        max-width: 0px;
-      }
-
+.Si img {} .Mg {} .Ca {} .F {}@media(min-width: 1920px) {
+	.mineralsgradient {
+		max-width: 0px;
+	}
 }
-@media(min-width: 1619px) and (max-width: 1919px) {
-    .Si {
-        
-        }
-    .Mg {
-    margin-left: 78px;        
-        }
-    .Ca {
-
-        }
-    .F {
-        margin-left: 78px;        
-        }   
-    .Si img{
-        width: 95%;
-        height: 95%;
-        }
-    .Mg img{
-        width: 95%;
-        height: 95%;
-        
-        }
-    .Ca img{
-        width: 95%;
-        height: 95%;
-        }
-    .F img{
-        width: 95%;
-        height: 95%;
-        }   
-    .minerals {
-        margin-left: 210px;
-        width: 700px;
-        height: 700px;
-    }
-    .minerals2{
-
-        margin-top: 61px;
-        display: flex;
-        justify-content: space-around;
-      }
-      .minerals-box_link{
-        margin-left: 0px;
-        margin-top: 140px;
-    }
-    .onwater{
-
-        margin-top: 36px;
-        margin-left: 950px;
-    }
-    .bottle img{
-        width: 803.06px;
-        height: 872.23px;
-    }
-    .bottle{
-
-        position: relative;
-        margin-left: 710px;
-        top: 000px;
-    }
-    .mineralsgradient{
-        background-image: none;
-
-            max-width: 0px;
-      }
+@media(min-width: 1619px) and (max-width:1919px) {
+	.Si {} .Mg {
+		margin-left: 78px;
+	}
+	.Ca {} .F {
+		margin-left: 78px;
+	}
+	.Si img {
+		width: 95%;
+		height: 95%;
+	}
+	.Mg img {
+		width: 95%;
+		height: 95%;
+	}
+	.Ca img {
+		width: 95%;
+		height: 95%;
+	}
+	.F img {
+		width: 95%;
+		height: 95%;
+	}
+	.minerals {
+		margin-left: 210px;
+		width: 700px;
+		height: 700px;
+	}
+	.minerals2 {
+		margin-top: 61px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.minerals-box_link {
+		margin-left: 0px;
+		margin-top: 140px;
+	}
+	.onwater {
+		margin-top: 36px;
+		margin-left: 950px;
+	}
+	.bottle img {
+		width: 803.06px;
+		height: 872.23px;
+	}
+	.bottle {
+		position: relative;
+		margin-left: 710px;
+		top: 000px;
+	}
+	.mineralsgradient {
+		background-image: none;
+		max-width: 0px;
+	}
 }
-@media(min-width: 1199px) and (max-width: 1619px) {
-    .Si {
-        
-        }
-    .Mg {
-    margin-left: 50px;        
-        }
-    .Ca {
-
-        }
-    .F {
-        margin-left: 50px;        
-        }   
-    .Si img{
-        width: 85%;
-        height: 85%;
-        }
-    .Mg img{
-        width: 85%;
-        height: 85%;
-        
-        }
-    .Ca img{
-        width: 85%;
-        height: 85%;
-        }
-    .F img{
-        width: 85%;
-        height: 85%;
-        }   
-    .minerals {
-
-        margin-left: 130px;
-        width: 550px;
-        height: 550px;
-    }
-    .minerals2{
-
-        margin-top: 61px;
-        display: flex;
-        justify-content: space-around;
-      }
-      .minerals-box_link{
-        margin-left: 0px;
-        margin-top: 140px;
-    }
-    .onwater{
-        margin-top: 36px;
-        margin-left: 760px;
-    }
-    .onwater img{
-        width: 266.32px;
-        height: 85.02px;
-    }
-    .bottle img{
-
-        width: 595.17px;
-        height: 646.43px;
-    }
-    .bottle{
-
-        position: relative;
-        margin-left: 570px;
-        top: 000px;
-    }
-    .mineral-link{
-
-        left: 213px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 22px;
-        /* or 146% */
-        text-decoration-line: underline;
-        color: #FFFFFF;
-        color: #FFFFFF;
-        -webkit-text-decoration: underline #FFFFFF;
-                text-decoration: underline #FFFFFF;
-        }
-        .minerals-box_link{
-            position: absolute;
-             top: 450px;     
-        }
-        .mineralsgradient{
-            background-image: none;
-    
-                max-width: 0px;
-          }
-    }
-@media(min-width: 768px) and (max-width: 1198px) {
-    .Si {
-        
-
-          }
-    .Mg {
-    margin-left: 00px;        
-        }
-    .Ca {
-
-        }
-    .F {
-        margin-right: 0px;        
-        }   
-    .Si img{
-        width: 85%;
-        height: 100%;
-        }
-    .Mg img{
-        width: 85%;
-        height: 100%;
-        
-        }
-    .Ca img{
-        width: 85%;
-        height: 100%;
-        }
-    .F img{
-        width: 85%;
-        height: 100%;
-        }   
-    .minerals {
-        margin-left: 50px;
-        width: 370px;
-        height: 600px;
-
-    }
-    .minerals2{
-
-        margin-top: 31px;
-
-
-      }
-      .minerals-box_link{
-        margin-left: 0px;
-        margin-top: 140px;
-    }
-    .onwater{
-
-        position: relative;
-        margin-left: 470px;
-        top: 70px;
-    }
-    .onwater img{
-        width: 245.66px;
-        height: 78.43px;
-    }
-    .bottle img{
-
-        width: 339px;
-        height: 368.2px;
-    }
-    .bottle{
-
-        position: relative;
-        margin-left: 400px;
-        top: 50px;
-    }
-    .mineral-link{    
-        display: flex;
-        padding:10 5px;
-        left: 213px;
-        bottom: 100px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
-        /* or 146% */
-        text-decoration-line: underline;
-        color: #FFFFFF;
-        color: #FFFFFF;
-        -webkit-text-decoration: underline #FFFFFF;
-                text-decoration: underline #FFFFFF;
-        }
-        .minerals-box_link{
-            position: absolute;
-            top: 300px;
-            display: flex;
-            padding:10 5px;flex-direction: column;
-        }
-        .mineralsgradient{
-            background-image: none;
-    
-                max-width: 0px;
-          }
-    }
-@media(min-width: 300px) and (max-width: 767px) {
-    .Si {
-        display: none;
-
-    }
-.Mg {
-    display: none;    
-  }
-.Ca {
-    display: none;
-  }
-.F {
-    display: none;      
-  }   
-.Si img{
-    display: none;
-  }
-.Mg img{
-    display: none;
-  
-  }
-.Ca img{
-    display: none;
-  }
-.F img{
-    display: none;
-  }   
-.minerals {
-    max-width: 10px;
-
+@media(min-width: 1199px) and (max-width:1619px) {
+	.Si {} .Mg {
+		margin-left: 50px;
+	}
+	.Ca {} .F {
+		margin-left: 50px;
+	}
+	.Si img {
+		width: 85%;
+		height: 85%;
+	}
+	.Mg img {
+		width: 85%;
+		height: 85%;
+	}
+	.Ca img {
+		width: 85%;
+		height: 85%;
+	}
+	.F img {
+		width: 85%;
+		height: 85%;
+	}
+	.minerals {
+		margin-left: 130px;
+		width: 550px;
+		height: 550px;
+	}
+	.minerals2 {
+		margin-top: 61px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.minerals-box_link {
+		margin-left: 0px;
+		margin-top: 140px;
+	}
+	.onwater {
+		margin-top: 36px;
+		margin-left: 760px;
+	}
+	.onwater img {
+		width: 266.32px;
+		height: 85.02px;
+	}
+	.bottle img {
+		width: 595.17px;
+		height: 646.43px;
+	}
+	.bottle {
+		position: relative;
+		margin-left: 570px;
+		top: 000px;
+	}
+	.mineral-link {
+		left: 213px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 22px;
+		/* or 146% */
+		text-decoration-line: underline;
+		color: #FFFFFF;
+		color: #FFFFFF;
+		-webkit-text-decoration: underline #FFFFFF;
+		text-decoration: underline #FFFFFF;
+	}
+	.minerals-box_link {
+		position: absolute;
+		top: 450px;
+	}
+	.mineralsgradient {
+		background-image: none;
+		max-width: 0px;
+	}
 }
-.minerals2{
-    display: none;
-
-
+@media(min-width: 768px) and (max-width:1198px) {
+	.Si {} .Mg {
+		margin-left: 00px;
+	}
+	.Ca {} .F {
+		margin-right: 0px;
+	}
+	.Si img {
+		width: 85%;
+		height: 100%;
+	}
+	.Mg img {
+		width: 85%;
+		height: 100%;
+	}
+	.Ca img {
+		width: 85%;
+		height: 100%;
+	}
+	.F img {
+		width: 85%;
+		height: 100%;
+	}
+	.minerals {
+		margin-left: 50px;
+		width: 370px;
+		height: 600px;
+	}
+	.minerals2 {
+		margin-top: 31px;
+	}
+	.minerals-box_link {
+		margin-left: 0px;
+		margin-top: 140px;
+	}
+	.onwater {
+		position: relative;
+		margin-left: 470px;
+		top: 70px;
+	}
+	.onwater img {
+		width: 245.66px;
+		height: 78.43px;
+	}
+	.bottle img {
+		width: 339px;
+		height: 368.2px;
+	}
+	.bottle {
+		position: relative;
+		margin-left: 400px;
+		top: 50px;
+	}
+	.mineral-link {
+		display: flex;
+		padding: 10 5px;
+		left: 213px;
+		bottom: 100px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		/* or 146% */
+		text-decoration-line: underline;
+		color: #FFFFFF;
+		color: #FFFFFF;
+		-webkit-text-decoration: underline #FFFFFF;
+		text-decoration: underline #FFFFFF;
+	}
+	.minerals-box_link {
+		position: absolute;
+		top: 300px;
+		display: flex;
+		padding: 10 5px;
+		flex-direction: column;
+	}
+	.mineralsgradient {
+		background-image: none;
+		max-width: 0px;
+	}
 }
-.minerals-box_link{
-
-}
-.onwater{
-
-    display: none;
-}
-.onwater img{
- 
-  display: none;
-}
-.bottle img{
-
-    display: none;
-}
-.bottle{
-    display: none;
-}
-.mineral-link{    
-    display: flex;
- 
-    margin-left: -182px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 13px;
-    /* or 146% */
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    color: #FFFFFF;
-    -webkit-text-decoration: underline #FFFFFF;
-            text-decoration: underline #FFFFFF;
-    }
-    .minerals-box_link{
-        margin-top: 980px;
-        display: flex;
-        padding:10 5px;flex-direction: column;
-    }
-  
-
-    .mineralsgradient{
-        min-height: 1200px;
-        background-image: url(../img/minerals-all375.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        
-      }
-      .text-after-video{
-          display: none;
-      }
-      body{
-      
-  
-      }
+@media(min-width: 300px) and (max-width:767px) {
+	.Si {
+		display: none;
+	}
+	.Mg {
+		display: none;
+	}
+	.Ca {
+		display: none;
+	}
+	.F {
+		display: none;
+	}
+	.Si img {
+		display: none;
+	}
+	.Mg img {
+		display: none;
+	}
+	.Ca img {
+		display: none;
+	}
+	.F img {
+		display: none;
+	}
+	.minerals {
+		max-width: 10px;
+	}
+	.minerals2 {
+		display: none;
+	}
+	.minerals-box_link {} .onwater {
+		display: none;
+	}
+	.onwater img {
+		display: none;
+	}
+	.bottle img {
+		display: none;
+	}
+	.bottle {
+		display: none;
+	}
+	.mineral-link {
+		display: flex;
+		margin-left: -182px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 13px;
+		/* or 146% */
+		text-decoration-line: underline;
+		color: #FFFFFF;
+		color: #FFFFFF;
+		-webkit-text-decoration: underline #FFFFFF;
+		text-decoration: underline #FFFFFF;
+	}
+	.minerals-box_link {
+		margin-top: 980px;
+		display: flex;
+		padding: 10 5px;
+		flex-direction: column;
+	}
+	.mineralsgradient {
+		min-height: 1200px;
+		background-image: url(../img/minerals-all375.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.text-after-video {
+		display: none;
+	}
+	body {}
 }

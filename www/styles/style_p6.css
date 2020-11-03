@@ -1,1015 +1,798 @@
-.text-after-video-area{
-    background-color: black; 
+.text-after-video-area {
+	background-color: black;
 }
-.text-after-video{
-margin-left: 213px;
-width: 1463px;
-height: 256px;
-left: 213px;
-top: 7250px;
-background-color: black;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 32px;
-
-color: #FFFFFF;
+.text-after-video {
+	margin-left: 213px;
+	width: 1463px;
+	height: 256px;
+	left: 213px;
+	top: 7250px;
+	background-color: black;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 32px;
+	color: #FFFFFF;
 }
-.blackline-ftervideo{
-    background-color: black;
-    height: 153px;
+.blackline-ftervideo {
+	background-color: black;
+	height: 153px;
 }
-.page6{
-
+.page6 {} .ifame {
+	position: absolute;
+	width: 885px;
+	height: 517px;
+	left: 0px;
+	top: 0px;
+	border: 10px solid #9B0805;
+	box-sizing: border-box;
+	border-radius: 10px;
 }
-.ifame{
-
-    position: absolute;
-    width: 885px;
-    height: 517px;
-    left: 0px;
-    top: 0px;
-    
-    border: 10px solid #9B0805;
-    box-sizing: border-box;
-    border-radius: 10px;
+.videoblock {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 300px;
+	box-sizing: border-box;
 }
-.videoblock{
-
-    display: flex;
-    justify-content: space-between;
-    margin-top: 300px;
-    box-sizing: border-box;
-    
+.object {
+	width: 100%;
+	height: 100%;
+	width: 820px;
+	height: 461.25px;
+	float: none;
+	clear: both;
+	margin: 2px auto;
 }
-.object{
-    width:100%;
-    height:100%;
-    width: 820px; 
-    height: 461.25px; 
-    float: none; clear: both; margin: 2px auto;
-
+.video {
+	max-width: 905px;
+	left: 0px;
+	top: 0px;
+	border: 10px solid #9B0805;
+	box-sizing: border-box;
+	border-radius: 10px;
 }
-.video{
-    max-width: 905px;
-
-left: 0px;
-top: 0px;
-border: 10px solid #9B0805;
-box-sizing: border-box;
-border-radius: 10px;
+.textnearvideo {
+	margin-top: 140px;
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
 }
-.textnearvideo{
-    margin-top: 140px;
-font-family: Montserrat;
-font-style: italic;
-font-weight: 500;
-font-size: 30px;
-line-height: 37px;
-
-color: #FFFFFF;
+.background-p66 {
+	height: 100%;
+	width: 100vw;
+	background: url(../img/noob4top.png);
+	background-repeat: no-repeat;
+	background-position: bottom 30% right 40%;
+	background-size: cover;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-image: url(../img/background_page6.png);
 }
-.background-p66{
-    height: 100%;
-    width: 100vw;
-    background: url(../img/noob4top.png);
-    background-repeat: no-repeat;
-    background-position: bottom 30% right 40%;
-    background-size: cover;
-    overflow: hidden;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-image: url(../img/background_page6.png);
+.background-p6 {
+	height: 100%;
+	width: 100vw;
+	background: url(../img/noob4top.png);
+	background-repeat: no-repeat;
+	background-position: bottom 30% right 40%;
+	background-size: cover;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-.background-p6{    
-    height: 100%;
-    width: 100vw;
-    background: url(../img/noob4top.png);
-    background-repeat: no-repeat;
-    background-position: bottom 30% right 40%;
-    background-size: cover;
-    overflow: hidden;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+.p6-container-spec {
+	padding: 0 30px;
 }
-.p6-container-spec{
-    padding: 0 30px;
+.p6-h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-top: 77px;
 }
-.p6-h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin-top: 77px;
+.p6-grad-blue-green {
+	background: -webkit-gradient(linear, left top, right top, from(#45C2EA), to(#4FF44B));
+	background: -o-linear-gradient(left, #45C2EA, #4FF44B);
+	background: linear-gradient(90deg, #45C2EA, #4FF44B);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-.p6-grad-blue-green{
-    background: -webkit-gradient(linear, left top, right top, from(#45C2EA), to(#4FF44B));
-    background: -o-linear-gradient(left, #45C2EA, #4FF44B);
-    background: linear-gradient(90deg, #45C2EA, #4FF44B);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
+.p6-img-scientistPosition {
+	width: 95px;
+	height: 125px;
+	margin-right: 20px;
 }
-.p6-img-scientistPosition{
-    width: 95px;
-    height: 125px;
-    margin-right: 20px;
+.p6-img-scientist {
+	background-image: url(../img/scientist.png);
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
-.p6-img-scientist{
-    background-image: url(../img/scientist.png);
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.p6-imgAndText {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 30px;
 }
-.p6-imgAndText{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 30px;
-    
+.p6-imgText {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
-.p6-imgText{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-            
+.p6-headImgText {
+	width: 190px;
+	height: 51px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: white;
 }
-.p6-headImgText{
-    width: 190px;
-    height: 51px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: white;
+.p6-title-block {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: white;
+	margin-bottom: 0;
 }
-.p6-title-block{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: white;
-    margin-bottom: 0;
+.p6-text-bold-header {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
 }
-.p6-text-bold-header{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    
+.p6-legacytext {
+	max-width: 310px;
+	height: 320px;
+	margin-top: 30px;
 }
-.p6-legacytext{
-    max-width: 310px;
-    height: 320px;
-    margin-top: 30px;
-    
+.p6-textWater-scientist {
+	max-width: 1065px;
+	width: 1094px;
+	height: px;
+	left: 584px;
+	top: 396px;
+	margin-bottom: 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
 }
-.p6-textWater-scientist{
-    max-width: 1065px;
-    width: 1094px;
-    height: px;
-    left: 584px;
-    top: 396px;
-    margin-bottom: 5px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+@media(max-width: 567px) and (max-height:760px) {
+	.p6-h1 {
+		font-size: 16px;
+		line-height: 20px;
+		margin-top: 50px;
+	}
+	.p6-imgAndText {
+		margin-top: 10px;
+	}
+	.p6-legacytext {
+		margin-top: 10px;
+	}
 }
-@media(max-width: 567px) and (max-height: 760px){
-    .p6-h1{
-        font-size: 16px;
-        line-height: 20px;
-        margin-top: 50px;
-    }
-    .p6-imgAndText{
-        margin-top: 10px;
-    }
-    .p6-legacytext{
-        margin-top: 10px;
-    }
+@media(max-width: 567px) and (max-height:680px) {
+	.p6-h1 {
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 20px;
+	}
+	.p6-imgAndText {
+		margin-top: 10px;
+	}
+	.p6-legacytext {
+		margin-top: 10px;
+	}
+	.p6-img-scientistPosition {
+		width: 65px;
+		height: 100px;
+		margin-right: 10px;
+	}
+	.p6-headImgText {
+		width: 190px;
+		height: 40px;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 4px;
+	}
+	.p6-text-bold-header {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.p6-textWater-scientist {
+		font-size: 10px;
+		line-height: 14px;
+	}
 }
-@media(max-width: 567px) and (max-height: 680px){
-    .p6-h1{
-        font-size: 14px;
-        line-height: 16px;
-        margin-top: 20px;
-    }
-    .p6-imgAndText{
-        margin-top: 10px;
-    }
-    .p6-legacytext{
-        margin-top: 10px;
-    }
-    .p6-img-scientistPosition{
-        width: 65px;
-        height: 100px;
-        margin-right: 10px;
-    }
-    .p6-headImgText{
-        width: 190px;
-        height: 40px;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        margin-bottom: 4px;
-    }
-    .p6-text-bold-header{
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .p6-textWater-scientist{
-        font-size: 10px;
-        line-height: 14px;
-    }
-}
-@media (min-width: 568px){
-    .p6-container-spec{
-        padding: 0 60px;
-    } 
-    .p6-h1 {
-        height: 132px;
-        font-size: 33px;
-        line-height: 44px;
-    }
-    .p6-img-scientistPosition{
-        width: 140px;
-        height: 185px;
-    }
-    .p6-headImgText {
-        width: 230px;
-        height: 60px;
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .p6-title-block{
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .p6-legacytext{
-        max-width: 492px;
-        height: 426px;
-    }
-    .p6-textWater-scientist{
-        font-size: 18px;
-        line-height: 22px;
-        margin-bottom: 10px;
-    }
-    .p6-imgAndText{
-        margin-top: 40px;
-    }
+@media (min-width: 568px) {
+	.p6-container-spec {
+		padding: 0 60px;
+	}
+	.p6-h1 {
+		height: 132px;
+		font-size: 33px;
+		line-height: 44px;
+	}
+	.p6-img-scientistPosition {
+		width: 140px;
+		height: 185px;
+	}
+	.p6-headImgText {
+		width: 230px;
+		height: 60px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.p6-title-block {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.p6-legacytext {
+		max-width: 492px;
+		height: 426px;
+	}
+	.p6-textWater-scientist {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+	.p6-imgAndText {
+		margin-top: 40px;
+	}
 }
 @media (width: 1024px) and (height: 768px) {
-    .p6-legacytext{
-        max-width: calc(100% - 100px);
-        height: 426px;
-    }
-    .p6-h1{
-        margin-top: 40px;
-    }
+	.p6-legacytext {
+		max-width: calc(100% - 100px);
+		height: 426px;
+	}
+	.p6-h1 {
+		margin-top: 40px;
+	}
 }
-.p6-header78{display: none; color: white}
-@media (min-width: 1200px){
-    .p6-img-scientistPosition{
-        width: 150px;
-        height: 200px;
-    }
-    .p6-legacytext{
-        margin-top: -280px;
-        margin-left: 250px;
-        max-width: 750px;
-    }
-    .p6-imgAndText{
-        margin: 0;
-    }
-    .p6-h1{
-        height: 125px;
-        margin-top: 30px;
-    }
-    .p6-imgText{
-        width: 200px;
-        height: 250px;
-    }
-    .p6-imgText{
-        margin-left: -170px;
-        height: 280px;
-    }
-    .p6-header78{
-        display: block;
-        font-size: 24px;
-    }
+.p6-header78 {
+	display: none;
+	color: white
 }
-@media (min-width: 1600px){
-    .p6-container-spec{
-        padding: 0 213px;
-
-    } 
-    .p6-img-scientistPosition{
-        width: 275px;
-        height: 365px;
-    }
-    .p6-legacytext{
-        margin-top: -450px;
-        margin-left: 400px;
-        max-width: 1100px;
-    }
-    .p6-imgAndText{
-        margin: 0;
-    }
-    .p6-block1{
-        margin-bottom: 20px;
-    }
-    .p6-h1{
-        height: 125px;
-        margin-top: 215px;
-        font-size: 45px;
-        line-height: 55px;
-    }
-    .p6-imgText{
-        width: 400px;
-        height: 450px;
-        margin-left: -300px;
-    }
-    .p6-title-block{
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .p6-text-bold-header{
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .p6-header78{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 37px;
-        color: white;
-        margin-bottom: 20px;
-        display: block;
-    }
-    .p6-textWater-scientist{
-        font-size: 26px;
-        line-height: 32px;
-    }
-
+@media (min-width: 1200px) {
+	.p6-img-scientistPosition {
+		width: 150px;
+		height: 200px;
+	}
+	.p6-legacytext {
+		margin-top: -280px;
+		margin-left: 250px;
+		max-width: 750px;
+	}
+	.p6-imgAndText {
+		margin: 0;
+	}
+	.p6-h1 {
+		height: 125px;
+		margin-top: 30px;
+	}
+	.p6-imgText {
+		width: 200px;
+		height: 250px;
+	}
+	.p6-imgText {
+		margin-left: -170px;
+		height: 280px;
+	}
+	.p6-header78 {
+		display: block;
+		font-size: 24px;
+	}
+}
+@media (min-width: 1600px) {
+	.p6-container-spec {
+		padding: 0 213px;
+	}
+	.p6-img-scientistPosition {
+		width: 275px;
+		height: 365px;
+	}
+	.p6-legacytext {
+		margin-top: -450px;
+		margin-left: 400px;
+		max-width: 1100px;
+	}
+	.p6-imgAndText {
+		margin: 0;
+	}
+	.p6-block1 {
+		margin-bottom: 20px;
+	}
+	.p6-h1 {
+		height: 125px;
+		margin-top: 215px;
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.p6-imgText {
+		width: 400px;
+		height: 450px;
+		margin-left: -300px;
+	}
+	.p6-title-block {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.p6-text-bold-header {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.p6-header78 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 37px;
+		color: white;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.p6-textWater-scientist {
+		font-size: 26px;
+		line-height: 32px;
+	}
 }
 @media(min-width: 1920px) {
-    .video{
-        width: 885px;
-        height: 517px;
-        left: 0px;
-        top: 0px;
-        border: 10px solid #9B0805;
-        box-sizing: border-box;
-        border-radius: 10px;
-        background-color: black;
-        }
-        .textnearvideo{
-            
-            width: 490.95px;
-            height: 187.27px;
-
-        }
-        
-} 
-
-@media(min-width: 1619px) and (max-width: 1919px) {
-    .text-after-video{
-        width: 1185px;
-        height: 290px;
-        }
-        .blackline-ftervideo{
-            
-        }
-        .page6{
-                    
-        }
-        .iframe{
-            min-width: 746.54px;
-            min-height: 436.12px;
-            left: 0px;
-            top: 0px;
-        }
-        .videoblock{
-
-
-        
-        }
-        .video{
-        min-width: 746.54px;
-        min-height: 436.12px;
-        left: 0px;
-        top: 0px;
-        margin-right: 100px;
-        border: 10px solid #9B0805;
-        box-sizing: border-box;
-        border-radius: 10px;
-        background-color: black;
-        }
-        .textnearvideo{
-            margin-top: 140px;
-        font-family: Montserrat;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 37px;
-        
-        color: #FFFFFF;
-        }
-        .textnearvideo{
-            width: 490.95px;
-            height: 187.27px;
-            margin-right: 50px;
-        }
-        .background-p66{
-            
-            background-position: 30%;
-
-            background-repeat: no-repeat;
-
-        }
-        
-        .background-p6{    
-            
-        }
-        .p6-container-spec{
-            margin-top: 500px;
-        }
-        .p6-h1{
-
-        }
-        .p6-grad-blue-green{
-
-        }
-        .p6-img-scientistPosition{
-
-        }
-        .p6-img-scientist{
-
-        }
-        .p6-imgAndText{
-
-        }
-        .p6-imgText{
-
-        }
-        .p6-headImgText{
-            max-width: 162px;
-        }
-        .p6-title-block{
- 
-        }
-        .p6-text-bold-header{
-
-        }
-        .p6-legacytext{
-
-        }
-        .p6-textWater-scientist{
-            width: 922.85px;
-            height: 200.35px;
-          
-        }
+	.video {
+		width: 885px;
+		height: 517px;
+		left: 0px;
+		top: 0px;
+		border: 10px solid #9B0805;
+		box-sizing: border-box;
+		border-radius: 10px;
+		background-color: black;
+	}
+	.textnearvideo {
+		width: 490.95px;
+		height: 187.27px;
+	}
 }
-@media(min-width: 1199px) and (max-width: 1619px) {
-    .text-after-video{
-
-        margin-left: 130px;
-        width: 892px;
-        height: 160px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        }
-        .blackline-ftervideo{
-            
-        }
-        .page6{
-                    
-        }
-        .iframe{
-            min-width: 746.54px;
-            min-height: 436.12px;
-            left: 0px;
-            top: 0px;
-        }
-        .videoblock{
-            margin-top: 100px;
-            width: 600.95px;
-        
-        }
-        .video{
-            min-width: 553.28px;
-            min-height: 323.21px;
-            margin-left: 50px;
-            left: 0px;
-            top: 0px;
-            border: 10px solid #9B0805;
-            box-sizing: border-box;
-            border-radius: 10px;
-            background-color: black;
-        }
-        .textnearvideo{
-            margin-top: 140px;
-        font-family: Montserrat;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 25px;
-        
-        color: #FFFFFF;
-        }
-        .textnearvideo{
-            min-width: 300px;
-            height: 187.27px;
-            margin-right: 10px;
-            margin-top: 80px;
-        }
-
-
-        .page6{
-                    
-        }
-        .videoblock{
-            
-            width: 553.28px;
-            height: 323.21px;
-            left: 500px;
-            top: 3880px;
-            
-
-        
-        }
-
- 
-        .background-p66{
-       
-            width: 100vw;
-
-            background-position: bottom 30% right 40%;
-
-        }
-        
-        .background-p6{ 
-
-     
-        }
-        .p6-container-spec{
-            margin-top: 50px;
-            margin-left: 80px;
-        }
-        .p6-header78{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 22px;
-
-            color: #FFFFFF;
-        }
-        .p6-h1{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 26px;
-            line-height: 32px;
-            text-transform: uppercase;
-        }
-        .p6-grad-blue-green{
-
-        }
-        .p6-img-scientistPosition{
-
-        }
-        .p6-img-scientist{
-            width: 171.92px;
-            height: 227.96px;
-        }
-        .p6-imgAndText{
-
-        }
-        .p6-imgText{
-
-        }
-        .p6-headImgText{
-            max-width: 162px;
-        }
-        .p6-title-block{
- 
-        }
-        .p6-text-bold-header{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 20px;
-            /* or 143% */
-            
-            text-transform: uppercase;
-            
-            color: #FFFFFF;
-        }
-        .p6-legacytext{
-
-        }
-        .p6-textWater-scientist{
-            max-width: 683.94px;
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 20px;
-          
-        }
+@media(min-width: 1619px) and (max-width:1919px) {
+	.text-after-video {
+		width: 1185px;
+		height: 290px;
+	}
+	.blackline-ftervideo {} .page6 {} .iframe {
+		min-width: 746.54px;
+		min-height: 436.12px;
+		left: 0px;
+		top: 0px;
+	}
+	.videoblock {} .video {
+		min-width: 746.54px;
+		min-height: 436.12px;
+		left: 0px;
+		top: 0px;
+		margin-right: 100px;
+		border: 10px solid #9B0805;
+		box-sizing: border-box;
+		border-radius: 10px;
+		background-color: black;
+	}
+	.textnearvideo {
+		margin-top: 140px;
+		font-family: Montserrat;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 37px;
+		color: #FFFFFF;
+	}
+	.textnearvideo {
+		width: 490.95px;
+		height: 187.27px;
+		margin-right: 50px;
+	}
+	.background-p66 {
+		background-position: 30%;
+		background-repeat: no-repeat;
+	}
+	.background-p6 {} .p6-container-spec {
+		margin-top: 500px;
+	}
+	.p6-h1 {} .p6-grad-blue-green {} .p6-img-scientistPosition {} .p6-img-scientist {} .p6-imgAndText {} .p6-imgText {} .p6-headImgText {
+		max-width: 162px;
+	}
+	.p6-title-block {} .p6-text-bold-header {} .p6-legacytext {} .p6-textWater-scientist {
+		width: 922.85px;
+		height: 200.35px;
+	}
 }
-@media(min-width: 767px) and (max-width: 1199px) {
-    .text-after-video{
-
-        margin-left: 50px;
-        width: 653px;
-        height: 180px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        }
-        .blackline-ftervideo{
-            
-        }
-        .page6{
-                    
-        }
-
-        .videoblock{
-            margin-top: 100px;
-            width: 431px;
-        
-        }
-        .video{
-        
-            min-width: 440px;
-            max-height: 251px;
-            margin-left: -30px;
-            left: 0px;
-            top: 0px;
-            border: 4.87006px solid #9B0805;
-            box-sizing: border-box;
-            border-radius: 4.87006px;
-            background-color: black;
-        }
-        .textnearvideo{
-            
-            margin-top: 50px;
-        font-family: Montserrat;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
-        
-        color: #FFFFFF;
-        }
-        .textnearvideo{
-              min-width: 202px;
-               height: 89px;
-            margin-right: 100px;
-        }
-
-
-        .page6{
-                    
-        }
-        .videoblock{
-            
-            width: 431px;
-            height: 251.78px;
-            left: 500px;
-            top: 3880px;
-            
-
-        
-        }
-
- 
-        .background-p66{
-       
-            width: 100vw;
-
-            background-position: bottom 30% right 40%;
-
-        }
-        
-        .background-p6{ 
-
-     
-        }
-        .p6-container-spec{
-            margin-top: 50px;
-            margin-left: -20px;
-        }
-        .p6-header78{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 22px;
-
-            color: #FFFFFF;
-        }
-        .p6-h1{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 27px;
-            text-transform: uppercase;
-        }
-        .p6-grad-blue-green{
-
-        }
-        .p6-img-scientistPosition{
-            left: 30px;
-        }
-        .p6-img-scientist{
-            width: 154px;
-            height: 204px;
-        }
-        .p6-imgAndText{
-
-        }
-        .p6-imgText{
-
-        }
-        .p6-headImgText{
-            width: 400px;
-            margin-left: 10px;            
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 17px;
-        }
-        .p6-title-block{
-            margin-top: 140px;
-            margin-left: -160px;
-            width: 132px;
-            height: 138.79px;
-            left: 28px;
-            top: 4280px;
-    
-            font-size: 14px;
-            line-height: 17px;
-        }
-        .p6-text-bold-header{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 20px;
-            /* or 143% */
-            
-            text-transform: uppercase;
-            
-            color: #FFFFFF;
-        }
-        .p6-legacytext{
-            margin-top: -300px;
-            margin-left: 180px;
-            max-height: 250px;
-        }
-        .p6-textWater-scientist{
-            width: 507px;
-            height: 122px;
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 18px;
-          
-        }
-        .p6-block1{
-            max-width: 500px;
-            max-height: 50px;
-        }
+@media(min-width: 1199px) and (max-width:1619px) {
+	.text-after-video {
+		margin-left: 130px;
+		width: 892px;
+		height: 160px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.blackline-ftervideo {} .page6 {} .iframe {
+		min-width: 746.54px;
+		min-height: 436.12px;
+		left: 0px;
+		top: 0px;
+	}
+	.videoblock {
+		margin-top: 100px;
+		width: 600.95px;
+	}
+	.video {
+		min-width: 553.28px;
+		min-height: 323.21px;
+		margin-left: 50px;
+		left: 0px;
+		top: 0px;
+		border: 10px solid #9B0805;
+		box-sizing: border-box;
+		border-radius: 10px;
+		background-color: black;
+	}
+	.textnearvideo {
+		margin-top: 140px;
+		font-family: Montserrat;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+		color: #FFFFFF;
+	}
+	.textnearvideo {
+		min-width: 300px;
+		height: 187.27px;
+		margin-right: 10px;
+		margin-top: 80px;
+	}
+	.page6 {} .videoblock {
+		width: 553.28px;
+		height: 323.21px;
+		left: 500px;
+		top: 3880px;
+	}
+	.background-p66 {
+		width: 100vw;
+		background-position: bottom 30% right 40%;
+	}
+	.background-p6 {} .p6-container-spec {
+		margin-top: 50px;
+		margin-left: 80px;
+	}
+	.p6-header78 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
+	.p6-h1 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 32px;
+		text-transform: uppercase;
+	}
+	.p6-grad-blue-green {} .p6-img-scientistPosition {} .p6-img-scientist {
+		width: 171.92px;
+		height: 227.96px;
+	}
+	.p6-imgAndText {} .p6-imgText {} .p6-headImgText {
+		max-width: 162px;
+	}
+	.p6-title-block {} .p6-text-bold-header {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 20px;
+		/* or 143% */
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.p6-legacytext {} .p6-textWater-scientist {
+		max-width: 683.94px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 20px;
+	}
 }
-
-
-
-
-
-@media(min-width: 300px) and (max-width: 767px) {
-    .text-after-video{
-     
-        top: 4510px;
-        left: -180px;
-        width: 311px;
-        height: 270px;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 15px;
-        }
-    .text-after-video-area{
-     
-        right:px;
-        top: 1px;
-        max-width: 375px;
-        background-color: white;
-        }
-        .blackline-ftervideo{
-        max-width: 1200px;
-        }
-        .page6{
-      
-        }
-        .videoblock{
-            display: flex;
-            flex-direction: column;
-            margin-top: -10px;
-            width: 375px;
-          
-            left: 30px;
-            top: 3970px;
-            
-
-        
-        }
-        .video{
-            margin-left: -20px;
-            margin-top: 20px;
-            width: 320px;
-            height: 180px;
-            left: 0px;
-            top: 0px;
-            
-            border: 4.87006px solid #9B0805;
-            box-sizing: border-box;
-            border-radius: 4.87006px;
-        }
-        .textnearvideo{
-            margin-left: 20px;
-            width: 233px;
-            height: 89px;
-            right: 100px;
-            top: -230px;
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 15px;
-        }
-        .background-p66{
-
-        
-            
-            
-            background-color: BLACK;
-            background-repeat: no-repeat;
-            background-position: center;
-            
-            overflow: hidden;
-            
-
-
-
-        }
-        
-        .background-p6{ 
-            
-     
-        }
-        .p6-container-spec{
-            margin-top: 50px;
-            margin-left: 80px;
-        }
-        .p6-header78{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 22px;
-
-            color: #FFFFFF;
-        }
-        .p6-h1{
-
-  
-            width: 229px;
-            height: 51px;
-            top: 3520px;
-            left: 30px;
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 17px;
-            text-transform: uppercase;
-        }
-        .p6-grad-blue-green{
-
-        }
-        .p6-img-scientistPosition{
- 
-            left: 30px;
-            top: 3670px;
-        }
-        .p6-img-scientist{
-            width: 86px;
-            height: 114px;
-        }
-        .p6-imgAndText{
-
-        }
-        .p6-imgText{
-            margin-left: 40px;
-            margin-top: 60px;
-max-height: 50px;
-        }
-        .p6-headImgText{
-            margin-bottom: 12px;
-            margin-left: -20px;
-            
-            width: 175px;
-            max-height: 45px;        
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 15px;
-            
-            color: #FFFFFF;
-        }
-        .p6-title-block{
-            margin-left: -20px;
-            width: 113px;
-            height: 45px;
-            left: 0px;
-            top: 65px;
- 
-            font-size: 12px;
-            line-height: 15px;
-        }
-        .p6-text-bold-header{
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 20px;
-            /* or 143% */
-            
-            text-transform: uppercase;
-            
-            color: #FFFFFF;
-        }
-        .p6-legacytext{
-
-
-            margin-top: 20px;
-            left: 35px;
-            top: 3770px;
-            width: 507px;
-            height: 292px;
-
-
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 18px;
-            /* or 129% */
-
-
-            color: #FFFFFF;
-
-          
-        }
-        .p6-block1{
-            
-        }
-        .blackline66{
-            height: 200px;
-            background: black;
-        }
-        .p6-textWater-scientist{
-            width: 298px;
-            height: 150px;
-            font-size: 12px;
-            line-height: 15px;
-            font-weight: 500;
-        }
-        #screenID6{
-           
-            background-color: black;
-        }
-        .p6-container-spec{
-            margin-left: 20px;
-        }
-        
+@media(min-width: 767px) and (max-width:1199px) {
+	.text-after-video {
+		margin-left: 50px;
+		width: 653px;
+		height: 180px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.blackline-ftervideo {} .page6 {} .videoblock {
+		margin-top: 100px;
+		width: 431px;
+	}
+	.video {
+		min-width: 440px;
+		max-height: 251px;
+		margin-left: -30px;
+		left: 0px;
+		top: 0px;
+		border: 4.87006px solid #9B0805;
+		box-sizing: border-box;
+		border-radius: 4.87006px;
+		background-color: black;
+	}
+	.textnearvideo {
+		margin-top: 50px;
+		font-family: Montserrat;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		color: #FFFFFF;
+	}
+	.textnearvideo {
+		min-width: 202px;
+		height: 89px;
+		margin-right: 100px;
+	}
+	.page6 {} .videoblock {
+		width: 431px;
+		height: 251.78px;
+		left: 500px;
+		top: 3880px;
+	}
+	.background-p66 {
+		width: 100vw;
+		background-position: bottom 30% right 40%;
+	}
+	.background-p6 {} .p6-container-spec {
+		margin-top: 50px;
+		margin-left: -20px;
+	}
+	.p6-header78 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
+	.p6-h1 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 27px;
+		text-transform: uppercase;
+	}
+	.p6-grad-blue-green {} .p6-img-scientistPosition {
+		left: 30px;
+	}
+	.p6-img-scientist {
+		width: 154px;
+		height: 204px;
+	}
+	.p6-imgAndText {} .p6-imgText {} .p6-headImgText {
+		width: 400px;
+		margin-left: 10px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.p6-title-block {
+		margin-top: 140px;
+		margin-left: -160px;
+		width: 132px;
+		height: 138.79px;
+		left: 28px;
+		top: 4280px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.p6-text-bold-header {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 20px;
+		/* or 143% */
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.p6-legacytext {
+		margin-top: -300px;
+		margin-left: 180px;
+		max-height: 250px;
+	}
+	.p6-textWater-scientist {
+		width: 507px;
+		height: 122px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.p6-block1 {
+		max-width: 500px;
+		max-height: 50px;
+	}
 }
-
+@media(min-width: 300px) and (max-width:767px) {
+	.text-after-video {
+		top: 4510px;
+		left: -180px;
+		width: 311px;
+		height: 270px;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.text-after-video-area {
+		right: px;
+		top: 1px;
+		max-width: 375px;
+		background-color: white;
+	}
+	.blackline-ftervideo {
+		max-width: 1200px;
+	}
+	.page6 {} .videoblock {
+		display: flex;
+		flex-direction: column;
+		margin-top: -10px;
+		width: 375px;
+		left: 30px;
+		top: 3970px;
+	}
+	.video {
+		margin-left: -20px;
+		margin-top: 20px;
+		width: 320px;
+		height: 180px;
+		left: 0px;
+		top: 0px;
+		border: 4.87006px solid #9B0805;
+		box-sizing: border-box;
+		border-radius: 4.87006px;
+	}
+	.textnearvideo {
+		margin-left: 20px;
+		width: 233px;
+		height: 89px;
+		right: 100px;
+		top: -230px;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.background-p66 {
+		background-color: BLACK;
+		background-repeat: no-repeat;
+		background-position: center;
+		overflow: hidden;
+	}
+	.background-p6 {} .p6-container-spec {
+		margin-top: 50px;
+		margin-left: 80px;
+	}
+	.p6-header78 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
+	.p6-h1 {
+		width: 229px;
+		height: 51px;
+		top: 3520px;
+		left: 30px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+	}
+	.p6-grad-blue-green {} .p6-img-scientistPosition {
+		left: 30px;
+		top: 3670px;
+	}
+	.p6-img-scientist {
+		width: 86px;
+		height: 114px;
+	}
+	.p6-imgAndText {} .p6-imgText {
+		margin-left: 40px;
+		margin-top: 60px;
+		max-height: 50px;
+	}
+	.p6-headImgText {
+		margin-bottom: 12px;
+		margin-left: -20px;
+		width: 175px;
+		max-height: 45px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 15px;
+		color: #FFFFFF;
+	}
+	.p6-title-block {
+		margin-left: -20px;
+		width: 113px;
+		height: 45px;
+		left: 0px;
+		top: 65px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.p6-text-bold-header {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 20px;
+		/* or 143% */
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.p6-legacytext {
+		margin-top: 20px;
+		left: 35px;
+		top: 3770px;
+		width: 507px;
+		height: 292px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		/* or 129% */
+		color: #FFFFFF;
+	}
+	.p6-block1 {} .blackline66 {
+		height: 200px;
+		background: black;
+	}
+	.p6-textWater-scientist {
+		width: 298px;
+		height: 150px;
+		font-size: 12px;
+		line-height: 15px;
+		font-weight: 500;
+	}
+	#screenID6 {
+		background-color: black;
+	}
+	.p6-container-spec {
+		margin-left: 20px;
+	}
+}

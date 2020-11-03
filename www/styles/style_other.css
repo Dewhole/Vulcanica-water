@@ -5,184 +5,231 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="text"]:focus,
 textarea:focus {
-    font-size: 16px !important;
+	font-size: 16px !important;
 }
+/* Активный слайд */
 
- /* Активный слайд */
-.activeScreen {right: 0; -webkit-transition: .1s; -o-transition: .1s; transition: .1s;}
+.activeScreen {
+	right: 0;
+	-webkit-transition: .1s;
+	-o-transition: .1s;
+	transition: .1s;
+}
 /* .activeScreen {right: 0;} */
- /* Неактивный слайд */
-.pre-activeScreen {right: +100vw; -webkit-transition: .1s; -o-transition: .1s; transition: .1s;}
+
+/* Неактивный слайд */
+
+.pre-activeScreen {
+	right: +100vw;
+	-webkit-transition: .1s;
+	-o-transition: .1s;
+	transition: .1s;
+}
 /* .pre-activeScreen {right: +100vw;} */
-.tapNext{
-    position: absolute;
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2200;
-}
-#screenID1{ z-index: 2202;}
-#screenID2{ z-index: 2199;}
-#screenID4{ z-index: 2197;}
-#screenID3{ z-index: 2198;}
-#screenID5{ z-index: 2196;}
-#screenID6{ z-index: 2195;}
-#screenID7{ z-index: 2194;}
-#screenID8{ z-index: 2193;}
 
-.cursor-pointer{
-    cursor: pointer;
+.tapNext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2200;
 }
-.navigationField{
-    position: absolute;
-    width: 120px;
-    height: 100vh;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    overflow: hidden;
-    z-index: 2202;
+#screenID1 {
+	z-index: 2202;
 }
-.navigationButton{
-    width: 120px;
-    height: 340px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+#screenID2 {
+	z-index: 2199;
 }
-.inStartLayout, .inEndLayout, .prevNumber, .nextNumber, .NOW_Number{
-    font-family: 'Maven Pro', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
+#screenID4 {
+	z-index: 2197;
 }
-.prevNumber .spanNumber, .nextNumber .spanNumber, .NOW_Number .spanNumber {
-    margin: 10px 3px;
-    width: 60px;
-    height: 21px;
+#screenID3 {
+	z-index: 2198;
 }
-.prevNumber .spanNumberMini, .nextNumber .spanNumberMini, .NOW_Number .spanNumberMini {
-    width: 28px;
-    height: 21px;
+#screenID5 {
+	z-index: 2196;
 }
-
+#screenID6 {
+	z-index: 2195;
+}
+#screenID7 {
+	z-index: 2194;
+}
+#screenID8 {
+	z-index: 2193;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.navigationField {
+	position: absolute;
+	width: 120px;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	overflow: hidden;
+	z-index: 2202;
+}
+.navigationButton {
+	width: 120px;
+	height: 340px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.inStartLayout,
+.inEndLayout,
+.prevNumber,
+.nextNumber,
+.NOW_Number {
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.prevNumber .spanNumber,
+.nextNumber .spanNumber,
+.NOW_Number .spanNumber {
+	margin: 10px 3px;
+	width: 60px;
+	height: 21px;
+}
+.prevNumber .spanNumberMini,
+.nextNumber .spanNumberMini,
+.NOW_Number .spanNumberMini {
+	width: 28px;
+	height: 21px;
+}
 /* ********************
 ** * *  MOBILE  * * *** 
 **********************/
-.navigationField_mob{
-    position: fixed;
-    width: 100vw;
-    height: 100px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    overflow: hidden;
-    z-index: 2202;
-    /* background-color: black; */
-    padding-bottom: 1.5rem;
-}
-@media (max-width: 568px) and (max-height: 500px){
-    .navigationField_mob{display: none !important;}
-    .navigationField_mob{padding-bottom: 0.5rem;}
-}
-.navigationButton_mob{
-    width: 100%;
-    max-width: 375px;
-    height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-.inStartLayout_mob, .inEndLayout_mob{
-    -webkit-writing-mode: tb-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: tb-rl;
-    -webkit-transform:rotate(180deg);
-        -ms-transform:rotate(180deg);
-            transform:rotate(180deg);
-}
-.inStartLayout_mob, .inEndLayout_mob, .prevNumber_mob, .nextNumber_mob, .NOW_Number_mob{
-    font-family: 'Maven Pro', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 11px;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-.prevNumber, .nextNumber, .prevNumber_mob, .nextNumber_mob{color: #ADADAD;}
-@media (max-height: 600px){
-    .navigationButton_mob{
-        height: 70px;
-    }
-    .navigationField_mob{
-        height: 70px;
-    }
 
+.navigationField_mob {
+	position: fixed;
+	width: 100vw;
+	height: 100px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	overflow: hidden;
+	z-index: 2202;
+	/* background-color: black; */
+	padding-bottom: 1.5rem;
 }
-.captcha{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 4000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 568px) and (max-height: 500px) {
+	.navigationField_mob {
+		display: none !important;
+	}
+	.navigationField_mob {
+		padding-bottom: 0.5rem;
+	}
+}
+.navigationButton_mob {
+	width: 100%;
+	max-width: 375px;
+	height: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+.inStartLayout_mob,
+.inEndLayout_mob {
+	-webkit-writing-mode: tb-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: tb-rl;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.inStartLayout_mob,
+.inEndLayout_mob,
+.prevNumber_mob,
+.nextNumber_mob,
+.NOW_Number_mob {
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 11px;
+	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.prevNumber,
+.nextNumber,
+.prevNumber_mob,
+.nextNumber_mob {
+	color: #ADADAD;
+}
+@media (max-height: 600px) {
+	.navigationButton_mob {
+		height: 70px;
+	}
+	.navigationField_mob {
+		height: 70px;
+	}
+}
+.captcha {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 4000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .submitOfferOffer {
-    text-transform: uppercase;
-    color: white;
-    border: 2px solid white;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: 0.2s linear;
-    min-width: 200px;
-    min-height: 35px;
-    border-radius: 10px;
+	text-transform: uppercase;
+	color: white;
+	border: 2px solid white;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.2s linear;
+	min-width: 200px;
+	min-height: 35px;
+	border-radius: 10px;
 }
 .submitOfferOffer:hover {
-    box-shadow: 0px 4px 10px -5px rgb(214, 247, 245);
-    border: none;
-    color: black;
-    background: linear-gradient(310.94deg, #64D5CF 7.35%,#FFFFFF);
-    transition: 0.2s linear;
-    
+	box-shadow: 0px 4px 10px -5px rgb(214, 247, 245);
+	border: none;
+	color: black;
+	background: linear-gradient(310.94deg, #64D5CF 7.35%, #FFFFFF);
+	transition: 0.2s linear;
 }

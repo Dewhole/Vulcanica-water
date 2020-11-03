@@ -1,905 +1,961 @@
-.wrap{
- display: none;
+.wrap {
+	display: none;
 }
-.wrap2{
-    display: none;
-   }
-.color-white { color: white; }
-.color-grey { color: grey; }
+.wrap2 {
+	display: none;
+}
+.color-white {
+	color: white;
+}
+.color-grey {
+	color: grey;
+}
 /*page_2*/
-.layoutsAbsolute{
-    z-index:1000;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:
-        -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)),
-        -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(50%, transparent));
-    background:
-        -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
-        -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
-    background:
-        linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%),
-        linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
-        background: linear-gradient(360deg, #000000 1.63%, rgba(0, 0, 0, 0.94) 11.34%, rgba(0, 0, 0, 0.67) 19.87%, rgba(0, 0, 0, 0) 38.23%), linear-gradient(90deg, rgba(182, 182, 182, 0) 46.19%, rgba(0, 0, 0, 0.9) 101.32%);
+
+.layoutsAbsolute {
+	z-index: 1000;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent)), -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), color-stop(50%, transparent));
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%), -o-linear-gradient(right, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
+	background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%), linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
+	background: linear-gradient(360deg, #000000 1.63%, rgba(0, 0, 0, 0.94) 11.34%, rgba(0, 0, 0, 0.67) 19.87%, rgba(0, 0, 0, 0) 38.23%), linear-gradient(90deg, rgba(182, 182, 182, 0) 46.19%, rgba(0, 0, 0, 0.9) 101.32%);
 }
-@media(max-width: 568px){
-    .layoutsAbsolute{
-        background:
-            -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent));
-        background:
-            -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%);
-        background:
-            linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%);
-    }
+@media(max-width: 568px) {
+	.layoutsAbsolute {
+		background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, rgba(0, 0, 0, 0.8)), color-stop(30%, transparent));
+		background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, transparent 30%);
+		background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 5%, transparent 30%);
+	}
 }
-.layouts{
-    overflow: hidden;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+.layouts {
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
 }
-#layoutID1{z-index: 1000;}
-#layoutID2{z-index: 1000;}
-#layoutID3{z-index: 1000;}
+#layoutID1 {
+	z-index: 1000;
+}
+#layoutID2 {
+	z-index: 1000;
+}
+#layoutID3 {
+	z-index: 1000;
+}
 .wrapperTwo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    transition: transform 0.5s, -webkit-transform 0.5s;
-  }
-
-  
-.wrapperTwo .pageTwo {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    overflow: hidden;
-    will-change: transform;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	transition: transform 0.5s, -webkit-transform 0.5s;
 }
-
+.wrapperTwo .pageTwo {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
+	overflow: hidden;
+	will-change: transform;
+}
 .wrapperTwo.active-pageTwo1 {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
 }
 .wrapperTwo.active-pageTwo1 .pageTwo.pageTwo1 {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
-.wrapperTwo.active-pageTwo2{
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+.wrapperTwo.active-pageTwo2 {
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 .wrapperTwo.active-pageTwo2 .pageTwo.pageTwo2 {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
-.wrapperTwo.active-pageTwo3{
-    -webkit-transform: translateY(-200%);
-            transform: translateY(-200%);
+.wrapperTwo.active-pageTwo3 {
+	-webkit-transform: translateY(-200%);
+	transform: translateY(-200%);
 }
 .wrapperTwo.active-pageTwo3 .pageTwo.pageTwo3 {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
-  
 .layout_2-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/IMG_desktop2_1.jpg);
-    background-color: black;
-    background-position: top 40% left 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-image: url(/img/IMG_desktop2_1.jpg);
+	background-color: black;
+	background-position: top 40% left 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 .layout_2-1_paralax {
-    background-position: top 40% left 55% !important;
-    width: 140% !important;
-    height: 130% !important;
-    -webkit-transition: 1s !important;
-    -o-transition: 1s !important;
-    transition: 1s !important;
+	background-position: top 40% left 55% !important;
+	width: 140% !important;
+	height: 130% !important;
+	-webkit-transition: 1s !important;
+	-o-transition: 1s !important;
+	transition: 1s !important;
 }
-
 .layout_2-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/IMG_desktop2_2.jpg);
-    background-color: black;
-    background-position: top 40% left 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-image: url(/img/IMG_desktop2_2.jpg);
+	background-color: black;
+	background-position: top 40% left 35%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
 .layout_2-3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/IMG_desktop2_3.jpg);
-    background-color: black;
-    background-position: top 40% left 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-image: url(/img/IMG_desktop2_3.jpg);
+	background-color: black;
+	background-position: top 40% left 35%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
 }
-
 .headerTwoScreen {
-    margin-left: 50px;
-    margin-top: 200px;
-    width: 290px;
-    height: 120px;
+	margin-left: 50px;
+	margin-top: 200px;
+	width: 290px;
+	height: 120px;
 }
-.headerTwoScreen h2 { font-size: 20px; line-height: 30px; font-weight: bold; }
-.color-spec-orange { color: #ED4902; }
+.headerTwoScreen h2 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.color-spec-orange {
+	color: #ED4902;
+}
 .subTextTwoScreen {
-    margin-left: 50px;
-    margin-top: 10%;
-    width: 290px;
-    height: 120px;
+	margin-left: 50px;
+	margin-top: 10%;
+	width: 290px;
+	height: 120px;
 }
 .subTextTwoScreen p {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
 }
-.navigationTwoScreen{
-    margin-left: 50px;
+.navigationTwoScreen {
+	margin-left: 50px;
 }
-.navigationTwoScreen>.buttonNext{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 165px;
-    height:50px;
+.navigationTwoScreen>.buttonNext {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 165px;
+	height: 50px;
 }
-.navigationTwoScreen>.buttonNextNotActive{
-    background-image: url(../img/nextButton.png);
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    transition: .2s;
+.navigationTwoScreen>.buttonNextNotActive {
+	background-image: url(../img/nextButton.png);
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
 }
-.navigationTwoScreen>.buttonNextActive{
-    background-image: url(../img/nextButtonHover.png);
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    transition: .2s;
+.navigationTwoScreen>.buttonNextActive {
+	background-image: url(../img/nextButtonHover.png);
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
 }
-.navigationTwoScreen>.buttonPrev{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 107px;
-    height:20px;
-    background-image: url(../img/prevButton-p2.png);
-    -webkit-transition: .2s;
-    -o-transition: .2s;
-    transition: .2s;
+.navigationTwoScreen>.buttonPrev {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 107px;
+	height: 20px;
+	background-image: url(../img/prevButton-p2.png);
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
 }
-.textUnderButton_p2{
-    position: relative;
-    margin-top: 20px;
-    height: 92px;
-    overflow: hidden;
+.textUnderButton_p2 {
+	position: relative;
+	margin-top: 20px;
+	height: 92px;
+	overflow: hidden;
 }
-.textFields{
-    padding-left: 50px;
-    color: white;
+.textFields {
+	padding-left: 50px;
+	color: white;
 }
-.textFields p{margin-bottom: 0;}
-.textUnderButton_p2>.treg{
-    position: absolute;
-    top: 5px;
-} 
-.textUderBtnHead{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    text-transform: uppercase;
-    margin-bottom: 10px !important;
+.textFields p {
+	margin-bottom: 0;
+}
+.textUnderButton_p2>.treg {
+	position: absolute;
+	top: 5px;
+}
+.textUderBtnHead {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	text-transform: uppercase;
+	margin-bottom: 10px !important;
 }
 .textUderBtntext {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
 }
-.textLayoutID_nonActive{
-    opacity: 0;
-    display: none;
+.textLayoutID_nonActive {
+	opacity: 0;
+	display: none;
 }
-.textLayoutID_Active{
-    opacity: 1 !important;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    display: block !important;
+.textLayoutID_Active {
+	opacity: 1 !important;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	display: block !important;
 }
-.height0{
-    height: 0;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
+.height0 {
+	height: 0;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
-.height100{
-    height: 92px;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
+.height100 {
+	height: 92px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 @media (max-width: 576px) and (max-height: 725px) {
-    .headerTwoScreen{
-        margin-top: 150px;
-        margin-left: 20px;
-    }
-    .subTextTwoScreen{
-        margin-left: 20px;
-        height:80px
-    }
-    .navigationTwoScreen{
-        margin-left: 20px;
-    }
+	.headerTwoScreen {
+		margin-top: 150px;
+		margin-left: 20px;
+	}
+	.subTextTwoScreen {
+		margin-left: 20px;
+		height: 80px
+	}
+	.navigationTwoScreen {
+		margin-left: 20px;
+	}
 }
 @media (max-width: 576px) and (max-height: 630px) {
-    .headerTwoScreen{
-        margin-top: 100px;
-        margin-left: 20px;
-    }
-    .subTextTwoScreen{
-        margin-left: 20px;
-        height:80px
-    }
+	.headerTwoScreen {
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+	.subTextTwoScreen {
+		margin-left: 20px;
+		height: 80px
+	}
 }
 @media (max-width: 576px) and (max-height: 568px) {
-    .headerTwoScreen{
-        margin-top: 70px;
-        margin-left: 20px;
-    }
-    .subTextTwoScreen{
-        margin-left: 20px;
-        height:80px
-    }
+	.headerTwoScreen {
+		margin-top: 70px;
+		margin-left: 20px;
+	}
+	.subTextTwoScreen {
+		margin-left: 20px;
+		height: 80px
+	}
 }
-.textUnderBTNTablet, .hrLine {
-    display: none;
+.textUnderBTNTablet,
+.hrLine {
+	display: none;
 }
-@media (min-width: 768px){
-    .headerTwoScreen {
-        width: 500px;
-        margin-top: 120px;
-    }
-    .headerTwoScreen h2{
-        font-size: 30px;
-        line-height: 44px;
-    }
-    .subTextTwoScreen{
-        margin-top: 50px;
-        width: 300px
-    }
-    .subTextTwoScreen p{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        line-height: 40px;
-        font-weight: 600;
-        color: black !important;
-    }
-    .navigationTwoScreen {
-        margin-right: 50px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-    .textUnderButton_p2 {
-        display: none;
-    }
-    .posRelativ{
-        width: 100%;
-    }
-    .bottomTabletBlock{
-        height: 260px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
-
-    }
-    .layoutsAbsolute{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-    .textUnderBTNTablet{
-        display: block;
-        margin-top: 20px;
-    }
-    .itemTextUnderBTNTablet{
-        text-align: center;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 33px;
-        line-height: 64px;
-        color: white;
-    }
-    .hrLine{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        /* justify-content: center; */
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .blockTextSectionHR{
-        height: 100px;
-        width: 100%;
-        border-top: 2px solid white;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .hr-itemTextUnderBTNTablet {
-        font-size: 20px;
-        line-height: 40px;
-        color: white;
-    }
+@media (min-width: 768px) {
+	.headerTwoScreen {
+		width: 500px;
+		margin-top: 120px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.subTextTwoScreen {
+		margin-top: 50px;
+		width: 300px
+	}
+	.subTextTwoScreen p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 22px;
+		line-height: 40px;
+		font-weight: 600;
+		color: black !important;
+	}
+	.navigationTwoScreen {
+		margin-right: 50px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.textUnderButton_p2 {
+		display: none;
+	}
+	.posRelativ {
+		width: 100%;
+	}
+	.bottomTabletBlock {
+		height: 260px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	.layoutsAbsolute {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.textUnderBTNTablet {
+		display: block;
+		margin-top: 20px;
+	}
+	.itemTextUnderBTNTablet {
+		text-align: center;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		line-height: 64px;
+		color: white;
+	}
+	.hrLine {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		/* justify-content: center; */
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.blockTextSectionHR {
+		height: 100px;
+		width: 100%;
+		border-top: 2px solid white;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 20px;
+		line-height: 40px;
+		color: white;
+	}
 }
-@media (min-width: 992px){
-    .subTextTwoScreen{
-        margin-top: 80px;
-    }
-    .navigationTwoScreen{
-        display: none;
-    }
-    .desktop-layout_2{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-position: top left;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .desktop-layout_2-1{
-        background-image: url(../img/IMG_desktop2_1.jpg);
-    }
-    .desktop-layout_2-2{
-        background-image: url(../img/IMG_desktop2_2.jpg);
-    }
-    .desktop-layout_2-3{
-        background-image: url(../img/IMG_desktop2_3.jpg);
-    }
-    .sectorHover{
-        position: absolute;
-        width: 33.33%;
-        height: 100%;
-        top: 0;
-        bottom: 0;
-        z-index: 1500;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
-    }
-    #sectorHoverID1{ left: 0 !important;}
-    #sectorHoverID2{ left: 33.33% !important;}
-    #sectorHoverID3{ right: 0 !important;}
-    
-    #sectorHoverID1:not(:hover) ~ .desktop-layout_2-1{ opacity: 1; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID1:hover ~ .desktop-layout_2-1{ opacity: 1 !important; -webkit-transition: s; -o-transition: s; transition: s;}
-    #sectorHoverID1:not(:hover){ opacity: 1; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-    #sectorHoverID1:hover { opacity: 1 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-
-
-    #sectorHoverID2:not(:hover) ~ .desktop-layout_2-2 { opacity: 0 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID2:hover ~ .desktop-layout_2-2{ opacity: 1 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID2:hover ~ .desktop-layout_2-1{ opacity: 0 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID2:not(:hover) {opacity: 0.25 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-    #sectorHoverID2:hover{ opacity: 1 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-    #sectorHoverID2:hover ~ #sectorHoverID1{ opacity: 0.25 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-
-
-    #sectorHoverID3:not(:hover) ~ .desktop-layout_2-3{ opacity: 0 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID3:hover ~ .desktop-layout_2-3{ opacity: 1 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID3:hover ~ .desktop-layout_2-1{ opacity: 0 !important; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
-    #sectorHoverID3:not(:hover){ opacity: 0.25 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-    #sectorHoverID3:hover{ opacity: 1 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-    #sectorHoverID3:hover ~ #sectorHoverID1{ opacity: 0.25 !important; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
-
-    .itemTextUnderBTNTablet{
-        font-size: 22px;
-        line-height: 34px;
-    }
-    .hr-itemTextUnderBTNTablet{
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;      
-    }
+@media (min-width: 992px) {
+	.subTextTwoScreen {
+		margin-top: 80px;
+	}
+	.navigationTwoScreen {
+		display: none;
+	}
+	.desktop-layout_2 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.desktop-layout_2-1 {
+		background-image: url(../img/IMG_desktop2_1.jpg);
+	}
+	.desktop-layout_2-2 {
+		background-image: url(../img/IMG_desktop2_2.jpg);
+	}
+	.desktop-layout_2-3 {
+		background-image: url(../img/IMG_desktop2_3.jpg);
+	}
+	.sectorHover {
+		position: absolute;
+		width: 33.33%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		z-index: 1500;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	#sectorHoverID1 {
+		left: 0 !important;
+	}
+	#sectorHoverID2 {
+		left: 33.33% !important;
+	}
+	#sectorHoverID3 {
+		right: 0 !important;
+	}
+	#sectorHoverID1:not(:hover) ~ .desktop-layout_2-1 {
+		opacity: 1;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID1:hover ~ .desktop-layout_2-1 {
+		opacity: 1 !important;
+		-webkit-transition: s;
+		-o-transition: s;
+		transition: s;
+	}
+	#sectorHoverID1:not(:hover) {
+		opacity: 1;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID1:hover {
+		opacity: 1 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID2:not(:hover) ~ .desktop-layout_2-2 {
+		opacity: 0 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID2:hover ~ .desktop-layout_2-2 {
+		opacity: 1 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID2:hover ~ .desktop-layout_2-1 {
+		opacity: 0 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID2:not(:hover) {
+		opacity: 0.25 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID2:hover {
+		opacity: 1 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID2:hover ~ #sectorHoverID1 {
+		opacity: 0.25 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID3:not(:hover) ~ .desktop-layout_2-3 {
+		opacity: 0 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID3:hover ~ .desktop-layout_2-3 {
+		opacity: 1 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID3:hover ~ .desktop-layout_2-1 {
+		opacity: 0 !important;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
+		transition: 1s;
+	}
+	#sectorHoverID3:not(:hover) {
+		opacity: 0.25 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID3:hover {
+		opacity: 1 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	#sectorHoverID3:hover ~ #sectorHoverID1 {
+		opacity: 0.25 !important;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	.itemTextUnderBTNTablet {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+	}
 }
-@media (min-width: 1200px){
-    .headerTwoScreen {
-        width: 800px;
-        margin-top: 70px;
-    }
-    .headerTwoScreen h2{
-        font-size: 28px;
-        line-height: 1.5;
-    }
-    .subTextTwoScreen{
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 35px;
-line-height: 45px;
-/* or 129% */
-
-
-/* черный текст */
-
-color: #1B1B1B;
-    }
-    .subTextTwoScreen p {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 45px;
-        /* or 129% */
-        
-        
-        /* черный текст */
-        
-        color: #1B1B1B;
-    }
-    .itemTextUnderBTNTablet{
-        font-size: 22px;
-        line-height: 34px;
-    }
-    .hr-itemTextUnderBTNTablet{
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;      
-    }
+@media (min-width: 1200px) {
+	.headerTwoScreen {
+		width: 800px;
+		margin-top: 70px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 28px;
+		line-height: 1.5;
+	}
+	.subTextTwoScreen {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		line-height: 45px;
+		/* or 129% */
+		/* черный текст */
+		color: #1B1B1B;
+	}
+	.subTextTwoScreen p {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		line-height: 45px;
+		/* or 129% */
+		/* черный текст */
+		color: #1B1B1B;
+	}
+	.itemTextUnderBTNTablet {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+	}
 }
-@media (min-width: 1400px){
-    .headerTwoScreen {
-        width: 1000px;
-        margin-top: 100px;
-    }
-    .headerTwoScreen h2{
-        font-size: 35px;
-        line-height: 1.5;
-    }
-    .subTextTwoScreen{
-        margin-top: 200px;
-        width: 450px;
-    }
-    .subTextTwoScreen p {
-        font-size: 26px;
-        line-height: 1.5;
-        font-weight: 500;
-    }
+@media (min-width: 1400px) {
+	.headerTwoScreen {
+		width: 1000px;
+		margin-top: 100px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 35px;
+		line-height: 1.5;
+	}
+	.subTextTwoScreen {
+		margin-top: 200px;
+		width: 450px;
+	}
+	.subTextTwoScreen p {
+		font-size: 26px;
+		line-height: 1.5;
+		font-weight: 500;
+	}
 }
-@media(min-width: 1920px) {
+@media(min-width: 1920px) {}@media(min-width: 1620px) and (max-width:1919px) {
+	.headerTwoScreen {
+		width: 1000px;
+		margin-top: 74.74px;
+		margin-left: 177.15px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 45px;
+		line-height: 1.5;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		line-height: 54px;
+		/* or 142% */
+		text-transform: uppercase;
+	}
+	.subTextTwoScreen {
+		margin-left: 200px;
+		margin-top: 200px;
+		width: 500px;
+	}
+	.subTextTwoScreen p {
+		position: absolute;
+		width: 415.87px;
+		height: 75.92px;
+		left: 177.15px;
+		top: 336.58px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 38px;
+		/* or 127% */
+		/* черный текст */
+		color: #1B1B1B;
+	}
+	.itemTextUnderBTNTablet {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 22px;
+		line-height: 1.4;
+		text-align: center;
+	}
 }
-@media(min-width: 1620px) and (max-width: 1919px) {
-    .headerTwoScreen {
-        width: 1000px;
-        margin-top: 74.74px;        
-        margin-left: 177.15px;
-        
-    }
-    .headerTwoScreen h2{
-        font-size: 45px;
-        line-height: 1.5;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 38px;
-        line-height: 54px;
-        /* or 142% */
-
-text-transform: uppercase;
-    }
-    .subTextTwoScreen{
-        margin-left: 200px;
-        margin-top: 200px;
-        width: 500px;
-    }
-    .subTextTwoScreen p {
-        position: absolute;
-        width: 415.87px;
-        height: 75.92px;
-        left: 177.15px;
-        top: 336.58px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 38px;
-        /* or 127% */
-        
-        
-        /* черный текст */
-        
-        color: #1B1B1B;
-    }
-    .itemTextUnderBTNTablet{
-        font-size: 30px;
-        line-height: 34px;
-    }
-    .hr-itemTextUnderBTNTablet{
-        font-size: 22px;
-        line-height: 1.4;
-        text-align: center;      
-    }
+@media(min-width: 1200px) and (max-width:1619px) {
+	.headerTwoScreen {
+		width: 1000px;
+		margin-top: 60.74px;
+		margin-left: 140.15px;
+	}
+	.headerTwoScreen h2 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 40px;
+		/* or 154% */
+		text-transform: uppercase;
+	}
+	.subTextTwoScreen {
+		margin-left: 200px;
+		margin-top: 200px;
+		width: 500px;
+	}
+	.subTextTwoScreen p {
+		position: absolute;
+		width: 308.21px;
+		height: 56.27px;
+		left: 140.29px;
+		top: 249.44px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 28px;
+		/* or 141% */
+		/* черный текст */
+		color: #1B1B1B;
+	}
+	.itemTextUnderBTNTablet {
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 25px;
+		/* or 156% */
+		color: #FFFFFF;
+	}
 }
-@media(min-width: 1200px) and (max-width: 1619px) {
-    .headerTwoScreen {
-        width: 1000px;
-        margin-top: 60.74px;        
-        margin-left: 140.15px;
-        
-    }
-    .headerTwoScreen h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 40px;
-        /* or 154% */
-        
-        text-transform: uppercase;
-        
-
-    }
-    .subTextTwoScreen{
-        margin-left: 200px;
-        margin-top: 200px;
-        width: 500px;
-    }
-    .subTextTwoScreen p {
-        position: absolute;
-        width: 308.21px;
-        height: 56.27px;
-        left: 140.29px;
-        top: 249.44px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 28px;
-        /* or 141% */
-        
-        
-        /* черный текст */
-        
-        color: #1B1B1B;
-    }
-    .itemTextUnderBTNTablet{
-        font-size: 24px;
-        line-height: 40px;
-    }
-    .hr-itemTextUnderBTNTablet{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 25px;
-        /* or 156% */
-
-
-        color: #FFFFFF;   
-    }
-    
+@media (min-width: 768px) and (max-width: 1199px) {
+	#screenID2 {
+		display: none;
+	}
+	.wrap {
+		display: none;
+	}
+	.wrap2 {
+		display: flex;
+	}
+	.headerTwoScreen {
+		width: 500px;
+		margin-top: 120px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.subTextTwoScreen {
+		margin-top: 50px;
+		width: 300px
+	}
+	.subTextTwoScreen p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 22px;
+		line-height: 40px;
+		font-weight: 600;
+		color: black !important;
+	}
+	.navigationTwoScreen {
+		margin-right: 50px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.textUnderButton_p2 {
+		display: none;
+	}
+	.posRelativ {
+		width: 100%;
+	}
+	.bottomTabletBlock {
+		height: 260px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	.layoutsAbsolute {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.textUnderBTNTablet {
+		display: block;
+		margin-top: 20px;
+	}
+	.itemTextUnderBTNTablet {
+		text-align: center;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		line-height: 64px;
+		color: white;
+	}
+	.hrLine {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		/* justify-content: center; */
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.blockTextSectionHR {
+		height: 100px;
+		width: 100%;
+		border-top: 2px solid white;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 20px;
+		line-height: 40px;
+		color: white;
+	}
 }
-@media (min-width: 768px) and (max-width:1199px){
-    #screenID2{
-        display: none;
-    }
-    .wrap{
-        display: none;
-       }
-       .wrap2{
-        display: flex;
-       }
-    .headerTwoScreen {
-        width: 500px;
-        margin-top: 120px;
-    }
-    .headerTwoScreen h2{
-        font-size: 30px;
-        line-height: 44px;
-    }
-    .subTextTwoScreen{
-        margin-top: 50px;
-        width: 300px
-    }
-    .subTextTwoScreen p{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        line-height: 40px;
-        font-weight: 600;
-        color: black !important;
-    }
-    .navigationTwoScreen {
-        margin-right: 50px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-    .textUnderButton_p2 {
-        display: none;
-    }
-    .posRelativ{
-        width: 100%;
-    }
-    .bottomTabletBlock{
-        height: 260px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
-
-    }
-    .layoutsAbsolute{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-    .textUnderBTNTablet{
-        display: block;
-        margin-top: 20px;
-    }
-    .itemTextUnderBTNTablet{
-        text-align: center;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 33px;
-        line-height: 64px;
-        color: white;
-    }
-    .hrLine{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        /* justify-content: center; */
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .blockTextSectionHR{
-        height: 100px;
-        width: 100%;
-        border-top: 2px solid white;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .hr-itemTextUnderBTNTablet {
-        font-size: 20px;
-        line-height: 40px;
-        color: white;
-    }
-}
-@media (min-width: 300px) and (max-width: 767px){
-    #screenID2{
-        display: none;
-    }
-    .wrap{
-        display: flex;
-        
-       }
-       .wrap2{
-        display: none;
-       }
-    .blackline{
-        max-height: 0px;
-    }
-    .headerTwoScreen {
-        width: 500px;
-        margin-top: 120px;
-    }
-    .headerTwoScreen h2{
-        font-size: 30px;
-        line-height: 44px;
-    }
-    .subTextTwoScreen{
-        margin-top: 50px;
-        width: 300px
-    }
-    .subTextTwoScreen p{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        line-height: 40px;
-        font-weight: 600;
-        color: black !important;
-    }
-    .navigationTwoScreen {
-        margin-right: 50px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-    .textUnderButton_p2 {
-        display: none;
-    }
-    .posRelativ{
-        width: 100%;
-    }
-    .bottomTabletBlock{
-        height: 260px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: end;
-            -ms-flex-pack: end;
-                justify-content: flex-end;
-
-    }
-    .layoutsAbsolute{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-    .textUnderBTNTablet{
-        display: block;
-        margin-top: 20px;
-    }
-    .itemTextUnderBTNTablet{
-        text-align: center;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 33px;
-        line-height: 64px;
-        color: white;
-    }
-    .hrLine{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        /* justify-content: center; */
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .blockTextSectionHR{
-        height: 100px;
-        width: 100%;
-        border-top: 2px solid white;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
-    .hr-itemTextUnderBTNTablet {
-        font-size: 20px;
-        line-height: 40px;
-        color: white;
-    }
+@media (min-width: 300px) and (max-width: 767px) {
+	#screenID2 {
+		display: none;
+	}
+	.wrap {
+		display: flex;
+	}
+	.wrap2 {
+		display: none;
+	}
+	.blackline {
+		max-height: 0px;
+	}
+	.headerTwoScreen {
+		width: 500px;
+		margin-top: 120px;
+	}
+	.headerTwoScreen h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.subTextTwoScreen {
+		margin-top: 50px;
+		width: 300px
+	}
+	.subTextTwoScreen p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 22px;
+		line-height: 40px;
+		font-weight: 600;
+		color: black !important;
+	}
+	.navigationTwoScreen {
+		margin-right: 50px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.textUnderButton_p2 {
+		display: none;
+	}
+	.posRelativ {
+		width: 100%;
+	}
+	.bottomTabletBlock {
+		height: 260px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	.layoutsAbsolute {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.textUnderBTNTablet {
+		display: block;
+		margin-top: 20px;
+	}
+	.itemTextUnderBTNTablet {
+		text-align: center;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		line-height: 64px;
+		color: white;
+	}
+	.hrLine {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		/* justify-content: center; */
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.blockTextSectionHR {
+		height: 100px;
+		width: 100%;
+		border-top: 2px solid white;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.hr-itemTextUnderBTNTablet {
+		font-size: 20px;
+		line-height: 40px;
+		color: white;
+	}
 }

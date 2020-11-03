@@ -39,229 +39,59 @@ mix-blend-mode: darken;
     background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
     mix-blend-mode: darken;
     } */
-.background-maz{
 
- 
-    background-repeat: no-repeat;
-    background-position: bottom 30% right 0%;
-    background-size: cover;
-    overflow: hidden;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-image: url(../img/mazall.png);
+    .background-maz {
 
-}
-/* .maz-bottle{
-    position: absolute;
-    width: 102px;
-    height: 336px;
-    left: 95px;
-    top: 9401px;
-
-}
-.text-on-maz{
-        position: absolute;
-    width: 987.14px;
-    height: 235px;
-    left: 254.27px;
-    top: 9428.27px;
-    font-family: Maven Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 200px;
-    line-height: 235px;
-    color: #494949;
-    transform: rotate(-0.03deg);
-}
-.text-maz{
-    position: absolute;
-    width: 850px;
-    height: 160px;
-    left: 889px;
-    top: 9240px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 32px;
-    
-    color: #FFFFFF;
-}
-.blackline-maz{
-    background-color: black;
-    height: 0px;
-}
-.maz-left-block{
-    position: absolute;
-    width: 625px;
-    height: 443px;
-    left: 212px;
-    top: 9428px;
-
-}
-.maz-right-block{
-    position: absolute;
-    width: 608px;
-    height: 382px;
-    left: 1099px;
-    top: 9489px;
-
-} */
-.text-under-maz{
-    display: flex;
-}
-.text-under-maz-block1{
-    margin-top: 440px;
-    margin-left: 220px;
-    width: 400px;
-    height: 40px;
-
-
-    font-family: Maven Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34.0228px;
-    line-height: 40px;
-    /* identical to box height */
-
-
-color: #FFFFFF;
-}
-.text-under-maz-block2{
-    margin-top: 440px;
-    margin-left: 500px;
-    width: 400px;
-    height: 40px;
-
-    
-    font-family: Maven Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34.0228px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
-    
-}
-.blackline-maz-bot{
-    height: 79px;
-    background-color: black;
-}
-.pallets{
-    height: 0px;
-    background-color: black;
-    display: flex;
-}
-.left-pallet{
-    margin-top: 100px;
-    margin-left: 250px;
-
-}
-.right-pallet{
-    margin-left: 300px;
-    margin-top: 100px;
-}
-
-@media(min-width: 1920px) {
-    .gradient-maz1{
-        position: absolute;
-        max-width: 0px;
-        height: 0px;
-        left: 0px;
-        top: 8398px;
-        
-        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-        background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    }
-    .gradient-maz2{
-        background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        position: absolute;
-    max-width: 0px;
-    height: 0px;
-    left: 0px;
-    top: 8421px;
-    
-    background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
-    }
-    .gradient-maz3{
-    max-width: 0px;
-    height: 0px;
-    left: 0px;
-    top: 9136px;
-    
-    background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-    mix-blend-mode: darken;
-    }
-    .gradient-maz3{
-        position: absolute;
-        max-width: 0px;
-        height: 0px;
-        left: 0px;
-        top: 898px;
-        
-        background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
-        mix-blend-mode: darken;
-        }
-    .background-maz{
-        min-height: 90%;
-        max-width: 1920px;
-     
         background-repeat: no-repeat;
+    
         background-position: bottom 30% right 0%;
-        background-position-y: 100px;
+    
         background-size: cover;
+    
         overflow: hidden;
+    
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-
-       
-                background-image: url(../img/mazall.png);
-
+    
+        box-sizing: border-box;
+    
+        background-image: url(../img/mazall.png);
+    
     }
-    .maz-bottle{
-        display: none;
-
+    
+    /* .maz-bottle{
+        position: absolute;
+        width: 102px;
+        height: 336px;
+        left: 95px;
+        top: 9401px;
+    
     }
     .text-on-maz{
             position: absolute;
-            width: 0px;
-            height: 0px;
+        width: 987.14px;
+        height: 235px;
         left: 254.27px;
-        top: 8628.27px;
+        top: 9428.27px;
         font-family: Maven Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: 0px;
-        line-height: 198px;
-        /* identical to box height */
-        
-        
+        font-size: 200px;
+        line-height: 235px;
         color: #494949;
-        
-        transform: rotate(-0.03deg);
-        
-        
-        color: #494949;
-        
         transform: rotate(-0.03deg);
     }
     .text-maz{
         position: absolute;
-        width: 0px;
-        height: 0px;
-        left: 707px;
-        top: 8440px;
+        width: 850px;
+        height: 160px;
+        left: 889px;
+        top: 9240px;
         
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 0px;
-        line-height: 29px;
+        font-size: 26px;
+        line-height: 32px;
         
         color: #FFFFFF;
     }
@@ -271,565 +101,1203 @@ color: #FFFFFF;
     }
     .maz-left-block{
         position: absolute;
-        width: 0px;
-        height: 0px;
+        width: 625px;
+        height: 443px;
         left: 212px;
-        top: 8628px;        
-    }
-    .maz-left-block img{
-        width: 0%;
-        height: 0%;
+        top: 9428px;
+    
     }
     .maz-right-block{
         position: absolute;
-        width: 0px;
-        height: 0px;
-        left: 969px;
-        top: 8689px;
-    }
-    .maz-right-block img{
-        width: 0%;
-        height: 0%;
-
-    }
-    .text-under-maz-block1{
-  
-        width: 400px;
-        height: 40px;
-
+        width: 608px;
+        height: 382px;
+        left: 1099px;
+        top: 9489px;
     
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 34.0228px;
-        line-height: 40px;
-        /* identical to box height */
+    } */
     
+    .text-under-maz {
     
-    color: #FFFFFF;
-    }
-    .text-under-maz-block2{
-
-        width: 400px;
-        height: 40px;
-
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 34.0228px;
-        line-height: 40px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .blackline-maz-bot{
-        height: 79px;
-        background-color: black;
-    }
-
-}
-
-@media(min-width: 1620px) and (max-width: 1919px) {
-
-    .gradient-maz1{
-        display: none;
-    }
-    .gradient-maz2{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-        }
-    .background-maz{
-
-     
-        background-repeat: no-repeat;
-        background-position: bottom 30% right 0%;
-        background-size: cover;
-
-        overflow: hidden;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-
-                background-size: contain;
-        background-image: url(../img/mazall.png);
-    }
-    .maz-bottle{
-        display: none;
-
-    }
-    .text-on-maz{
-        display: none;
-    }
-    .text-maz{
-        position: absolute;
-        width: 790px;
-        height: 145px;
-        left: 707px;
-        top: 8440px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        
-        color: #FFFFFF;
-    }
-    .blackline-maz{
-        background-color: black;
-        height: 100px;
-    }
-    .maz-left-block{
-        display: none;     
-    }
-    .maz-left-block img{
-        display: none;
-    }
-    .maz-right-block{
-        display: none;
-    }
-    .maz-right-block img{
-        display: none;
-
-    }
-    .text-maz{
-        display: none;
-    }
-    .text-under-maz{
         display: flex;
+    
     }
-    .text-under-maz-block1{
-        margin-bottom: 30px;
-        margin-left: 200px;
+    
+    .text-under-maz-block1 {
+    
+        margin-top: 440px;
+    
+        margin-left: 220px;
+    
         width: 400px;
+    
         height: 40px;
     
-    
         font-family: Maven Pro;
+    
         font-style: normal;
+    
         font-weight: normal;
+    
         font-size: 34.0228px;
+    
         line-height: 40px;
+    
         /* identical to box height */
     
-    
-    color: #FFFFFF;
-    }
-    .text-under-maz-block2{
-        margin-bottom: 30px;
-        margin-left: 450px;
-        width: 400px;
-        height: 40px;
-    
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 34.0228px;
-        line-height: 40px;
-        /* identical to box height */
-        
-        
         color: #FFFFFF;
-        
+    
     }
-    .blackline-maz-bot{
+    
+    .text-under-maz-block2 {
+    
+        margin-top: 440px;
+    
+        margin-left: 500px;
+    
+        width: 400px;
+    
+        height: 40px;
+    
+        font-family: Maven Pro;
+    
+        font-style: normal;
+    
+        font-weight: normal;
+    
+        font-size: 34.0228px;
+    
+        line-height: 40px;
+    
+        /* identical to box height */
+    
+        color: #FFFFFF;
+    
+    }
+    
+    .blackline-maz-bot {
+    
         height: 79px;
+    
         background-color: black;
+    
     }
-    .pallets{
-        width: 1200px;
+    
+    .pallets {
+    
         height: 0px;
+    
         background-color: black;
+    
         display: flex;
+    
     }
-    .left-pallet{
+    
+    .left-pallet {
+    
         margin-top: 100px;
+    
         margin-left: 250px;
     
     }
-    .right-pallet{
-        margin-left: 420px;
-        margin-top: 100px;
-    }
-    .left-pallet img{
-        width: 425.8px;
-
-        object-fit:cover
-    }
-    .right-pallet img{
-        width: 425.8px;
-  
-        object-fit:cover
-    }
     
-}
-@media(min-width: 1200px) and (max-width: 1619px) {
-
-    .gradient-maz1{
-        display: none;
-    }
-    .gradient-maz2{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-        }
-    .background-maz{
-        overflow: hidden;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-
-                background-size: contain;
- 
-                max-height: 900px;
-        background-image: url(../img/mazall.png);
-    }
-    .maz-bottle{
-        display: none;
-
-    }
-    .text-on-maz{
-        display: none;
-    }
-    .text-maz{
-        position: absolute;
-        width: 790px;
-        height: 145px;
-        left: 707px;
-        top: 8440px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        
-        color: #FFFFFF;
-    }
-    .blackline-maz{
-        background-color: black;
-        height: 100px;
-    }
-    .maz-left-block{
-        display: none;     
-    }
-    .maz-left-block img{
-        display: none;
-    }
-    .maz-right-block{
-        display: none;
-    }
-    .maz-right-block img{
-        display: none;
-
-    }
-    .text-maz{
-        display: none;
-    }
-    .text-under-maz{
-        display: flex;
-    }
-    .text-under-maz-block1{
-        margin-bottom: 150px;
-        margin-left: 135px;
-        width: 400px;
-        height: 40px;
+    .right-pallet {
     
-    
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        /* identical to box height */
-    
-    
-    color: #FFFFFF;
-    }
-    .text-under-maz-block2{
-        margin-bottom: 150px;
         margin-left: 300px;
-        width: 400px;
-        height: 40px;
     
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .blackline-maz-bot{
-        height: 79px;
-        background-color: black;
-    }
-    .pallets{
-        margin-top: -50px;
-        height: 400px;
-        background-color: black;
-        display: flex;
-    }
-    .left-pallet{
-        margin-top: 0px;
-        margin-left: 150px;
+        margin-top: 100px;
     
     }
-    .right-pallet{
-   
-        margin-top: 0px;
-    }
     
-
-
-    .left-pallet img{
-        max-height: 400px;
-        width: 70%;
-        height: 70%;
-
-    }
-    .right-pallet img{
-        max-height: 400px;
-        width: 70%;
-        height: 70%;
-
-    }
-}
-@media(min-width: 767px) and (max-width: 1199px) {
-
-    .gradient-maz1{
-        display: none;
-    }
-    .gradient-maz2{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
+    @media(min-width: 1920px) {
+    
+        .gradient-maz1 {
+    
+            position: absolute;
+    
+            max-width: 0px;
+    
+            height: 0px;
+    
+            left: 0px;
+    
+            top: 8398px;
+    
+            background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+    
+            background: linear-gradient(356.26deg, #000000 -0.8%, rgba(0, 0, 0, 0.97) 9.14%, rgba(0, 0, 0, 0.843778) 20.96%, rgba(0, 0, 0, 0) 73.78%);
+    
+            transform: matrix(1, 0, 0, -1, 0, 0);
+    
         }
-    .background-maz{
-  
-        min-height: 394px;
-        max-height: 600px;
-
-     
-        background-size: contain;
-
-
-        background-image: url(../img/mazall.png);
-
-    }
-    .maz-bottle{
-        display: none;
-
-    }
-    .text-on-maz{
-        display: none;
-    }
-    .text-maz{
-        position: absolute;
-        width: 790px;
-        height: 145px;
-        left: 707px;
-        top: 8440px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        
-        color: #FFFFFF;
-    }
-    .blackline-maz{
-        background-color: black;
-        height: 100px;
-    }
-    .maz-left-block{
-        display: none;     
-    }
-    .maz-left-block img{
-        display: none;
-    }
-    .maz-right-block{
-        display: none;
-    }
-    .maz-right-block img{
-        display: none;
-
-    }
-    .text-maz{
-        display: none;
-    }
-    .text-under-maz{
-        display: flex;
-    }
-    .text-under-maz-block1{
-        margin-bottom: 60px;
-        margin-left: 135px;
-        width: 400px;
-        height: 40px;
     
+        .gradient-maz2 {
     
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        /* identical to box height */
+            background: linear-gradient(10.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
     
+            position: absolute;
     
-    color: #FFFFFF;
-    }
-    .text-under-maz-block2{
-        margin-bottom: 60px;
-        margin-left: 100px;
-        width: 400px;
-        height: 40px;
+            max-width: 0px;
     
-        
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        /* identical to box height */
-        
-        
-        color: #FFFFFF;
-        
-    }
-    .blackline-maz-bot{
-        height: 79px;
-        background-color: black;
-    }
- 
-    .pallets{
-        height: 400px;
-        background-color: black;
-        display: flex;
-    }
-    .left-pallet{
-        margin-top: 0px;
-        margin-left: 100px;
+            height: 0px;
     
-    }
-    .right-pallet{
-        margin-left: 100px;
-        margin-top: 0px;
-    }
+            left: 0px;
     
-
-
-    .left-pallet img{
-        width: 269.35px;
-
-        object-fit:cover
-    }
-    .right-pallet img{
-        width: 269.35px;
-  
-        object-fit:cover
-    }
-}
-@media(min-width: 300px) and (max-width: 767px) {
-
-    .gradient-maz1{
-        background-color:black;
-        
-        background-position-y: px;
-        min-height: 1200px;
-        background-repeat: no-repeat;
+            top: 8421px;
     
-   
-        background-size: contain;
-
-
-
-
-
-        background-image: url(../img/maz-375x.png);
-    }
-    .gradient-maz2{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
-    }
-    .gradient-maz3{
-        display: none;
+            background: linear-gradient(6.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    
+            mix-blend-mode: darken;
+    
         }
-    .background-maz{
-  
- 
-        background-color:black;
-        
-
+    
+        .gradient-maz3 {
+    
+            max-width: 0px;
+    
+            height: 0px;
+    
+            left: 0px;
+    
+            top: 9136px;
+    
+            background: linear-gradient(1.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    
+            mix-blend-mode: darken;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            position: absolute;
+    
+            max-width: 0px;
+    
+            height: 0px;
+    
+            left: 0px;
+    
+            top: 898px;
+    
+            background: linear-gradient(40.97deg, #000000 9.82%, rgba(0, 0, 0, 0.760539) 20.01%, rgba(0, 0, 0, 0) 31.61%);
+    
+            mix-blend-mode: darken;
+    
+        }
+    
+        .background-maz {
+    
+            min-height: 90%;
+    
+            max-width: 1920px;
+    
+            background-repeat: no-repeat;
+    
+            background-position: bottom 30% right 0%;
+    
+            background-position-y: 100px;
+    
+            background-size: cover;
+    
+            overflow: hidden;
+    
+            -webkit-box-sizing: border-box;
+    
+            box-sizing: border-box;
+    
+            background-image: url(../img/mazall.png);
+    
+        }
+    
+        .maz-bottle {
+    
+            display: none;
+    
+        }
+    
+        .text-on-maz {
+    
+            position: absolute;
+    
+            width: 0px;
+    
+            height: 0px;
+    
+            left: 254.27px;
+    
+            top: 8628.27px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: bold;
+    
+            font-size: 0px;
+    
+            line-height: 198px;
+    
+            /* identical to box height */
+    
+            color: #494949;
+    
+            transform: rotate(-0.03deg);
+    
+            color: #494949;
+    
+            transform: rotate(-0.03deg);
+    
+        }
+    
+        .text-maz {
+    
+            position: absolute;
+    
+            width: 0px;
+    
+            height: 0px;
+    
+            left: 707px;
+    
+            top: 8440px;
+    
+            font-family: Montserrat;
+    
+            font-style: normal;
+    
+            font-weight: bold;
+    
+            font-size: 0px;
+    
+            line-height: 29px;
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz {
+    
+            background-color: black;
+    
+            height: 0px;
+    
+        }
+    
+        .maz-left-block {
+    
+            position: absolute;
+    
+            width: 0px;
+    
+            height: 0px;
+    
+            left: 212px;
+    
+            top: 8628px;
+    
+        }
+    
+        .maz-left-block img {
+    
+            width: 0%;
+    
+            height: 0%;
+    
+        }
+    
+        .maz-right-block {
+    
+            position: absolute;
+    
+            width: 0px;
+    
+            height: 0px;
+    
+            left: 969px;
+    
+            top: 8689px;
+    
+        }
+    
+        .maz-right-block img {
+    
+            width: 0%;
+    
+            height: 0%;
+    
+        }
+    
+        .text-under-maz-block1 {
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 34.0228px;
+    
+            line-height: 40px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .text-under-maz-block2 {
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 34.0228px;
+    
+            line-height: 40px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz-bot {
+    
+            height: 79px;
+    
+            background-color: black;
+    
+        }
+    
     }
-    .maz-bottle{
-        display: none;
-
+    
+    @media(min-width: 1620px) and (max-width:1919px) {
+    
+        .gradient-maz1 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz2 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .background-maz {
+    
+            background-repeat: no-repeat;
+    
+            background-position: bottom 30% right 0%;
+    
+            background-size: cover;
+    
+            overflow: hidden;
+    
+            -webkit-box-sizing: border-box;
+    
+            box-sizing: border-box;
+    
+            background-size: contain;
+    
+            background-image: url(../img/mazall.png);
+    
+        }
+    
+        .maz-bottle {
+    
+            display: none;
+    
+        }
+    
+        .text-on-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            position: absolute;
+    
+            width: 790px;
+    
+            height: 145px;
+    
+            left: 707px;
+    
+            top: 8440px;
+    
+            font-family: Montserrat;
+    
+            font-style: normal;
+    
+            font-weight: bold;
+    
+            font-size: 24px;
+    
+            line-height: 29px;
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz {
+    
+            background-color: black;
+    
+            height: 100px;
+    
+        }
+    
+        .maz-left-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-left-block img {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block img {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-under-maz {
+    
+            display: flex;
+    
+        }
+    
+        .text-under-maz-block1 {
+    
+            margin-bottom: 30px;
+    
+            margin-left: 200px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 34.0228px;
+    
+            line-height: 40px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .text-under-maz-block2 {
+    
+            margin-bottom: 30px;
+    
+            margin-left: 450px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 34.0228px;
+    
+            line-height: 40px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz-bot {
+    
+            height: 79px;
+    
+            background-color: black;
+    
+        }
+    
+        .pallets {
+    
+            width: 1200px;
+    
+            height: 0px;
+    
+            background-color: black;
+    
+            display: flex;
+    
+        }
+    
+        .left-pallet {
+    
+            margin-top: 100px;
+    
+            margin-left: 250px;
+    
+        }
+    
+        .right-pallet {
+    
+            margin-left: 420px;
+    
+            margin-top: 100px;
+    
+        }
+    
+        .left-pallet img {
+    
+            width: 425.8px;
+    
+            object-fit: cover
+    
+        }
+    
+        .right-pallet img {
+    
+            width: 425.8px;
+    
+            object-fit: cover
+    
+        }
+    
     }
-    .text-on-maz{
-        display: none;
+    
+    @media(min-width: 1200px) and (max-width:1619px) {
+    
+        .gradient-maz1 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz2 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .background-maz {
+    
+            overflow: hidden;
+    
+            -webkit-box-sizing: border-box;
+    
+            box-sizing: border-box;
+    
+            background-size: contain;
+    
+            max-height: 900px;
+    
+            background-image: url(../img/mazall.png);
+    
+        }
+    
+        .maz-bottle {
+    
+            display: none;
+    
+        }
+    
+        .text-on-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            position: absolute;
+    
+            width: 790px;
+    
+            height: 145px;
+    
+            left: 707px;
+    
+            top: 8440px;
+    
+            font-family: Montserrat;
+    
+            font-style: normal;
+    
+            font-weight: bold;
+    
+            font-size: 24px;
+    
+            line-height: 29px;
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz {
+    
+            background-color: black;
+    
+            height: 100px;
+    
+        }
+    
+        .maz-left-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-left-block img {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block img {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-under-maz {
+    
+            display: flex;
+    
+        }
+    
+        .text-under-maz-block1 {
+    
+            margin-bottom: 150px;
+    
+            margin-left: 135px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 20px;
+    
+            line-height: 23px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .text-under-maz-block2 {
+    
+            margin-bottom: 150px;
+    
+            margin-left: 300px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 20px;
+    
+            line-height: 23px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz-bot {
+    
+            height: 79px;
+    
+            background-color: black;
+    
+        }
+    
+        .pallets {
+    
+            margin-top: -50px;
+    
+            height: 400px;
+    
+            background-color: black;
+    
+            display: flex;
+    
+        }
+    
+        .left-pallet {
+    
+            margin-top: 0px;
+    
+            margin-left: 150px;
+    
+        }
+    
+        .right-pallet {
+    
+            margin-top: 0px;
+    
+        }
+    
+        .left-pallet img {
+    
+            max-height: 400px;
+    
+            width: 70%;
+    
+            height: 70%;
+    
+        }
+    
+        .right-pallet img {
+    
+            max-height: 400px;
+    
+            width: 70%;
+    
+            height: 70%;
+    
+        }
+    
     }
-    .text-maz{
-display: none;
+    
+    @media(min-width: 767px) and (max-width:1199px) {
+    
+        .gradient-maz1 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz2 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .background-maz {
+    
+            min-height: 394px;
+    
+            max-height: 600px;
+    
+            background-size: contain;
+    
+            background-image: url(../img/mazall.png);
+    
+        }
+    
+        .maz-bottle {
+    
+            display: none;
+    
+        }
+    
+        .text-on-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            position: absolute;
+    
+            width: 790px;
+    
+            height: 145px;
+    
+            left: 707px;
+    
+            top: 8440px;
+    
+            font-family: Montserrat;
+    
+            font-style: normal;
+    
+            font-weight: bold;
+    
+            font-size: 24px;
+    
+            line-height: 29px;
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz {
+    
+            background-color: black;
+    
+            height: 100px;
+    
+        }
+    
+        .maz-left-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-left-block img {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block img {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-under-maz {
+    
+            display: flex;
+    
+        }
+    
+        .text-under-maz-block1 {
+    
+            margin-bottom: 60px;
+    
+            margin-left: 135px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 14px;
+    
+            line-height: 16px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .text-under-maz-block2 {
+    
+            margin-bottom: 60px;
+    
+            margin-left: 100px;
+    
+            width: 400px;
+    
+            height: 40px;
+    
+            font-family: Maven Pro;
+    
+            font-style: normal;
+    
+            font-weight: normal;
+    
+            font-size: 14px;
+    
+            line-height: 16px;
+    
+            /* identical to box height */
+    
+            color: #FFFFFF;
+    
+        }
+    
+        .blackline-maz-bot {
+    
+            height: 79px;
+    
+            background-color: black;
+    
+        }
+    
+        .pallets {
+    
+            height: 400px;
+    
+            background-color: black;
+    
+            display: flex;
+    
+        }
+    
+        .left-pallet {
+    
+            margin-top: 0px;
+    
+            margin-left: 100px;
+    
+        }
+    
+        .right-pallet {
+    
+            margin-left: 100px;
+    
+            margin-top: 0px;
+    
+        }
+    
+        .left-pallet img {
+    
+            width: 269.35px;
+    
+            object-fit: cover
+    
+        }
+    
+        .right-pallet img {
+    
+            width: 269.35px;
+    
+            object-fit: cover
+    
+        }
+    
     }
-    .blackline-maz{
-        background-color: black;
-        height: 100px;
+    
+    @media(min-width: 300px) and (max-width:767px) {
+    
+        .gradient-maz1 {
+    
+            background-color: black;
+    
+            background-position-y: px;
+    
+            min-height: 1200px;
+    
+            background-repeat: no-repeat;
+    
+            background-size: contain;
+    
+            background-image: url(../img/maz-375x.png);
+    
+        }
+    
+        .gradient-maz2 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .gradient-maz3 {
+    
+            display: none;
+    
+        }
+    
+        .background-maz {
+    
+            background-color: black;
+    
+        }
+    
+        .maz-bottle {
+    
+            display: none;
+    
+        }
+    
+        .text-on-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            display: none;
+    
+        }
+    
+        .blackline-maz {
+    
+            background-color: black;
+    
+            height: 100px;
+    
+        }
+    
+        .maz-left-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-left-block img {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block {
+    
+            display: none;
+    
+        }
+    
+        .maz-right-block img {
+    
+            display: none;
+    
+        }
+    
+        .text-maz {
+    
+            display: none;
+    
+        }
+    
+        .text-under-maz {
+    
+            display: flex;
+    
+        }
+    
+        .text-under-maz-block1 {
+    
+            display: none;
+    
+        }
+    
+        .text-under-maz-block2 {
+    
+            display: none;
+    
+        }
+    
+        .blackline-maz-bot {
+    
+            height: 79px;
+    
+            background-color: black;
+    
+        }
+    
+        .pallets {
+    
+            display: none;
+    
+        }
+    
     }
-    .maz-left-block{
-        display: none;     
-    }
-    .maz-left-block img{
-        display: none;
-    }
-    .maz-right-block{
-        display: none;
-    }
-    .maz-right-block img{
-        display: none;
-
-    }
-    .text-maz{
-        display: none;
-    }
-    .text-under-maz{
-        display: flex;
-    }
-    .text-under-maz-block1{
-        display: none;
-    }
-    .text-under-maz-block2{
-display: none;
-        
-    }
-    .blackline-maz-bot{
-        height: 79px;
-        background-color: black;
-    }
-    .pallets{
-        display: none;
-    }
-
-
-}
