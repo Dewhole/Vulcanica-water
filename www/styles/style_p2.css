@@ -786,6 +786,7 @@ text-transform: uppercase;
     }
     .wrap{
         display: flex;
+        
        }
        .wrap2{
         display: none;

@@ -2,7 +2,7 @@
   .slider {
     position: relative;
     overflow: hidden;
-    max-width: 375px;
+    background-color: black;
     height: 812px;
   }
 
@@ -17,8 +17,8 @@
   }
 
   @media (min-width: 300px) {
-    .slider__item {
-
+    .slider__item img {
+      width: 100%;
     }
   }
 
@@ -144,7 +144,7 @@
   }
 
 
-  .slider {
+  .slider2 {
     position: relative;
     overflow: hidden;
     min-width: 768px;
