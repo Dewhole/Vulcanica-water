@@ -1,7 +1,6 @@
   .wrapper {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
@@ -23,6 +22,7 @@
     overflow: hidden;
     background-color: black;
   }
+
   @media(min-width: 1920px) {
   }
   @media(min-width: 1620px) and (max-width: 1919px) {
